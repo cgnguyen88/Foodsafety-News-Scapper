@@ -1,67 +1,82 @@
-import { scrapeBensBites } from './scrape_bens_bites';
-import { scrapeAIRundown } from './scrape_ai_rundown';
-import { scrapeReddit } from './scrape_reddit';
+import { scrapeUSDA } from './scrape_usda';
+import { scrapeFDA } from './scrape_fda';
+import { scrapeLGMA } from './scrape_lgma';
+import { scrapeWGA } from './scrape_wga';
 import { aggregateSources } from './aggregate_sources';
 
 async function runAllScrapers() {
-    console.log('🚀 Starting all scrapers...\n');
+    console.log('🚀 Starting all food safety scrapers...\n');
     console.log('════════════════════════════════════════\n');
 
     const results = {
-        bens_bites: 0,
-        ai_rundown: 0,
-        reddit: 0
+        usda: 0,
+        fda: 0,
+        lgma: 0,
+        wga: 0
     };
 
-    // Run AI Rundown (fastest, RSS)
+    // Run USDA
     try {
-        console.log('1️⃣  AI RUNDOWN');
+        console.log('1️⃣  USDA');
         console.log('════════════════════════════════════════');
-        const aiRundownArticles = await scrapeAIRundown();
-        results.ai_rundown = aiRundownArticles.length;
+        const usdaArticles = await scrapeUSDA();
+        results.usda = usdaArticles.length;
         console.log('\n');
     } catch (error) {
-        console.error('❌ AI Rundown scraper failed:', error);
+        console.error('❌ USDA scraper failed:', error);
         console.log('\n');
     }
 
-    // Run Reddit (medium speed, JSON API)
+    // Run FDA
     try {
-        console.log('2️⃣  REDDIT');
+        console.log('2️⃣  FDA');
         console.log('════════════════════════════════════════');
-        const redditArticles = await scrapeReddit();
-        results.reddit = redditArticles.length;
+        const fdaArticles = await scrapeFDA();
+        results.fda = fdaArticles.length;
         console.log('\n');
     } catch (error) {
-        console.error('❌ Reddit scraper failed:', error);
+        console.error('❌ FDA scraper failed:', error);
         console.log('\n');
     }
 
-    // Run Ben's Bites (slowest, Puppeteer)
+    // Run LGMA
     try {
-        console.log('3️⃣  BEN\'S BITES');
+        console.log('3️⃣  LGMA');
         console.log('════════════════════════════════════════');
-        const bensBitesArticles = await scrapeBensBites();
-        results.bens_bites = bensBitesArticles.length;
+        const lgmaArticles = await scrapeLGMA();
+        results.lgma = lgmaArticles.length;
         console.log('\n');
     } catch (error) {
-        console.error('❌ Ben\'s Bites scraper failed:', error);
+        console.error('❌ LGMA scraper failed:', error);
+        console.log('\n');
+    }
+
+    // Run WGA
+    try {
+        console.log('4️⃣  WESTERN GROWERS ASSOCIATION');
+        console.log('════════════════════════════════════════');
+        const wgaArticles = await scrapeWGA();
+        results.wga = wgaArticles.length;
+        console.log('\n');
+    } catch (error) {
+        console.error('❌ WGA scraper failed:', error);
         console.log('\n');
     }
 
     // Aggregate all sources
-    console.log('4️⃣  AGGREGATION & VALIDATION');
+    console.log('5️⃣  AGGREGATION & VALIDATION');
     console.log('════════════════════════════════════════');
     const payload = await aggregateSources();
 
     console.log('\n🎉 All scrapers complete!\n');
     console.log('📊 Results Summary:');
     console.log('─────────────────────────');
-    console.log(`Ben's Bites:  ${results.bens_bites} articles`);
-    console.log(`AI Rundown:   ${results.ai_rundown} articles`);
-    console.log(`Reddit:       ${results.reddit} articles`);
+    console.log(`USDA: ${results.usda} articles`);
+    console.log(`FDA:  ${results.fda} articles`);
+    console.log(`LGMA: ${results.lgma} articles`);
+    console.log(`WGA:  ${results.wga} articles`);
     console.log(`─────────────────────────`);
-    console.log(`Total Raw:    ${results.bens_bites + results.ai_rundown + results.reddit}`);
+    console.log(`Total Raw:    ${results.usda + results.fda + results.lgma + results.wga}`);
     console.log(`Final (after validation): ${payload.total_articles}`);
     console.log('\n✅ Ready for dashboard!\n');
 }

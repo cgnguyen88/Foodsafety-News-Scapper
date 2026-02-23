@@ -51,7 +51,7 @@ async function loadSourceData(source: string): Promise<Article[]> {
 async function aggregateSources(): Promise<ProcessedPayload> {
     console.log('🔄 Starting article aggregation and validation...\n');
 
-    const sources = ['bens_bites', 'ai_rundown', 'reddit'];
+    const sources = ['usda', 'fda', 'lgma', 'wga'];
     const allArticles: Article[] = [];
 
     // Load all sources

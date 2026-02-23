@@ -1,4 +1,4 @@
-import { isValid, parseISO, subHours, isAfter } from 'date-fns';
+import { isValid, parseISO, subDays, isAfter } from 'date-fns';
 import { v4 as uuidv4 } from 'uuid';
 
 interface Article {
@@ -134,7 +134,7 @@ export function deduplicateArticles(articles: Article[]): Article[] {
 }
 
 export function filterLast24Hours(articles: Article[]): Article[] {
-    const cutoff = subHours(new Date(), 24);
+    const cutoff = subDays(new Date(), 30);
     const before = articles.length;
 
     const filtered = articles.filter(article => {
@@ -144,7 +144,7 @@ export function filterLast24Hours(articles: Article[]): Article[] {
 
     const removed = before - filtered.length;
     if (removed > 0) {
-        console.log(`🕒 Filtered out ${removed} articles older than 24h`);
+        console.log(`🕒 Filtered out ${removed} articles older than 30 days`);
     }
 
     return filtered;

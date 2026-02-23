@@ -1,0 +1,189 @@
+{
+    "colorScheme": "light",
+    "fonts": [
+        {
+            "family": "Proxima Nova",
+            "role": "body"
+        },
+        {
+            "family": "Roboto",
+            "role": "body"
+        },
+        {
+            "family": "Ubuntu",
+            "role": "body"
+        },
+        {
+            "family": "Helvetica Neue",
+            "role": "body"
+        },
+        {
+            "family": "Arial",
+            "role": "body"
+        }
+    ],
+    "colors": {
+        "primary": "#022851",
+        "accent": "#FFBF00",
+        "background": "#FFFFFF",
+        "textPrimary": "#022851",
+        "link": "#022851"
+    },
+    "typography": {
+        "fontFamilies": {
+            "primary": "Proxima Nova",
+            "heading": "Proxima Nova"
+        },
+        "fontStacks": {
+            "heading": [
+                "proxima-nova",
+                "system-ui",
+                "-apple-system",
+                "BlinkMacSystemFont",
+                "Segoe UI",
+                "Roboto",
+                "Ubuntu",
+                "Helvetica Neue",
+                "Arial",
+                "sans-serif",
+                "Apple Color Emoji",
+                "Segoe UI Emoji",
+                "Segoe UI Symbol"
+            ],
+            "body": [
+                "proxima-nova",
+                "system-ui",
+                "-apple-system",
+                "BlinkMacSystemFont",
+                "Segoe UI",
+                "Roboto",
+                "Ubuntu",
+                "Helvetica Neue",
+                "Arial",
+                "sans-serif",
+                "Apple Color Emoji",
+                "Segoe UI Emoji",
+                "Segoe UI Symbol"
+            ],
+            "paragraph": [
+                "proxima-nova",
+                "system-ui",
+                "-apple-system",
+                "BlinkMacSystemFont",
+                "Segoe UI",
+                "Roboto",
+                "Ubuntu",
+                "Helvetica Neue",
+                "Arial",
+                "sans-serif",
+                "Apple Color Emoji",
+                "Segoe UI Emoji",
+                "Segoe UI Symbol"
+            ]
+        },
+        "fontSizes": {
+            "h1": "45.0909px",
+            "h2": "47.3342px",
+            "body": "22.5455px"
+        }
+    },
+    "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "4px"
+    },
+    "components": {
+        "input": {
+            "background": "transparent",
+            "textColor": "#022851",
+            "borderColor": null,
+            "borderRadius": "0px",
+            "borderRadiusCorners": {
+                "topLeft": "0px",
+                "topRight": "0px",
+                "bottomRight": "0px",
+                "bottomLeft": "0px"
+            },
+            "shadow": "none"
+        },
+        "buttonPrimary": {
+            "background": "#FFBF00",
+            "textColor": "#022851",
+            "borderRadius": "0px",
+            "borderRadiusCorners": {
+                "topLeft": "0px",
+                "topRight": "0px",
+                "bottomRight": "0px",
+                "bottomLeft": "0px"
+            },
+            "shadow": "none"
+        },
+        "buttonSecondary": {
+            "background": "#022851",
+            "textColor": "#000000",
+            "borderRadius": "0px",
+            "borderRadiusCorners": {
+                "topLeft": "0px",
+                "topRight": "0px",
+                "bottomRight": "0px",
+                "bottomLeft": "0px"
+            },
+            "shadow": "none"
+        }
+    },
+    "images": {
+        "logo": "Design/ucanr_logo.svg",
+        "favicon": null,
+        "ogImage": null,
+        "logoHref": "/",
+        "logoAlt": "University of California Agriculture and Natural Resources Logo"
+    },
+    "__llm_logo_reasoning": {
+        "selectedIndex": 0,
+        "reasoning": "Updated to use the University of California Agriculture and Natural Resources logo as per user request.",
+        "confidence": 1.0,
+        "source": "manual"
+    },
+    "__llm_button_reasoning": {
+        "primary": {
+            "index": 1,
+            "text": "From Labs to Lives",
+            "reasoning": "Button #1 has a vibrant brand color (#FFBF00) and is labeled 'From Labs to Lives', making it a strong candidate for the primary CTA due to its prominent color and action-oriented text."
+        },
+        "secondary": {
+            "index": 0,
+            "text": "California’s college town",
+            "reasoning": "Button #0 has a different background color (#022851) and is labeled 'California’s college town', making it suitable as a secondary CTA with a distinct color group."
+        },
+        "confidence": 0.95
+    },
+    "personality": {
+        "tone": "professional",
+        "energy": "medium",
+        "targetAudience": "prospective students and academic community"
+    },
+    "designSystem": {
+        "framework": "custom",
+        "componentLibrary": ""
+    },
+    "confidence": {
+        "buttons": 0.95,
+        "colors": 0.9,
+        "overall": 0.925
+    },
+    "__llm_metadata": {
+        "logoSelection": {
+            "llmCalled": true,
+            "llmSucceeded": true,
+            "finalSource": "llm",
+            "rawLogoSelection": {
+                "selectedLogoIndex": 0,
+                "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and has alt text matching the brand 'UC Davis'.",
+                "confidence": 0.95
+            }
+        },
+        "buttonClassification": {
+            "llmCalled": true,
+            "llmSucceeded": true
+        }
+    }
+}

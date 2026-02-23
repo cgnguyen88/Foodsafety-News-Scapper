@@ -1,19 +1,27 @@
 Colors
 Primary:
-#BFF549
+#022851
 Accent:
-#BFF549
+#FFBF00
 Background:
-#000000
+#FFFFFF
 Text Primary:
-#000000
+#022851
 Link:
-#99A1AF
+#022851
 Fonts
-Inter(body)
+Proxima Nova(body)
+Roboto(body)
+Ubuntu(body)
+Helvetica Neue(body)
+Arial(body)
 Typography
-primary: Inter
-heading: Inter
-h1: 96px
-h2: 48px
-body: 24px
+primary: Proxima Nova
+heading: Proxima Nova
+h1: 45.0909px
+h2: 47.3342px
+body: 22.5455px
+
+Logo
+Source: Design/ucanr_logo.svg
+Alt: University of California Agriculture and Natural Resources Logo

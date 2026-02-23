@@ -4,11 +4,13 @@ const DATA_URL = './processed_articles.json';
 
 let allArticles = [];
 let currentFilter = 'all';
+let searchQuery = '';
 
 // Initialize app on load
 document.addEventListener('DOMContentLoaded', () => {
     loadArticles();
     setupFilters();
+    setupSuggestiveSearch();
     setupScrollEffect();
     setupRefreshButton();
 });
@@ -100,11 +102,14 @@ function createArticleCard(article) {
     const isSaved = isArticleSaved(article.id);
     const sourceClass = article.source.replace('_', '-');
     const sourceName = formatSourceName(article.source);
-    const imageUrl = article.image || getPlaceholderImage(article.source);
+
+    // Get the dynamic SVG logo for the agency to use as a fallback if the real image fails
+    const fallbackImage = getPlaceholderImage(article.source, article.id);
+    const imageUrl = article.image || fallbackImage;
 
     return `
         <article class="article-card" data-id="${article.id}">
-            <img src="${imageUrl}" alt="${escapeHtml(article.title)}" class="article-image" loading="lazy" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2218%22 fill=%22%2399A1AF%22%3ENo Image%3C/text%3E%3C/svg%3E'">
+            <img src="${imageUrl}" alt="${escapeHtml(article.title)}" class="article-image" loading="lazy" onerror="this.onerror=null; this.src='${fallbackImage}'">
             <div class="article-content">
                 <div class="article-header">
                     <span class="source-badge ${sourceClass}">${sourceName}</span>
@@ -132,12 +137,14 @@ function createArticleCard(article) {
 }
 
 // Get placeholder image based on source
-function getPlaceholderImage(source) {
-    const placeholders = {
-        'ai_rundown': 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Cdefs%3E%3ClinearGradient id=%22grad1%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%22100%25%22%3E%3Cstop offset=%220%25%22 style=%22stop-color:%234ECDC4;stop-opacity:1%22 /%3E%3Cstop offset=%22100%25%22 style=%22stop-color:%233AAFA8;stop-opacity:1%22 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill=%22url(%23grad1)%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2224%22 font-weight=%22700%22 fill=%22white%22%3EAI RUNDOWN%3C/text%3E%3C/svg%3E',
-        'reddit': 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Cdefs%3E%3ClinearGradient id=%22grad2%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%22100%25%22%3E%3Cstop offset=%220%25%22 style=%22stop-color:%23FF4500;stop-opacity:1%22 /%3E%3Cstop offset=%22100%25%22 style=%22stop-color:%23CC3700;stop-opacity:1%22 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill=%22url(%23grad2)%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2224%22 font-weight=%22700%22 fill=%22white%22%3EREDDIT%3C/text%3E%3C/svg%3E'
+function getPlaceholderImage(source, id) {
+    const logos = {
+        'usda': 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Crect fill=%22%23F8FAFC%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Roboto, sans-serif%22 font-size=%2248%22 font-weight=%22700%22 fill=%22%23B91C1C%22%3EUSDA%3C/text%3E%3C/svg%3E',
+        'fda': 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Crect fill=%22%23F8FAFC%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Roboto, sans-serif%22 font-size=%2248%22 font-weight=%22700%22 fill=%22%231D4ED8%22%3EFDA%3C/text%3E%3C/svg%3E',
+        'lgma': 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Crect fill=%22%23F8FAFC%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Roboto, sans-serif%22 font-size=%2248%22 font-weight=%22700%22 fill=%22%2315803D%22%3ELGMA%3C/text%3E%3C/svg%3E',
+        'wga': 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22%3E%3Crect fill=%22%23F8FAFC%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Roboto, sans-serif%22 font-size=%2248%22 font-weight=%22700%22 fill=%22%23B45309%22%3EWGA%3C/text%3E%3C/svg%3E'
     };
-    return placeholders[source] || placeholders['ai_rundown'];
+    return logos[source] || logos['usda'];
 }
 
 // Setup filter buttons
@@ -191,7 +198,132 @@ function applyFilter(source) {
         filtered = allArticles.filter(a => a.source === source);
     }
 
+    if (searchQuery.trim() !== '') {
+        const query = searchQuery.toLowerCase();
+        filtered = filtered.filter(a =>
+            a.title.toLowerCase().includes(query) ||
+            (a.excerpt && a.excerpt.toLowerCase().includes(query))
+        );
+    }
+
     renderArticles(filtered);
+}
+
+// ----------------------------------------------------------------------
+// Suggestive Search Implementation
+// ----------------------------------------------------------------------
+function setupSuggestiveSearch() {
+    const input = document.getElementById('search-input');
+    const overlay = document.getElementById('search-overlay');
+    const suggestionEl = document.getElementById('search-suggestion');
+    const cursor = document.getElementById('search-cursor');
+    if (!input || !overlay || !suggestionEl) return;
+
+    const suggestions = [
+        "Search your favourite food",
+        "Search recalls by location",
+        "Search listeria outbreaks",
+        "Search agricultural updates"
+    ];
+
+    let currentSuggestionIndex = 0;
+    let currentCharIndex = 0;
+    let isDeleting = false;
+    let typingTimer = null;
+    let isActive = !input.value && document.activeElement !== input;
+
+    // Typing effect configurations
+    const TYPE_SPEED = 50;
+    const DELETE_SPEED = 30;
+    const PAUSE_AFTER_TYPE = 2000;
+    const PAUSE_AFTER_DELETE = 500;
+
+    function handleCursorBlink(typing) {
+        if (typing) {
+            cursor.style.animation = 'none';
+            cursor.style.opacity = '1';
+        } else {
+            cursor.style.animation = 'blink 0.9s infinite linear';
+        }
+    }
+
+    function typeEffect() {
+        if (!isActive) return;
+
+        const fullText = suggestions[currentSuggestionIndex];
+
+        if (isDeleting) {
+            handleCursorBlink(true);
+            // Deleting phase
+            suggestionEl.textContent = fullText.substring(0, currentCharIndex - 1);
+            currentCharIndex--;
+
+            if (currentCharIndex === 0) {
+                isDeleting = false;
+                currentSuggestionIndex = (currentSuggestionIndex + 1) % suggestions.length;
+                handleCursorBlink(false);
+                typingTimer = setTimeout(typeEffect, PAUSE_AFTER_DELETE);
+            } else {
+                typingTimer = setTimeout(typeEffect, DELETE_SPEED);
+            }
+        } else {
+            handleCursorBlink(true);
+            // Typing phase
+            suggestionEl.textContent = fullText.substring(0, currentCharIndex + 1);
+            currentCharIndex++;
+
+            if (currentCharIndex === fullText.length) {
+                isDeleting = true;
+                handleCursorBlink(false);
+                typingTimer = setTimeout(typeEffect, PAUSE_AFTER_TYPE);
+            } else {
+                typingTimer = setTimeout(typeEffect, TYPE_SPEED);
+            }
+        }
+    }
+
+    function startEffect() {
+        if (typingTimer) clearTimeout(typingTimer);
+        // Start fresh
+        currentCharIndex = 0;
+        isDeleting = false;
+        suggestionEl.textContent = "";
+        overlay.style.display = 'flex';
+        isActive = true;
+        typeEffect();
+    }
+
+    function stopEffect() {
+        if (typingTimer) clearTimeout(typingTimer);
+        overlay.style.display = 'none';
+        isActive = false;
+    }
+
+    // Toggle overlay visibility based on state
+    function evaluateOverlay() {
+        if (input.value === '' && document.activeElement !== input) {
+            if (!isActive) startEffect();
+        } else {
+            if (isActive) stopEffect();
+        }
+    }
+
+    // Initial evaluatation
+    evaluateOverlay();
+
+    input.addEventListener('focus', () => {
+        evaluateOverlay();
+    });
+
+    input.addEventListener('blur', () => {
+        evaluateOverlay();
+    });
+
+    input.addEventListener('input', (e) => {
+        evaluateOverlay();
+        searchQuery = e.target.value;
+        applyFilter(currentFilter);
+    });
 }
 
 // Save/Unsave article
@@ -249,9 +381,10 @@ function isArticleSaved(articleId) {
 // Format source name for display
 function formatSourceName(source) {
     const names = {
-        'bens_bites': "Ben's Bites",
-        'ai_rundown': 'AI Rundown',
-        'reddit': 'Reddit'
+        'usda': 'USDA',
+        'fda': 'FDA',
+        'lgma': 'LGMA',
+        'wga': 'WGA'
     };
     return names[source] || source;
 }

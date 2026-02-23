@@ -4,3 +4,15 @@ node_modules/
 *.log
 logs/
 # dashboard/processed_articles.json is committed so Vercel can serve it
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+
+# Brain
+.gemini/
+brain/
