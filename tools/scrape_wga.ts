@@ -1,5 +1,7 @@
+import Parser from 'rss-parser';
 import * as fs from 'fs';
 import * as path from 'path';
+import fetch from 'node-fetch';
 
 interface Article {
     source: string;
@@ -12,35 +14,100 @@ interface Article {
 }
 
 const OUTPUT_PATH = path.join(__dirname, '../.tmp/scraped_data/wga.json');
+const FEED_CANDIDATES = [
+    'https://www.wga.com/feed/',
+    'https://wgaconnect.wga.com/feed/'
+];
+
+function extractContentImage(item: any): string | undefined {
+    const html = String(item?.['content:encoded'] || item?.content || '');
+    if (!html) return undefined;
+    const imgMatch = html.match(/<img[^>]+src="([^"]+)"/i);
+    if (imgMatch?.[1]) return imgMatch[1];
+    const rawUrlMatch = html.match(/https?:\/\/[^\s"'<>]+(?:jpg|jpeg|png|webp)/i);
+    return rawUrlMatch?.[0];
+}
+
+async function fetchImage(url: string): Promise<string | undefined> {
+    try {
+        const response = await fetch(url, { timeout: 3000 });
+        const html = await response.text();
+
+        const ogMatch = html.match(/<meta\s+(?:property|name)="og:image"\s+content="([^"]+)"/i);
+        if (ogMatch?.[1]) return ogMatch[1];
+
+        const twitterMatch = html.match(/<meta\s+(?:property|name)="twitter:image"\s+content="([^"]+)"/i);
+        if (twitterMatch?.[1]) return twitterMatch[1];
+    } catch {
+        return undefined;
+    }
+
+    return undefined;
+}
+
+async function parseFirstAvailableFeed(parser: Parser): Promise<any | undefined> {
+    for (const feedUrl of FEED_CANDIDATES) {
+        try {
+            const feed = await parser.parseURL(feedUrl);
+            if (feed?.items?.length) return feed;
+        } catch {
+            // try next feed candidate
+        }
+    }
+    return undefined;
+}
+
+function loadExistingArticles(): Article[] {
+    try {
+        if (!fs.existsSync(OUTPUT_PATH)) return [];
+        const content = fs.readFileSync(OUTPUT_PATH, 'utf-8');
+        const parsed = JSON.parse(content);
+        return Array.isArray(parsed) ? parsed : [];
+    } catch {
+        return [];
+    }
+}
 
 async function scrapeWGA(): Promise<Article[]> {
     console.log('🚀 Starting WGA scraper...');
 
-    // Using mock data for Western Growers Association
-
-    const articles: Article[] = [];
-    const defaultDate = new Date().toISOString();
-
-    articles.push({
-        source: 'wga',
-        title: 'Western Growers Launches New Food Safety Innovation Grant',
-        url: 'https://www.wga.com/news#1',
-        published_date: defaultDate,
-        excerpt: 'The Western Growers Association announces a $500,000 grant program aimed at startups developing novel technologies for rapid pathogen detection in the field.',
-        scraped_at: defaultDate
+    const parser = new Parser({
+        customFields: {
+            item: ['content:encoded']
+        }
     });
+    let articles: Article[] = [];
 
-    articles.push({
-        source: 'wga',
-        title: 'Navigating New FDA Regulations: A Guide for Growers',
-        url: 'https://www.wga.com/news#2',
-        published_date: defaultDate,
-        excerpt: 'WGA released a comprehensive toolkit today helping growers understand and comply with new updates to FSMA regulations ahead of the upcoming agricultural season.',
-        scraped_at: defaultDate
-    });
+    try {
+        const feed = await parseFirstAvailableFeed(parser);
+        if (!feed) {
+            throw new Error('No WGA feed available');
+        }
 
-    console.log(`  ✓ Added: "${articles[0].title}"`);
-    console.log(`  ✓ Added: "${articles[1].title}"`);
+        console.log(`✓ Fetched ${feed.items.length} items from WGA feed.`);
+        for (const item of feed.items) {
+            if (!item.title || !item.link) continue;
+
+            const article: Article = {
+                source: 'wga',
+                title: item.title,
+                url: item.link,
+                published_date: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
+                excerpt: (item.contentSnippet || item.content || '').substring(0, 200).trim(),
+                scraped_at: new Date().toISOString(),
+                image: extractContentImage(item as any) || await fetchImage(item.link)
+            };
+
+            articles.push(article);
+            console.log(`  ✓ Added: "${article.title}"`);
+        }
+    } catch (error: any) {
+        console.error('❌ Error scraping WGA feed:', error.message || error);
+        articles = loadExistingArticles();
+        if (articles.length > 0) {
+            console.log(`⚠️ Using ${articles.length} previously scraped WGA articles.`);
+        }
+    }
 
     const dir = path.dirname(OUTPUT_PATH);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });

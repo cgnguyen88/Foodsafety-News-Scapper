@@ -1,250 +1,424 @@
 {
   "articles": [
     {
-      "id": "934435dc-084b-46a2-b33b-5be3c948af96",
+      "id": "6cf97725-7292-45fc-b35f-a85fc679a112",
       "source": "fda",
       "title": "Made Fresh Salads, Inc. Recalls Assorted Flavors of Cream Cheese Because of Possible Health Risk",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-assorted-flavors-cream-cheese-because-possible-health-risk",
       "published_date": "2026-02-21T00:37:00.000Z",
       "excerpt": "Made Fresh Salads, Inc. of Bay Shore, NY is recalling assorted flavors of cream cheese because they have the potential to be contaminated with Listeria monocytogenes, an organism which can cause serio",
-      "scraped_at": "2026-02-23T07:40:31.089Z",
+      "scraped_at": "2026-02-24T21:50:16.328Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/apple_cinnamon_cream_cheese_exp_date_2_27_26.jpg?itok=s_LxNzwz"
     },
     {
-      "id": "5efb48cc-f733-4ef1-868e-cd6f21bc221a",
+      "id": "cdbc2824-47fc-4ce7-acb7-50e0aef54d8f",
       "source": "fda",
       "title": "Go Raw, LLC. Issues Voluntary Recall of a Single Lot of Quest Cat Food Chicken Recipe Freeze Dried Nuggets Due to Low Levels of Thiamine (Vitamin B1)",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-issues-voluntary-recall-single-lot-quest-cat-food-chicken-recipe-freeze-dried-nuggets-due",
       "published_date": "2026-02-17T20:35:00.000Z",
       "excerpt": "Go Raw LLC is voluntarily recalling a single lot of Quest Cat Food Chicken Recipe Freeze Dried Nuggets, 10oz bag, lot code #C25288, Best Buy Date 10/15/2027, because it may contain low levels of thiam",
-      "scraped_at": "2026-02-23T07:40:31.181Z",
+      "scraped_at": "2026-02-24T21:50:16.495Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_159.png?itok=x9daqP7I"
     },
     {
-      "id": "e68dc45a-b012-46cb-8dce-e846973ed492",
+      "id": "6f8beca3-0548-433f-b802-ed962617a827",
       "source": "fda",
       "title": "IF Copack LLC dba Initiative Foods Recalls “Tippy Toes” Brand Apple Pear Banana Because of Possible Health Risk",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/if-copack-llc-dba-initiative-foods-recalls-tippy-toes-brand-apple-pear-banana-because-possible",
       "published_date": "2026-02-14T01:00:00.000Z",
       "excerpt": "Sanger, CA – February 13, 2026 – IF Copack LLC d.b.a. Initiative Foods (“Initiative Foods”) is recalling one lot of the “Tippy Toes” brand Apple Pear Banana Fruit puree (“Product”) due to elevated lev",
-      "scraped_at": "2026-02-23T07:40:31.315Z",
+      "scraped_at": "2026-02-24T21:50:16.571Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_2_120.png?itok=xKiCfsyc"
     },
     {
-      "id": "2ac209cd-e799-438b-bceb-b2f84edb4db8",
+      "id": "d1a07ce9-0e9d-4215-8251-3f43cba7721e",
       "source": "fda",
       "title": "Shaman Botanicals, LLC Issues Voluntary Nationwide Recall of Alkaloids Chewable Tablets—White Vein Due to Undeclared Concentration of 7-Hydroxymitragynine (7-OH)",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shaman-botanicals-llc-issues-voluntary-nationwide-recall-alkaloids-chewable-tablets-white-vein-due",
       "published_date": "2026-02-14T00:05:00.000Z",
       "excerpt": "FOR IMMEDIATE RELEASE – February 13, 2026 – North Kansas City, Missouri, Shaman Botanicals, LLC is voluntarily recalling one lot (Lot B# AAW.501.3) of Alkaloids Chewable Tablets—White Vein to the cons",
-      "scraped_at": "2026-02-23T07:40:31.628Z",
+      "scraped_at": "2026-02-24T21:50:16.864Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_160.png?itok=EuiaLFLa"
     },
     {
-      "id": "98c22a86-f994-4949-adf7-1477a77571cc",
+      "id": "1c17ab94-0141-4989-9c0a-2bd8476a3d07",
       "source": "fda",
       "title": "Ambrosia Brands, LLC Recalls Rosabella Moringa Capsules Because of Possible Health Risk",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ambrosia-brands-llc-recalls-rosabella-moringa-capsules-because-possible-health-risk",
       "published_date": "2026-02-13T23:17:00.000Z",
       "excerpt": "Ambrosia Brands, LLC of New York, New York is recalling certain lots of its Rosabella Moringa Capsules product due to possible contamination with Salmonella, an organism which can cause serious and so",
-      "scraped_at": "2026-02-23T07:40:31.728Z",
+      "scraped_at": "2026-02-24T21:50:16.946Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_228.jpg?itok=oU2S-rLm"
     },
     {
-      "id": "0043d990-6511-40df-accb-f810dbd9d98d",
+      "id": "5cef0840-df69-4b10-8aa6-85303b95fd84",
       "source": "fda",
       "title": "Junebar Issues Allergy Alert on Undeclared Milk and Soy in Chocolate Cherry and Peanut Butter Chocolate Chip Flavor Bars",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/junebar-issues-allergy-alert-undeclared-milk-and-soy-chocolate-cherry-and-peanut-butter-chocolate",
       "published_date": "2026-02-11T05:00:00.000Z",
       "excerpt": "Juniper Granola, LLC. of Rochester, NY is recalling CHOCOLATE CHERRY and PEANUT BUTTER CHOCOLATE CHIP Junebars with printed batch label L1300 or L1301 because it may contain undeclared milk and soy. P",
-      "scraped_at": "2026-02-23T07:40:32.108Z",
+      "scraped_at": "2026-02-24T21:50:17.195Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/junebar-cc-and-pb.jpg?itok=siPzXu2B"
     },
     {
-      "id": "c6716996-f1db-40eb-97f0-7ccf65f2310d",
+      "id": "d9d513f8-2a69-4a8f-a246-1caea75c5b01",
       "source": "fda",
       "title": "Slade Gorton & Co., Inc, Recalls One Lot of Wellsley Farms Farm-Raised Atlantic Salmon Sold at BJ’s Wholesale Club due to Potential Listeria Monocytogenes Contamination",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slade-gorton-co-inc-recalls-one-lot-wellsley-farms-farm-raised-atlantic-salmon-sold-bjs-wholesale",
       "published_date": "2026-02-11T05:00:00.000Z",
       "excerpt": "Waltham, Mass. - Slade Gorton & Co., Inc, is recalling lot 3896 of Wellsley Farms Farm-Raised Atlantic Salmon sold in 2-lb bags at BJ’s Wholesale Club stores due to the potential for the product to be",
-      "scraped_at": "2026-02-23T07:40:32.196Z",
+      "scraped_at": "2026-02-24T21:50:17.367Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/slade_gorton_lm_recall_press_release_26-02-11_final-4.jpg?itok=aenQ1Y__"
     },
     {
-      "id": "ab7a5591-ee08-45c7-b8bd-65b6d0d54930",
+      "id": "42d42697-57fe-4672-8093-975649088472",
       "source": "fda",
       "title": "Trividia Health, Inc. Initiates Labeling Correction for all TRUE METRIX® Blood Glucose Monitoring Systems",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-inc-initiates-labeling-correction-all-true-metrixr-blood-glucose-monitoring-systems",
       "published_date": "2026-02-06T23:03:00.000Z",
       "excerpt": "FT. LAUDERDALE, FL) – February 6, 2026 – Trividia Health, Inc., announced today that it is initiating a labeling correction which requires a modification of the Owner’s Booklets/System Instructions fo",
-      "scraped_at": "2026-02-23T07:40:32.350Z",
+      "scraped_at": "2026-02-24T21:50:17.464Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_156.png?itok=wpEEpAso"
     },
     {
-      "id": "ff92e371-c973-4203-ad66-8854b4a1cc6e",
+      "id": "2de15c3c-fdde-410a-9dbe-4f891b56f4e4",
       "source": "fda",
       "title": "Prime Food Processing LLC Issues Safety Warning Regarding Uneviscerated Dried Croaker Fish",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-croaker-fish",
       "published_date": "2026-02-03T14:27:00.000Z",
       "excerpt": "Prime Food Processing LLC is voluntarily recalling 80 cases of Dried Croaker Fish because the product was not adequately eviscerated, as required by the U.S. Food and Drug Administration (FDA). Fish t",
-      "scraped_at": "2026-02-23T07:40:32.485Z",
+      "scraped_at": "2026-02-24T21:50:17.620Z",
       "image": "https://www.fda.gov/files/styles/recall_image_small/public/croaker1_0.png?itok=eTW0k4em"
     },
     {
-      "id": "0665f6a4-156c-4120-a65c-0619888baa34",
-      "source": "lgma",
-      "title": "California LGMA Announces Updates to Food Safety Guidelines",
-      "url": "https://lgmacalifornia.org/news#1",
-      "published_date": "2026-02-23T07:40:32.487Z",
-      "excerpt": "The California Leafy Greens Marketing Agreement (LGMA) has approved new, more stringent metrics for agricultural water testing to ensure the highest standards of food safety.",
-      "scraped_at": "2026-02-23T07:40:32.487Z"
-    },
-    {
-      "id": "d408bbd9-2a1d-4912-a226-b69ad78e0f02",
-      "source": "lgma",
-      "title": "Industry Collaboration Key to Traceability Implementation",
-      "url": "https://lgmacalifornia.org/news#2",
-      "published_date": "2026-02-23T07:40:32.487Z",
-      "excerpt": "The leafy greens industry comes together to map out the implementation of the FDA’s new traceability rules under the Food Safety Modernization Act.",
-      "scraped_at": "2026-02-23T07:40:32.487Z"
-    },
-    {
-      "id": "6469b1f4-77e0-448d-bb83-2e63521af0fd",
-      "source": "wga",
-      "title": "Western Growers Launches New Food Safety Innovation Grant",
-      "url": "https://www.wga.com/news#1",
-      "published_date": "2026-02-23T07:40:32.487Z",
-      "excerpt": "The Western Growers Association announces a $500,000 grant program aimed at startups developing novel technologies for rapid pathogen detection in the field.",
-      "scraped_at": "2026-02-23T07:40:32.487Z"
-    },
-    {
-      "id": "711de80d-0995-48e0-9aa9-83454c17ec23",
-      "source": "wga",
-      "title": "Navigating New FDA Regulations: A Guide for Growers",
-      "url": "https://www.wga.com/news#2",
-      "published_date": "2026-02-23T07:40:32.487Z",
-      "excerpt": "WGA released a comprehensive toolkit today helping growers understand and comply with new updates to FSMA regulations ahead of the upcoming agricultural season.",
-      "scraped_at": "2026-02-23T07:40:32.487Z"
-    },
-    {
-      "id": "7150da78-bfd6-47f0-acdb-28799e7539f4",
-      "source": "fda",
-      "title": "FDA Recalls Fresh Cut Vegetables Due to Potential Listeria Outbreak",
-      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts#1",
-      "published_date": "2026-02-23T07:40:32.486Z",
-      "excerpt": "Company XYZ is voluntarily recalling fresh cut vegetable products because they have the potential to be contaminated with Listeria monocytogenes, linked to a multi-state outbreak.",
-      "scraped_at": "2026-02-23T07:40:32.486Z"
-    },
-    {
-      "id": "92f3c65c-8e7a-405b-8af7-8e5dce8310dd",
-      "source": "fda",
-      "title": "Outbreak Investigation: Salmonella Linked to Cantaloupes",
-      "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks#1",
-      "published_date": "2026-02-23T07:40:32.486Z",
-      "excerpt": "The FDA, along with CDC and state partners, is investigating a multistate outbreak of Salmonella infections linked to whole cantaloupes.",
-      "scraped_at": "2026-02-23T07:40:32.486Z"
-    },
-    {
-      "id": "5312bd79-799c-4675-81ec-bcea43360cc0",
-      "source": "usda",
-      "title": "USDA Investigates E. Coli O157:H7 Outbreak Linked to Ground Beef",
-      "url": "https://www.fsis.usda.gov/recalls#1",
-      "published_date": "2026-02-23T07:40:30.739Z",
-      "excerpt": "The U.S. Department of Agriculture’s Food Safety and Inspection Service (FSIS) is issuing a public health alert due to concerns that specific ground beef products may be contaminated with E. coli.",
-      "scraped_at": "2026-02-23T07:40:30.739Z"
-    },
-    {
-      "id": "31908bca-b456-4898-8bed-8482bc7b83ac",
-      "source": "usda",
-      "title": "FSIS Issues Public Health Alert for Ready-To-Eat Meat Products Due to Listeria",
-      "url": "https://www.fsis.usda.gov/recalls#2",
-      "published_date": "2026-02-23T07:40:30.739Z",
-      "excerpt": "FSIS is issuing a public health alert for ready-to-eat (RTE) meat products due to possible Listeria monocytogenes contamination linked to a recent outbreak.",
-      "scraped_at": "2026-02-23T07:40:30.739Z"
-    },
-    {
-      "id": "3a498c76-a947-4d74-9660-843eba90ba55",
-      "source": "usda",
-      "title": "Recall: ABC Farms Recalls Raw Poultry Due to Possible Salmonella Contamination",
-      "url": "https://www.fsis.usda.gov/recalls#3",
-      "published_date": "2026-02-23T07:40:30.739Z",
-      "excerpt": "ABC Farms is recalling approximately 50,000 pounds of raw poultry products that may be contaminated with Salmonella, following an ongoing foodborne illness investigation.",
-      "scraped_at": "2026-02-23T07:40:30.739Z"
-    },
-    {
-      "id": "0824b9a1-89e6-4832-945c-268800b3b1fb",
-      "source": "usda",
-      "title": "Investigation Notice: Multi-State Outbreak of Campylobacter",
-      "url": "https://www.fsis.usda.gov/recalls#4",
-      "published_date": "2026-02-23T07:40:30.739Z",
-      "excerpt": "FSIS and the CDC are investigating a multi-state outbreak of Campylobacter infections potentially linked to undercooked poultry products. Consumers are urged to use a food thermometer.",
-      "scraped_at": "2026-02-23T07:40:30.739Z"
-    },
-    {
-      "id": "8cc41da9-609f-423e-a6f4-1e77974d3a7b",
-      "source": "fda",
-      "title": "Updated Company Announcement to August 28, 2025, Recall Announcement",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-company-announcement-august-28-2025-recall-announcement",
-      "published_date": "2026-02-13T21:51:00.000Z",
-      "excerpt": "Costa Mesa, California — February 13, 2026 — Green Lumber Holding, LLC (“Green Lumber”) is issuing an updated consumer alert regarding counterfeit products falsely marketed as genuine Green Lumber pro",
-      "scraped_at": "2026-02-23T07:40:31.928Z"
-    },
-    {
-      "id": "3e3a53b0-7b8a-4d58-adca-1a48b0da5b8a",
+      "id": "1e032fab-b4b6-4bac-b3d9-175f8c26d31a",
       "source": "fda",
       "title": "Why Not Natural, Houston, Texas, is Recalling its Why Not Natural Organic Moringa - Green Superfood because of Possible Health Risk",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/why-not-natural-houston-texas-recalling-its-why-not-natural-organic-moringa-green-superfood-because",
       "published_date": "2026-01-28T22:35:00.000Z",
       "excerpt": "Why Not Natural, Houston, Texas, is voluntarily recalling its Why Not Natural Organic Moringa - Green Superfood because they may be contaminated with Salmonella, an organism which can cause serious an",
-      "scraped_at": "2026-02-23T07:40:32.485Z"
+      "scraped_at": "2026-02-24T21:50:17.702Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_153.png?itok=pVHqoa_J"
     },
     {
-      "id": "ec1a3f43-3e25-47ee-b9ba-3aefc1cb9e58",
+      "id": "12bc4bdb-1b46-4638-93e8-04ff48e23f14",
       "source": "fda",
       "title": "Akkarco LLC Recalls Product Due to Possible Health Risk",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/akkarco-llc-recalls-product-due-possible-health-risk",
       "published_date": "2026-01-28T16:51:00.000Z",
       "excerpt": "Akkarco LLC of Lorton, Virginia, is voluntarily recalling Ashfiat Alharamain Energy Support because the product contains undeclared Tadalafil, an ingredient in FDA approved products for treatment of m",
-      "scraped_at": "2026-02-23T07:40:32.485Z"
+      "scraped_at": "2026-02-24T21:50:17.846Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/as1_1.jpeg?itok=KK6D4nGF"
     },
     {
-      "id": "8868a49c-7b74-4fc3-97e4-7abb283522d3",
-      "source": "fda",
-      "title": "Neogen Issues Voluntary Nationwide Recall of Neogen®Vet HYCOAT® Hyaluronate Sodium Sterile Solution",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/neogen-issues-voluntary-nationwide-recall-neogenrvet-hycoatr-hyaluronate-sodium-sterile-solution",
-      "published_date": "2026-01-28T05:00:00.000Z",
-      "excerpt": "LANSING, Mich. – (BUSINESS WIRE) – Neogen Corporation (NASDAQ: NEOG) is voluntarily recalling all lots within expiry of Neogen®Vet HYCOAT® Hyaluronate Sodium Sterile Solution, for use in dogs, cats, a",
-      "scraped_at": "2026-02-23T07:40:32.485Z"
-    },
-    {
-      "id": "57f7d056-2f08-4932-8e58-05e6a379bbab",
+      "id": "a797dec9-be5c-49d2-a8b6-7e81dc0980b5",
       "source": "fda",
       "title": "Koikoi Trading Inc., Issues Allergy Alert on Undeclared Wheat and Sesame in FU ZHOU FISH BALL (200g / 400g / 5lb)",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/koikoi-trading-inc-issues-allergy-alert-undeclared-wheat-and-sesame-fu-zhou-fish-ball-200g-400g-5lb",
       "published_date": "2026-01-27T21:42:00.000Z",
       "excerpt": "Commerce, CA – Koikoi Trading Inc. is recalling certain lots of FU ZHOU FISH BALL products in multiple pack sizes (200g, 400g, and 5LB) because the products may contain undeclared allergens: wheat and",
-      "scraped_at": "2026-02-23T07:40:32.485Z"
+      "scraped_at": "2026-02-24T21:50:18.056Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/front_label_fu_zhou_fish_ball_200g.jpg?itok=ZougfwZU"
     },
     {
-      "id": "661f6ca0-75e7-42df-878b-4caa48d48c0e",
+      "id": "cfb12eef-bc11-47e9-ab16-4868e777dabb",
       "source": "fda",
       "title": "Gerber Products Company Announces Voluntary Recall of  Limited Batches of Arrowroot Biscuits Out of an Abundance of Caution Due to Potential Presence of Foreign Material Following Supplier Recall",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gerber-products-company-announces-voluntary-recall-limited-batches-arrowroot-biscuits-out-abundance",
       "published_date": "2026-01-26T18:16:00.000Z",
       "excerpt": "January 26, 2026 — Gerber Products Company is initiating a voluntary recall of limited batches of Gerber® Arrowroot Biscuits out of an abundance of caution due to the potential presence of soft plasti",
-      "scraped_at": "2026-02-23T07:40:32.485Z"
+      "scraped_at": "2026-02-24T21:50:18.190Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_222.jpg?itok=zUtGtpJN"
+    },
+    {
+      "id": "06b29574-64cc-4274-b0bf-475202ab932a",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | News Archive",
+      "url": "https://lgma.ca.gov/news/p2",
+      "published_date": "2026-02-24T21:50:29.344Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:29.344Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "074038a2-a016-4b0a-8a04-eb4e8fbb7e4f",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | Food Safety Evolution",
+      "url": "https://lgma.ca.gov/news/food-safety-evolution",
+      "published_date": "2026-02-24T21:50:28.709Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:28.709Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/VTH-Social-Media-Card_11.09-002.jpg?mtime=1669066342"
+    },
+    {
+      "id": "79e2e8f2-5bc2-46a0-a352-25ffbea0a15e",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | California LGMA Embarks…",
+      "url": "https://lgma.ca.gov/news/test-learn-study",
+      "published_date": "2026-02-24T21:50:28.246Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:28.246Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
+    },
+    {
+      "id": "f46b668f-0fe3-4c6a-b7d5-1a395a79ba19",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | Advancing Food Safety…",
+      "url": "https://lgma.ca.gov/news/advancing-food-safety-standards-through-science-data-continuous-improvement",
+      "published_date": "2026-02-24T21:50:27.690Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:27.690Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
+    },
+    {
+      "id": "d675b11f-a0d7-44e6-8311-b773c5f20118",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
+      "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
+      "published_date": "2026-02-24T21:50:27.120Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:27.120Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
+    },
+    {
+      "id": "1c5decb9-857a-469e-919b-de4ebb85731c",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
+      "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
+      "published_date": "2026-02-24T21:50:26.414Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:26.414Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
+    },
+    {
+      "id": "9abff1a7-7814-47dc-9e9e-081b6ebd34c4",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
+      "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
+      "published_date": "2026-02-24T21:50:21.608Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:21.608Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
+    },
+    {
+      "id": "fe036db9-e49b-47ed-8e7b-d28d9c6dd474",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | The Big Picture",
+      "url": "https://lgma.ca.gov/news/big_pic",
+      "published_date": "2026-02-24T21:50:21.042Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:21.042Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "9aa9b61a-3d4b-48c3-955b-c847d143206a",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | Metrics",
+      "url": "https://lgma.ca.gov/news/metrics",
+      "published_date": "2026-02-24T21:50:20.484Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:20.484Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "4bcd3190-4dff-4af6-ab02-ab66e3e58564",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | LGMA Members",
+      "url": "https://lgma.ca.gov/news/lgma-members",
+      "published_date": "2026-02-24T21:50:19.926Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:19.926Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "16d13e7d-3463-47fd-9da7-9597bd430b79",
+      "source": "fda",
+      "title": "Updated Company Announcement to August 28, 2025, Recall Announcement",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-company-announcement-august-28-2025-recall-announcement",
+      "published_date": "2026-02-13T21:51:00.000Z",
+      "excerpt": "Costa Mesa, California — February 13, 2026 — Green Lumber Holding, LLC (“Green Lumber”) is issuing an updated consumer alert regarding counterfeit products falsely marketed as genuine Green Lumber pro",
+      "scraped_at": "2026-02-24T21:50:17.035Z"
+    },
+    {
+      "id": "ad1d58d3-9c4b-4062-8ad9-b61005473bdf",
+      "source": "fda",
+      "title": "Neogen Issues Voluntary Nationwide Recall of Neogen®Vet HYCOAT® Hyaluronate Sodium Sterile Solution",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/neogen-issues-voluntary-nationwide-recall-neogenrvet-hycoatr-hyaluronate-sodium-sterile-solution",
+      "published_date": "2026-01-28T05:00:00.000Z",
+      "excerpt": "LANSING, Mich. – (BUSINESS WIRE) – Neogen Corporation (NASDAQ: NEOG) is voluntarily recalling all lots within expiry of Neogen®Vet HYCOAT® Hyaluronate Sodium Sterile Solution, for use in dogs, cats, a",
+      "scraped_at": "2026-02-24T21:50:17.975Z"
+    },
+    {
+      "id": "a561d6f9-a1ed-4688-bc9b-06037892927b",
+      "source": "usda",
+      "title": "Constituent Update - January 30, 2026 | Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/news-events/news-press-releases/constituent-update-january-30-2026",
+      "published_date": "2026-02-24T21:50:16.006Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:16.006Z",
+      "image": "https://www.fsis.usda.gov/sites/default/files/2021-03/MicrosoftTeams-image.png"
+    },
+    {
+      "id": "ea0156bd-22cf-47d4-803f-28c718f25832",
+      "source": "usda",
+      "title": "Keep Food Safe from Kickoff to Leftovers | Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/news-events/news-press-releases/keep-food-safe-kickoff-leftovers",
+      "published_date": "2026-02-24T21:50:15.928Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:15.928Z",
+      "image": "https://www.fsis.usda.gov/sites/default/files/2021-03/MicrosoftTeams-image.png"
+    },
+    {
+      "id": "ce1b89c6-1b6b-4a33-bef8-ea4110de7a41",
+      "source": "usda",
+      "title": "FSIS Updates for Small Plants – February 4, 2026 | Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/news-events/news-press-releases/fsis-updates-small-plants-february-4-2026",
+      "published_date": "2026-02-24T21:50:15.878Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:15.878Z",
+      "image": "https://www.fsis.usda.gov/sites/default/files/2021-03/MicrosoftTeams-image.png"
+    },
+    {
+      "id": "25ea1581-f475-4dd6-a60e-7fef61e13c64",
+      "source": "usda",
+      "title": "Constituent Update - February 6, 2026 | Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/news-events/news-press-releases/constituent-update-february-6-2026",
+      "published_date": "2026-02-24T21:50:15.821Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:15.821Z",
+      "image": "https://www.fsis.usda.gov/sites/default/files/2021-03/MicrosoftTeams-image.png"
+    },
+    {
+      "id": "8e6c7f7f-b8a1-4072-935b-d37d5bbaa3f0",
+      "source": "usda",
+      "title": "Constituent Update - February 13, 2026 | Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/news-events/news-press-releases/constituent-update-february-13-2026",
+      "published_date": "2026-02-24T21:50:15.757Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:15.757Z",
+      "image": "https://www.fsis.usda.gov/sites/default/files/2021-03/MicrosoftTeams-image.png"
+    },
+    {
+      "id": "29337dd4-74b5-4647-a250-46446d72ae23",
+      "source": "usda",
+      "title": "Constituent Update - February 20, 2026 | Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/news-events/news-press-releases/constituent-update-february-20-2026",
+      "published_date": "2026-02-24T21:50:15.705Z",
+      "excerpt": "",
+      "scraped_at": "2026-02-24T21:50:15.706Z",
+      "image": "https://www.fsis.usda.gov/sites/default/files/2021-03/MicrosoftTeams-image.png"
+    },
+    {
+      "id": "4a791d23-7a66-418b-9c6c-0f89844a7c5a",
+      "source": "wga",
+      "title": "Arizona Department of Agriculture Welcomes USDA’s $263 Million Investment in Farm Commodities",
+      "url": "https://www.wga.com/news/arizona-department-of-agriculture-welcomes-usdas-263-million-investment-in-farm-commodities/",
+      "published_date": "2026-02-23T16:22:53.000Z",
+      "excerpt": "The post Arizona Department of Agriculture Welcomes USDA’s $263 Million Investment in Farm Commodities appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "a5a035c9-96c8-4a9a-a53f-a11bdf5f7f5d",
+      "source": "wga",
+      "title": "Lina Quesada-Ocampo to Lead IR-4 Project as Executive Director",
+      "url": "https://www.wga.com/news/lina-quesada-ocampo-named-executive-director-of-the-ir-4-project/",
+      "published_date": "2026-02-23T16:02:34.000Z",
+      "excerpt": "The post Lina Quesada-Ocampo to Lead IR-4 Project as Executive Director appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "0a92ac12-6cf2-4f72-b649-cf8afe8b0831",
+      "source": "wga",
+      "title": "LGMA Metrics: Comment Period Opens for 2026 Agricultural Water Metrics Update",
+      "url": "https://www.wga.com/news/lgma-metrics-comment-period-opens-for-2026-agricultural-water-metrics-update/",
+      "published_date": "2026-02-20T19:07:38.000Z",
+      "excerpt": "The post LGMA Metrics: Comment Period Opens for 2026 Agricultural Water Metrics Update appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "5536201a-7944-4b99-9d62-baff0953acb1",
+      "source": "wga",
+      "title": "Ethics and Civility: Keys to Building a Respectful Workplace",
+      "url": "https://www.wga.com/news/ethics-and-civility-keys-to-building-a-respectful-workplace/",
+      "published_date": "2026-02-20T00:49:31.000Z",
+      "excerpt": "The post Ethics and Civility: Keys to Building a Respectful Workplace appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "4db479c1-9ca2-490c-96c1-4110253ccf9b",
+      "source": "wga",
+      "title": "Lessons Learned: AI Notetaking Tools Can Create Discoverable Evidence",
+      "url": "https://www.wga.com/news/lessons-learned-ai-notetaking-tools-can-create-discoverable-evidence/",
+      "published_date": "2026-02-20T00:47:05.000Z",
+      "excerpt": "The post Lessons Learned: AI Notetaking Tools Can Create Discoverable Evidence appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "369289b5-f3d3-4a2c-bd07-c0ed83280e90",
+      "source": "wga",
+      "title": "Cal/OSHA Proposes a California “Worker Walk-Around” Rule",
+      "url": "https://www.wga.com/news/cal-osha-proposes-a-california-worker-walk-around-rule/",
+      "published_date": "2026-02-20T00:46:00.000Z",
+      "excerpt": "The post Cal/OSHA Proposes a California “Worker Walk-Around” Rule appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "a6fa7212-f2d8-4f3f-acc4-a7b02c2a9d2d",
+      "source": "wga",
+      "title": "What You Need to Know About the USDA Specialty Crop Economic Relief Program",
+      "url": "https://www.wga.com/news/what-you-need-to-know-about-the-usda-specialty-crop-economic-relief-program/",
+      "published_date": "2026-02-18T22:16:51.000Z",
+      "excerpt": "The post What You Need to Know About the USDA Specialty Crop Economic Relief Program appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "c74d8cf4-900e-4e79-a8ec-9db5eef55c51",
+      "source": "wga",
+      "title": "Specialty Crop Alliance Applauds Release of the Farm, Food and National Security Act of 2026",
+      "url": "https://www.wga.com/news/specialty-crop-alliance-applauds-release-of-the-farm-food-and-national-security-act-of-2026/",
+      "published_date": "2026-02-18T19:07:33.000Z",
+      "excerpt": "The post Specialty Crop Alliance Applauds Release of the Farm, Food and National Security Act of 2026 appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "e6e31b0f-1a15-44ec-b448-22524a5e44ce",
+      "source": "wga",
+      "title": "CA Longitudinal Study (CALS) Industry Briefing — Register by February 20",
+      "url": "https://www.wga.com/news/ca-longitudinal-study-cals-industry-briefing-register-by-february-20/",
+      "published_date": "2026-02-18T18:29:41.000Z",
+      "excerpt": "The post CA Longitudinal Study (CALS) Industry Briefing — Register by February 20 appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://www.wga.com/wp-content/uploads/2026/02/CALS-Save-the-Date-Graphic-240x300.png"
+    },
+    {
+      "id": "bacf288f-1b73-4f3d-93cf-aa187f975466",
+      "source": "wga",
+      "title": "Wildlife, Pathogens, and the Produce Interface: What Science Is Actually Telling Us",
+      "url": "https://www.wga.com/news/wildlife-pathogens-and-the-produce-interface-what-science-is-actually-telling-us/",
+      "published_date": "2026-02-18T17:35:46.000Z",
+      "excerpt": "The post Wildlife, Pathogens, and the Produce Interface: What Science Is Actually Telling Us  appeared first on Western Growers Association.",
+      "scraped_at": "2026-02-24T21:50:29.467Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
     }
   ],
-  "last_updated": "2026-02-23T07:40:32.493Z",
+  "last_updated": "2026-02-24T21:53:48.655Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 25,
+  "total_articles": 41,
   "validation_summary": {
-    "total_scraped": 30,
+    "total_scraped": 46,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
     "time_filtered": 5

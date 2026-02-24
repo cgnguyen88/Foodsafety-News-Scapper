@@ -88,17 +88,22 @@ async function aggregateSources(): Promise<ProcessedPayload> {
     const filtered = filterLast24Hours(deduplicated);
     const filteredCount = beforeFilter - filtered.length;
 
-    // Step 4: Sort by image availability first, then by published_date (newest first)
+    // Step 4: Sort using custom priority requested by product:
+    // 1) FDA articles with images
+    // 2) LGMA articles with images
+    // 3) Articles without images
+    // 4) Remaining articles
+    const sortPriority = (article: Article): number => {
+        const hasImage = Boolean(article.image);
+        if (article.source === 'fda' && hasImage) return 0;
+        if (article.source === 'lgma' && hasImage) return 1;
+        if (!hasImage) return 2;
+        return 3;
+    };
+
     const sorted = filtered.sort((a, b) => {
-        // First, prioritize articles with images
-        const aHasImage = a.image ? 1 : 0;
-        const bHasImage = b.image ? 1 : 0;
-
-        if (bHasImage !== aHasImage) {
-            return bHasImage - aHasImage; // Articles with images come first
-        }
-
-        // If both have images or both don't, sort by date (newest first)
+        const priorityDiff = sortPriority(a) - sortPriority(b);
+        if (priorityDiff !== 0) return priorityDiff;
         return new Date(b.published_date).getTime() - new Date(a.published_date).getTime();
     });
 
