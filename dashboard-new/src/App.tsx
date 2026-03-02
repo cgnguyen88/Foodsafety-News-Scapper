@@ -7,7 +7,7 @@ function App() {
 
   React.useEffect(() => {
     if (user) {
-      window.location.href = "http://localhost:8080/";
+      window.location.href = "/dashboard/";
     }
   }, [user]);
 
