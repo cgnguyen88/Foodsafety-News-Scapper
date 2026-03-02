@@ -339,7 +339,8 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
                 max_tokens: 800,
                 temperature: 0.7,
                 system: systemPrompt,
-                messages: chatHistory
+                messages: chatHistory,
+                stream: true
             };
 
             const response = await fetch(url, {
@@ -354,21 +355,45 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
             });
 
             if (!response.ok) {
-                const errData = await response.json();
+                const errData = await response.json().catch(() => ({}));
                 console.error("Anthropic API Error:", errData);
                 throw new Error(errData.error?.message || `HTTP Error ${response.status}`);
             }
 
-            const data = await response.json();
             hideTypingIndicator(typingId);
+            const msgDiv = addMessage('assistant', "");
+            const span = msgDiv.querySelector('.jimmy-msg-bubble span');
+            let replyText = "";
 
-            if (data.role === 'assistant' && data.content && data.content.length > 0 && data.content[0].text) {
-                const replyText = data.content[0].text;
-                addMessage('assistant', replyText);
-                chatHistory.push({ role: 'assistant', content: replyText });
-            } else {
-                throw new Error("Invalid response format from Anthropic");
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder("utf-8");
+            let buffer = "";
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                buffer += decoder.decode(value, { stream: true });
+                const lines = buffer.split("\n");
+                buffer = lines.pop() || ""; // keep incomplete line in buffer
+
+                for (const line of lines) {
+                    if (line.startsWith("data: ") && line.trim() !== "data: [DONE]") {
+                        try {
+                            const data = JSON.parse(line.slice(6));
+                            if (data.type === 'content_block_delta' && data.delta && data.delta.text) {
+                                replyText += data.delta.text;
+                                span.innerHTML = renderMarkdown(replyText);
+                                scrollToBottom();
+                            }
+                        } catch (e) {
+                            // ignore partial JSON errors
+                        }
+                    }
+                }
             }
+
+            chatHistory.push({ role: 'assistant', content: replyText });
 
         } catch (error) {
             console.error("Chat Error:", error);
