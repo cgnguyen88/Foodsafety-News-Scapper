@@ -3,6 +3,7 @@ import { Eye, EyeOff, Leaf, ShieldCheck, FlaskConical, Tractor } from "lucide-re
 import { loadFromStorage, saveToStorage } from "../../utils/storage.js";
 import { useLanguage } from "../../i18n/LanguageContext.jsx";
 import { T } from "../../i18n/translations.js";
+import { supabase } from "../../utils/supabaseClient";
 
 /* ─── shared style helpers ─── */
 const inputStyle = (focused) => ({
@@ -223,20 +224,28 @@ export default function AuthScreen({ onLogin }) {
     const [regConfirm, setRegConfirm] = useState("");
     const [agreedTerms, setAgreedTerms] = useState(false);
 
-    const users = () => loadFromStorage("user_accounts", []);
 
-    const handleLogin = (e) => {
+    const handleLogin = async (e) => {
         e.preventDefault();
         setError("");
-        const user = users().find(
-            (u) => u.email.toLowerCase() === loginEmail.trim().toLowerCase() && u.password === loginPassword
-        );
-        if (!user) { setError(a.invalidCredentials); return; }
-        saveToStorage("current_user", user);
-        onLogin(user);
+
+        const { data, error: signInError } = await supabase.auth.signInWithPassword({
+            email: loginEmail.trim().toLowerCase(),
+            password: loginPassword,
+        });
+
+        if (signInError) {
+            setError(signInError.message);
+            return;
+        }
+
+        if (data?.user) {
+            saveToStorage("current_user", data.user);
+            onLogin(data.user);
+        }
     };
 
-    const handleRegister = (e) => {
+    const handleRegister = async (e) => {
         e.preventDefault();
         setError("");
         if (!firstName.trim() || !lastName.trim() || !regEmail.trim() || !regOrg.trim() || !role) {
@@ -247,27 +256,29 @@ export default function AuthScreen({ onLogin }) {
         if (regPassword !== regConfirm) { setError(a.passwordMismatch); return; }
         if (!agreedTerms) { setError(a.acceptTerms); return; }
 
-        const all = users();
-        if (all.find((u) => u.email.toLowerCase() === regEmail.trim().toLowerCase())) {
-            setError(a.emailExists); return;
+        const { data, error: signUpError } = await supabase.auth.signUp({
+            email: regEmail.trim().toLowerCase(),
+            password: regPassword,
+            options: {
+                data: {
+                    first_name: firstName.trim(),
+                    last_name: lastName.trim(),
+                    organization: regOrg.trim(),
+                    phone: regPhone.trim(),
+                    role: role,
+                }
+            }
+        });
+
+        if (signUpError) {
+            setError(signUpError.message);
+            return;
         }
 
-        const newUser = {
-            id: Date.now(),
-            name: `${firstName.trim()} ${lastName.trim()}`,
-            firstName: firstName.trim(),
-            lastName: lastName.trim(),
-            email: regEmail.trim().toLowerCase(),
-            phone: regPhone.trim(),
-            organization: regOrg.trim(),
-            role,
-            password: regPassword,
-            createdAt: new Date().toISOString(),
-        };
-
-        saveToStorage("user_accounts", [...all, newUser]);
-        saveToStorage("current_user", newUser);
-        onLogin(newUser);
+        if (data?.user) {
+            saveToStorage("current_user", data.user);
+            onLogin(data.user);
+        }
     };
 
     const switchTab = (t) => { setTab(t); setError(""); };
