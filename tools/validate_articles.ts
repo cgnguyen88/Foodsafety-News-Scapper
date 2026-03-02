@@ -1,5 +1,5 @@
 import { isValid, parseISO, subDays, isAfter } from 'date-fns';
-import { v4 as uuidv4 } from 'uuid';
+import { randomUUID } from 'crypto';
 
 interface Article {
     id?: string;
@@ -84,7 +84,7 @@ export function validateArticles(articles: Article[]): ValidationResult {
 
         // Transform article
         const validatedArticle: Article = {
-            id: article.id || uuidv4(),
+            id: article.id || randomUUID(),
             source: article.source,
             title: article.title.trim(),
             url: normalizeUrl(article.url),

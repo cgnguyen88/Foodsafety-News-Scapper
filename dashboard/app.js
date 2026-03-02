@@ -44,11 +44,27 @@ async function loadArticles() {
 
         const data = await response.json();
         allArticles = data.articles || [];
+        window.allArticles = allArticles; // Deep link for Jimmy AI context
+        console.log(`🍎 Processed ${allArticles.length} articles and exposed to window.allArticles`);
 
-        // Update timestamp
+        // Update timestamp - use last_updated from JSON or newest article's scraped_at
         const timestampEl = document.getElementById('timestamp');
-        if (data.last_updated) {
-            timestampEl.textContent = formatTimestamp(data.last_updated);
+        let latestDate = data.last_updated;
+
+        if (allArticles.length > 0) {
+            const newestArticleDate = allArticles.reduce((max, a) => {
+                const dateString = a.scraped_at || a.published_date;
+                const d = new Date(dateString);
+                return d > max ? d : max;
+            }, new Date(0));
+
+            if (!latestDate || newestArticleDate > new Date(latestDate)) {
+                latestDate = newestArticleDate.toISOString();
+            }
+        }
+
+        if (latestDate) {
+            timestampEl.textContent = formatTimestamp(latestDate);
         }
 
         // Hide loading, show grid

@@ -75,7 +75,7 @@ Build a beautiful, interactive dashboard that aggregates AI news from multiple s
 
 ## ⚖️ Behavioral Rules
 
-1. **Time Window:** Only fetch articles from last 24 hours
+1. **Time Window:** Fetch articles from the last 30 days (extended from 24h per user request)
 2. **De-duplication:** Do not show duplicate articles (match by URL)
 3. **Graceful Degradation:** If one source fails, continue with others
 4. **Save Persistence:** Saved articles must survive page refresh

@@ -66,14 +66,9 @@ image = (
 app = modal.App("ai-news-scraper", image=image)
 
 # ---------------------------------------------------------------------------
-# Main function — scheduled every 24 hours
+# Shared runner
 # ---------------------------------------------------------------------------
-@app.function(
-    secrets=[modal.Secret.from_name("github-token")],
-    schedule=modal.Period(hours=24),
-    timeout=600,  # 10 minute limit
-)
-def run_scrapers():
+def _run_scrapers_impl():
     import requests
 
     os.chdir("/app")
@@ -117,26 +112,58 @@ def run_scrapers():
     print(f"✅ Scraped {article_count} articles")
 
     # Push processed_articles.json to GitHub so Vercel picks it up
-    github_token = os.environ["GITHUB_TOKEN"]
-    repo = "cgnguyen88/scraperrrrr"
+    github_token = os.environ.get("GITHUB_TOKEN")
+    if not github_token:
+        print("⚠️ GITHUB_TOKEN is missing in Modal secret; skipping GitHub push.")
+        return
+    
+    print(f"🔑 GITHUB_TOKEN found (starts with: {github_token[:4]}..., length: {len(github_token)})")
+    
+    repo = "cgnguyen88/Foodsafety-News-Scapper"
     file_path = "dashboard/processed_articles.json"
     api_url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
+    
+    print(f"📡 Target API: {api_url}")
 
     headers = {
-        "Authorization": f"Bearer {github_token}",
+        "Authorization": f"token {github_token}",
         "Accept": "application/vnd.github.v3+json",
     }
 
+    # Verify token identity and scopes
+    print("🔍 Checking GitHub token identity...")
+    user_resp = requests.get("https://api.github.com/user", headers=headers)
+    if user_resp.status_code == 200:
+        user_data = user_resp.json()
+        print(f"👤 Authenticated as: {user_data.get('login')} ({user_data.get('name')})")
+        scopes = user_resp.headers.get("X-OAuth-Scopes", "none")
+        print(f"🔐 Token scopes: {scopes}")
+    else:
+        print(f"⚠️ Could not verify identity (Status {user_resp.status_code}): {user_resp.text[:200]}")
+
     # Fetch current file SHA (required by GitHub API to update an existing file)
+    print("🔍 Fetching current file SHA...")
+    repo = "cgnguyen88/Foodsafety-News-Scapper"
+    file_path = "dashboard/processed_articles.json"
+    api_url = f"https://api.github.com/repos/{repo}/contents/{file_path}"
+    
     resp = requests.get(api_url, headers=headers)
-    current_sha = resp.json().get("sha", "")
+    
+    if resp.status_code == 200:
+        current_sha = resp.json().get("sha", "")
+        print(f"✅ Found SHA: {current_sha}")
+    else:
+        current_sha = ""
+        print(f"⚠️ Could not fetch SHA (Status {resp.status_code}): {resp.text[:200]}")
 
     payload = {
         "message": "chore: auto-update articles [Modal scraper]",
         "content": base64.b64encode(articles_data.encode()).decode(),
         "sha": current_sha,
+        "branch": "main"  # Explicitly specify branch
     }
 
+    print("📤 Sending PUT request to GitHub...")
     update = requests.put(api_url, headers=headers, json=payload)
 
     if update.status_code in (200, 201):
@@ -145,9 +172,33 @@ def run_scrapers():
             f"Vercel will redeploy with {article_count} fresh articles."
         )
     else:
-        raise RuntimeError(
-            f"GitHub push failed ({update.status_code}): {update.text[:500]}"
+        print(
+            f"❌ GitHub push failed (Status {update.status_code}); "
+            f"Response: {update.text[:500]}"
         )
+
+
+# ---------------------------------------------------------------------------
+# Scheduled function — every 24 hours
+# ---------------------------------------------------------------------------
+@app.function(
+    secrets=[modal.Secret.from_name("github-token")],
+    schedule=modal.Period(hours=24),
+    timeout=600,
+)
+def scheduled_24h():
+    _run_scrapers_impl()
+
+
+# ---------------------------------------------------------------------------
+# Manual function — immediate run on demand
+# ---------------------------------------------------------------------------
+@app.function(
+    secrets=[modal.Secret.from_name("github-token")],
+    timeout=600,
+)
+def run_now():
+    _run_scrapers_impl()
 
 
 # ---------------------------------------------------------------------------
@@ -155,4 +206,4 @@ def run_scrapers():
 # ---------------------------------------------------------------------------
 @app.local_entrypoint()
 def main():
-    run_scrapers.remote()
+    run_now.remote()

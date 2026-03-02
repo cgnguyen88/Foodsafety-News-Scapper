@@ -16,3 +16,4 @@ __pycache__/
 # Brain
 .gemini/
 brain/
+dashboard/config.js
