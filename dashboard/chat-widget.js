@@ -251,8 +251,21 @@ function initChatWidget() {
         const typingId = showTypingIndicator();
 
         try {
+            let apiKey = window.ANTHROPIC_API_KEY || localStorage.getItem('JIMMY_API_KEY');
+
+            // Check if user is submitting an API key (starts with sk-ant)
+            if (text.trim().startsWith('sk-ant')) {
+                localStorage.setItem('JIMMY_API_KEY', text.trim());
+                apiKey = text.trim();
+                hideTypingIndicator(typingId);
+                addMessage('assistant', "✅ Thanks! I've securely saved your API key to your browser's local storage. You can now start asking me questions!");
+                return;
+            }
+
             if (!apiKey) {
-                throw new Error("Missing Anthropic API Key in config.js");
+                hideTypingIndicator(typingId);
+                addMessage('assistant', "⚠️ **Missing API Key**\n\nIt looks like my `config.js` file is missing (which is normal for the live GitHub site to protect your secrets). \n\nTo use me here, you'll need to provide your Anthropic API Key. **Please paste your 'sk-ant...' key into this chat box.** I will save it securely in your browser's local storage so you don't have to enter it again.");
+                return;
             }
 
             // Build article context and statistics
