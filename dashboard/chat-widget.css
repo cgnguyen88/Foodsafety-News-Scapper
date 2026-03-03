@@ -1,3 +1,20 @@
+:root {
+    --primary: #FFBF00;
+    --accent: #FFBF00;
+    --background: #01162C;
+    --background-dark: #022851;
+    --text-primary: #FFFFFF;
+    --text-secondary: #94A3B8;
+    --card-bg: #03356D;
+    --link: #FFBF00;
+    --usda: #EF4444;
+    --fda: #3B82F6;
+    --lgma: #22C55E;
+    --wga: #F59E0B;
+    --spacing-base: 16px;
+    --spacing-section: 40px;
+    --spacing-card: 24px;
+}
 .jimmy-widget-container {
     position: fixed;
     bottom: 24px;
