@@ -1,9 +1,16 @@
 // Glaido AI News Dashboard - Jimmy Chat Widget
 
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("🍓 Jimmy Chat Widget v5 (Proxy Mode) Loaded");
-    initChatWidget();
-});
+// Safe initialization: works even if DOMContentLoaded already fired
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log("🍓 Jimmy Chat Widget v7 (Proxy Mode) Loaded");
+        if (!document.getElementById('jimmy-chat-widget')) initChatWidget();
+    });
+} else {
+    // DOM already ready
+    console.log("🍓 Jimmy Chat Widget v7 (Proxy Mode) Loaded (late init)");
+    if (!document.getElementById('jimmy-chat-widget')) initChatWidget();
+}
 
 function initChatWidget() {
     const chatHtml = `
