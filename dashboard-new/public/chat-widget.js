@@ -217,7 +217,7 @@ Be warm, expert, conversational, and helpful. Use dashboard data for current eve
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    model: "claude-3-5-haiku-20241022",
+                    model: "claude-3-5-sonnet-20241022",
                     max_tokens: 1000,
                     system: systemPrompt,
                     messages: chatHistory,
