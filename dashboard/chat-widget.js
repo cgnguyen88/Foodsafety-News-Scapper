@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initChatWidget() {
-    const chatHtml = \`
+    const chatHtml = `
         <div id="jimmy-chat-widget" class="jimmy-widget-container">
             <div id="jimmy-chat-panel" class="jimmy-chat-panel">
                 <div class="jimmy-header">
@@ -45,7 +45,7 @@ function initChatWidget() {
                 </div>
             </button>
         </div>
-    \`;
+    `;
 
     document.body.insertAdjacentHTML('beforeend', chatHtml);
 
@@ -133,13 +133,11 @@ function initChatWidget() {
 
     function addMessage(role, content) {
         const msgDiv = document.createElement('div');
-        msgDiv.className = \`jimmy-msg-row \${role}\`;
-
+        msgDiv.className = `jimmy-msg-row ${role}`;
         let innerHtml = '';
-        if (role === 'assistant') innerHtml += \`<div class="jimmy-msg-avatar"><span>🍓</span></div>\`;
-        innerHtml += \`<div class="jimmy-msg-bubble"><span>\${renderMarkdown(content)}</span></div>\`;
-        if (role === 'user') innerHtml += \`<div class="jimmy-msg-avatar user"><span>U</span></div>\`;
-
+        if (role === 'assistant') innerHtml += `<div class="jimmy-msg-avatar"><span>🍓</span></div>`;
+        innerHtml += `<div class="jimmy-msg-bubble"><span>${renderMarkdown(content)}</span></div>`;
+        if (role === 'user') innerHtml += `<div class="jimmy-msg-avatar user"><span>U</span></div>`;
         msgDiv.innerHTML = innerHtml;
         messagesContainer.appendChild(msgDiv);
         scrollToBottom();
@@ -151,13 +149,13 @@ function initChatWidget() {
         const msgDiv = document.createElement('div');
         msgDiv.className = 'jimmy-msg-row assistant';
         msgDiv.id = id;
-        msgDiv.innerHTML = \`
+        msgDiv.innerHTML = `
             <div class="jimmy-msg-avatar"><span>🍓</span></div>
             <div class="jimmy-msg-bubble typing">
                 <div class="typing-dot"></div>
                 <div class="typing-dot"></div>
                 <div class="typing-dot"></div>
-            </div>\`;
+            </div>`;
         messagesContainer.appendChild(msgDiv);
         scrollToBottom();
         return id;
@@ -179,30 +177,35 @@ function initChatWidget() {
         const typingId = showTypingIndicator();
 
         try {
-            // Build context
             const dashboardArticles = window.allArticles || [];
             let statsContext = "No dashboard data available.";
             let articleContext = "No current articles available.";
 
             if (dashboardArticles.length > 0) {
                 const total = dashboardArticles.length;
-                const bySource = dashboardArticles.reduce((acc, a) => { acc[a.source] = (acc[a.source] || 0) + 1; return acc; }, {});
+                const bySource = dashboardArticles.reduce((acc, a) => {
+                    acc[a.source] = (acc[a.source] || 0) + 1;
+                    return acc;
+                }, {});
                 const recallTerms = ['recall', 'salmonella', 'listeria', 'alert', 'outbreak', 'undeclared', 'contamination'];
-                const recalls = dashboardArticles.filter(a => recallTerms.some(t => (a.title + " " + (a.excerpt||"")).toLowerCase().includes(t))).length;
-                statsContext = \`Dashboard Statistics (Last 30 Days): Total: \${total}, Recalls/Alerts: \${recalls}, USDA: \${bySource.usda||0}, FDA: \${bySource.fda||0}, LGMA: \${bySource.lgma||0}, WGA: \${bySource.wga||0}\`;
-                const articleList = dashboardArticles.slice(0, 25).map(a => \`- [\${a.source.toUpperCase()}] \${a.title} (\${new Date(a.published_date).toLocaleDateString()})\`).join('\\n');
-                articleContext = \`Top articles on dashboard:\\n\${articleList}\`;
+                const recalls = dashboardArticles.filter(a =>
+                    recallTerms.some(t => (a.title + " " + (a.excerpt || "")).toLowerCase().includes(t))
+                ).length;
+                statsContext = `Dashboard Statistics (Last 30 Days): Total: ${total}, Recalls/Alerts: ${recalls}, USDA: ${bySource.usda || 0}, FDA: ${bySource.fda || 0}, LGMA: ${bySource.lgma || 0}, WGA: ${bySource.wga || 0}`;
+                const articleList = dashboardArticles.slice(0, 25).map(a =>
+                    `- [${a.source.toUpperCase()}] ${a.title} (${new Date(a.published_date).toLocaleDateString()})`
+                ).join('\n');
+                articleContext = `Top articles on dashboard:\n${articleList}`;
             }
 
-            const systemPrompt = \`You are Jimmy, a Comprehensive Food Safety Expert for the "UC Food Safety Intelligence" dashboard.
+            const systemPrompt = `You are Jimmy, a Comprehensive Food Safety Expert for the "UC Food Safety Intelligence" dashboard.
 
-\${statsContext}
+${statsContext}
 
-\${articleContext}
+${articleContext}
 
-Be warm, expert, conversational, and helpful. Use dashboard data for current events; use your training knowledge for historical or general questions. Answer in 2-4 paragraphs.\`;
+Be warm, expert, conversational, and helpful. Use dashboard data for current events; use your training knowledge for historical or general questions. Answer in 2-4 paragraphs.`;
 
-            // Call our server-side proxy instead of Anthropic directly
             const response = await fetch('/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -217,7 +220,7 @@ Be warm, expert, conversational, and helpful. Use dashboard data for current eve
 
             if (!response.ok) {
                 const errData = await response.json().catch(() => ({}));
-                throw new Error(errData.error?.message || \`Server error \${response.status}\`);
+                throw new Error(errData.error?.message || `Server error ${response.status}`);
             }
 
             hideTypingIndicator(typingId);
@@ -233,13 +236,13 @@ Be warm, expert, conversational, and helpful. Use dashboard data for current eve
                 const { done, value } = await reader.read();
                 if (done) break;
                 buffer += decoder.decode(value, { stream: true });
-                const lines = buffer.split("\\n");
+                const lines = buffer.split("\n");
                 buffer = lines.pop() || "";
                 for (const line of lines) {
                     if (line.startsWith("data: ") && line.trim() !== "data: [DONE]") {
                         try {
                             const data = JSON.parse(line.slice(6));
-                            if (data.type === 'content_block_delta' && data.delta?.text) {
+                            if (data.type === 'content_block_delta' && data.delta && data.delta.text) {
                                 replyText += data.delta.text;
                                 span.innerHTML = renderMarkdown(replyText);
                                 scrollToBottom();
@@ -254,7 +257,7 @@ Be warm, expert, conversational, and helpful. Use dashboard data for current eve
         } catch (error) {
             console.error("🍓 Jimmy Error:", error);
             hideTypingIndicator(typingId);
-            addMessage('assistant', \`❌ **Error**: \${error.message}\`);
+            addMessage('assistant', `❌ **Error**: ${error.message}`);
             chatHistory.pop();
         } finally {
             isTyping = false;
