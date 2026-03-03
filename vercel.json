@@ -1,9 +1,4 @@
 {
   "outputDirectory": "dashboard-new/dist",
-  "buildCommand": "cd dashboard-new && npm install && npm run build && cp -r ../dashboard dist/dashboard",
-  "functions": {
-    "api/chat.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "buildCommand": "cd dashboard-new && npm install && npm run build && cp -r ../dashboard dist/dashboard"
 }
