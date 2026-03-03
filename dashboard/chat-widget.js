@@ -1,7 +1,7 @@
 // Glaido AI News Dashboard - Jimmy Chat Widget
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("🍓 Jimmy Chat Widget v4 (Anthropic Haiku) Loaded");
+    console.log("🍓 Jimmy Chat Widget v4.1 (Diagnostics Enabled) Loaded");
     initChatWidget();
 });
 
@@ -85,13 +85,19 @@ function initChatWidget() {
     const quickChips = document.querySelectorAll('.jimmy-chip');
 
     // API Key check
-    const apiKeyRaw = window.ANTHROPIC_API_KEY;
-    const hasValidConfigKey = apiKeyRaw && apiKeyRaw !== "YOUR_API_KEY_HERE" && apiKeyRaw.startsWith('sk-ant');
-    
-    if (!hasValidConfigKey && !localStorage.getItem('JIMMY_API_KEY')) {
+    function getApiKey() {
+        let key = window.ANTHROPIC_API_KEY;
+        if (!key || key === "YOUR_API_KEY_HERE" || !key.trim().startsWith('sk-ant')) {
+            key = localStorage.getItem('JIMMY_API_KEY');
+        }
+        return key ? key.trim() : null;
+    }
+
+    const currentKey = getApiKey();
+    if (currentKey) {
+        console.log(\`🍓 Jimmy: API Key loaded (Length: \${currentKey.length}, Prefix: \${currentKey.substring(0, 10)}...)\`);
+    } else {
         console.warn("🍓 Jimmy: No valid API key found in config.js or localStorage.");
-    } else if (hasValidConfigKey) {
-        console.log("🍓 Jimmy: Using API key from config.js");
     }
 
     // Initialize Greeting
@@ -166,6 +172,7 @@ function initChatWidget() {
     }
 
     function renderMarkdown(text) {
+        if (!text) return "";
         return text
             .replace(/\\*\\*(.*?)\\*\\*/g, "<strong>$1</strong>") // Bold
             .replace(/\\*(.*?)\\*/g, "<em>$1</em>") // Italics
@@ -255,23 +262,17 @@ function initChatWidget() {
         const typingId = showTypingIndicator();
 
         try {
-            let apiKey = window.ANTHROPIC_API_KEY;
-            
-            // Validate window key - if it's the placeholder or missing, check localStorage
-            if (!apiKey || apiKey === "YOUR_API_KEY_HERE" || !apiKey.startsWith('sk-ant')) {
-                apiKey = localStorage.getItem('JIMMY_API_KEY');
-            }
+            let apiKey = getApiKey();
 
             // Check if user is submitting an API key (starts with sk-ant)
             if (text.trim().startsWith('sk-ant')) {
                 localStorage.setItem('JIMMY_API_KEY', text.trim());
-                apiKey = text.trim();
                 hideTypingIndicator(typingId);
                 addMessage('assistant', "✅ Thanks! I've securely saved your API key to your browser's local storage. You can now start asking me questions!");
                 return;
             }
 
-            if (!apiKey || apiKey === "YOUR_API_KEY_HERE") {
+            if (!apiKey) {
                 hideTypingIndicator(typingId);
                 addMessage('assistant', "⚠️ **Missing API Key**\\n\\nIt looks like my \`config.js\` file is missing or has a placeholder. \\n\\nTo use me here, you'll need to provide your Anthropic API Key. **Please paste your 'sk-ant...' key into this chat box.** I will save it securely in your browser's local storage.");
                 return;
@@ -282,8 +283,6 @@ function initChatWidget() {
             let statsContext = "Total Articles: 0";
 
             const dashboardArticles = window.allArticles || [];
-            console.log(\`🤖 Jimmy Context Check: Found \${dashboardArticles.length} total articles.\`);
-
             if (dashboardArticles.length > 0) {
                 const total = dashboardArticles.length;
                 const bySource = dashboardArticles.reduce((acc, a) => {
@@ -291,14 +290,11 @@ function initChatWidget() {
                     return acc;
                 }, {});
 
-                // More robust recall/alert detection
                 const recallTerms = ['recall', 'salmonella', 'listeria', 'alert', 'outbreak', 'undeclared', 'contamination'];
                 const recalls = dashboardArticles.filter(a => {
                     const searchStr = (a.title + " " + (a.excerpt || "")).toLowerCase();
                     return recallTerms.some(term => searchStr.includes(term));
                 }).length;
-
-                console.log(\`📊 Stats built: \${total} total, \${recalls} recalls/alerts found.\`);
 
                 statsContext = \`
 Dashboard Statistics (Last 30 Days):
@@ -316,8 +312,6 @@ Dashboard Statistics (Last 30 Days):
                 ).join('\\n');
 
                 articleContext = \`Here are the top articles currently on the dashboard (30-day window):\\n\${articleList}\`;
-            } else {
-                console.warn("⚠️ Jimmy Error: window.allArticles is empty or undefined!");
             }
 
             const systemPrompt = \`You are Jimmy, a Comprehensive Food Safety Expert and assistant for the "UC Food Safety Intelligence" dashboard.
@@ -327,44 +321,39 @@ Dashboard Statistics (Last 30 Days):
 \${articleContext}
 
 YOUR CORE RESPONSIBILITIES:
-1. COMPREHENSIVE EXPERTISE: You are NOT limited to only the dashboard data provided above. While the dashboard is your source for "Breaking News" (last 30 days), you MUST use your extensive internal knowledge to answer questions about:
-   - Historical food safety events, outbreaks, and recalls (including those from 2025 and earlier).
-   - Food safety regulations (FSMA, HACCP, etc.) and industry best practices.
-   - General agricultural science and safety protocols.
-2. ANALYZE NEWS: Use the "Dashboard Statistics" and "Article List" provided above to answer specific questions about current events.
-3. NO-DATA FALLBACK: If the user asks about a specific date or event NOT found in the dashboard context (e.g., "What happened in Dec 2025?"), DO NOT say you don't have the data. Instead, provide a detailed expert answer based on your internal training.
-4. VERIFICATION QUESTIONS: Proactively ask clarifying questions about the user's business (e.g., "Are you a small farm or large processor?") to provide tailored advice.
-5. TONE: Be warm, expert, conversational, and encouraging. Reference dashboard articles when possible, but prioritize being a helpful expert.
+1. COMPREHENSIVE EXPERTISE: Use your extensive internal knowledge to answer questions about food safety regulations, outbreaks, and industry best practices.
+2. ANALYZE NEWS: Use the dashboard data provided to answer specific questions about current events.
+3. TONE: Be warm, expert, conversational, and encouraging.
 
-Answer questions clearly and concisely (2-4 paragraphs max). If the information isn't in the dashboard, explain that it's historical or general knowledge.\`;
+Answer questions clearly and concisely (2-4 paragraphs max).\`;
 
-            // Prepare payload for Anthropic API
-            const url = 'https://api.anthropic.com/v1/messages';
-
-            const payload = {
-                model: "claude-3-haiku-20240307",
-                max_tokens: 800,
-                temperature: 0.7,
-                system: systemPrompt,
-                messages: chatHistory,
-                stream: true
-            };
-
-            const response = await fetch(url, {
+            // Call Anthropic API
+            const response = await fetch('https://api.anthropic.com/v1/messages', {
                 method: 'POST',
                 headers: {
                     'x-api-key': apiKey,
                     'anthropic-version': '2023-06-01',
                     'content-type': 'application/json',
-                    'anthropic-dangerous-direct-browser-access': 'true' // Required if calling directly from browser
+                    'anthropic-dangerous-direct-browser-access': 'true'
                 },
-                body: JSON.stringify(payload)
+                body: JSON.stringify({
+                    model: "claude-3-5-haiku-20241022", // Use the latest Haiku model
+                    max_tokens: 1000,
+                    system: systemPrompt,
+                    messages: chatHistory,
+                    stream: true
+                })
             });
 
             if (!response.ok) {
                 const errData = await response.json().catch(() => ({}));
-                console.error("Anthropic API Error:", errData);
-                throw new Error(errData.error?.message || \`HTTP Error \${response.status}\`);
+                console.error("🔥 Anthropic API Error Detail:", errData);
+                const msg = errData.error?.message || \`HTTP Error \${response.status}\`;
+                
+                if (msg.includes("Invalid authentication credentials")) {
+                    throw new Error("Invalid API Key. Please verify your Anthropic API Key in config.js or clear local storage.");
+                }
+                throw new Error(msg);
             }
 
             hideTypingIndicator(typingId);
@@ -382,7 +371,7 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
 
                 buffer += decoder.decode(value, { stream: true });
                 const lines = buffer.split("\\n");
-                buffer = lines.pop() || ""; // keep incomplete line in buffer
+                buffer = lines.pop() || "";
 
                 for (const line of lines) {
                     if (line.startsWith("data: ") && line.trim() !== "data: [DONE]") {
@@ -393,9 +382,7 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
                                 span.innerHTML = renderMarkdown(replyText);
                                 scrollToBottom();
                             }
-                        } catch (e) {
-                            // ignore partial JSON errors
-                        }
+                        } catch (e) {}
                     }
                 }
             }
@@ -403,20 +390,12 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
             chatHistory.push({ role: 'assistant', content: replyText });
 
         } catch (error) {
-            console.error("Chat Error:", error);
+            console.error("🍓 Jimmy Error:", error);
             hideTypingIndicator(typingId);
-            addMessage('assistant', \`Sorry, I encountered an error: \${error.message}. Please check console.\`);
-            // Pop the failed user message from history so we don't send it again blindly
+            addMessage('assistant', \`❌ **Error**: \${error.message}. Please check your browser console for more details.\`);
             chatHistory.pop();
         } finally {
             isTyping = false;
-            // Re-enable input if it has value (though it was cleared above)
-            if (inputEl.value.trim()) {
-                sendBtn.classList.remove('disabled');
-                sendBtn.removeAttribute('disabled');
-            }
-
-            // Re-enable chips
             quickChips.forEach(c => {
                 c.style.opacity = '1';
                 c.style.cursor = 'pointer';
