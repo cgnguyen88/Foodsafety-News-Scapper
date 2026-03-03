@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initChatWidget() {
     // Inject chat HTML structure into body
-    const chatHtml = `
+    const chatHtml = \`
         <div id="jimmy-chat-widget" class="jimmy-widget-container">
             <!-- Chat Panel -->
             <div id="jimmy-chat-panel" class="jimmy-chat-panel">
@@ -62,7 +62,7 @@ function initChatWidget() {
                 </div>
             </button>
         </div>
-    `;
+    \`;
 
     document.body.insertAdjacentHTML('beforeend', chatHtml);
 
@@ -85,9 +85,13 @@ function initChatWidget() {
     const quickChips = document.querySelectorAll('.jimmy-chip');
 
     // API Key check
-    const apiKey = window.ANTHROPIC_API_KEY;
-    if (!apiKey) {
-        console.warn("ANTHROPIC_API_KEY is not defined. Jimmy chat feature will not work.");
+    const apiKeyRaw = window.ANTHROPIC_API_KEY;
+    const hasValidConfigKey = apiKeyRaw && apiKeyRaw !== "YOUR_API_KEY_HERE" && apiKeyRaw.startsWith('sk-ant');
+    
+    if (!hasValidConfigKey && !localStorage.getItem('JIMMY_API_KEY')) {
+        console.warn("🍓 Jimmy: No valid API key found in config.js or localStorage.");
+    } else if (hasValidConfigKey) {
+        console.log("🍓 Jimmy: Using API key from config.js");
     }
 
     // Initialize Greeting
@@ -163,36 +167,36 @@ function initChatWidget() {
 
     function renderMarkdown(text) {
         return text
-            .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") // Bold
-            .replace(/\*(.*?)\*/g, "<em>$1</em>") // Italics
-            .replace(/\n/g, "<br/>"); // Newlines
+            .replace(/\\*\\*(.*?)\\*\\*/g, "<strong>$1</strong>") // Bold
+            .replace(/\\*(.*?)\\*/g, "<em>$1</em>") // Italics
+            .replace(/\\n/g, "<br/>"); // Newlines
     }
 
     function addMessage(role, content) {
         const msgDiv = document.createElement('div');
-        msgDiv.className = `jimmy-msg-row ${role}`;
+        msgDiv.className = \`jimmy-msg-row \${role}\`;
 
         let innerHtml = '';
         if (role === 'assistant') {
-            innerHtml += `
+            innerHtml += \`
                 <div class="jimmy-msg-avatar">
                     <span>🍓</span>
                 </div>
-            `;
+            \`;
         }
 
-        innerHtml += `
+        innerHtml += \`
             <div class="jimmy-msg-bubble">
-                <span>${renderMarkdown(content)}</span>
+                <span>\${renderMarkdown(content)}</span>
             </div>
-        `;
+        \`;
 
         if (role === 'user') {
-            innerHtml += `
+            innerHtml += \`
                 <div class="jimmy-msg-avatar user">
                     <span>U</span>
                 </div>
-            `;
+            \`;
         }
 
         msgDiv.innerHTML = innerHtml;
@@ -207,7 +211,7 @@ function initChatWidget() {
         msgDiv.className = 'jimmy-msg-row assistant';
         msgDiv.id = indicatorId;
 
-        msgDiv.innerHTML = `
+        msgDiv.innerHTML = \`
             <div class="jimmy-msg-avatar">
                 <span>🍓</span>
             </div>
@@ -216,7 +220,7 @@ function initChatWidget() {
                 <div class="typing-dot"></div>
                 <div class="typing-dot"></div>
             </div>
-        `;
+        \`;
 
         messagesContainer.appendChild(msgDiv);
         scrollToBottom();
@@ -251,7 +255,12 @@ function initChatWidget() {
         const typingId = showTypingIndicator();
 
         try {
-            let apiKey = window.ANTHROPIC_API_KEY || localStorage.getItem('JIMMY_API_KEY');
+            let apiKey = window.ANTHROPIC_API_KEY;
+            
+            // Validate window key - if it's the placeholder or missing, check localStorage
+            if (!apiKey || apiKey === "YOUR_API_KEY_HERE" || !apiKey.startsWith('sk-ant')) {
+                apiKey = localStorage.getItem('JIMMY_API_KEY');
+            }
 
             // Check if user is submitting an API key (starts with sk-ant)
             if (text.trim().startsWith('sk-ant')) {
@@ -262,9 +271,9 @@ function initChatWidget() {
                 return;
             }
 
-            if (!apiKey) {
+            if (!apiKey || apiKey === "YOUR_API_KEY_HERE") {
                 hideTypingIndicator(typingId);
-                addMessage('assistant', "⚠️ **Missing API Key**\n\nIt looks like my `config.js` file is missing (which is normal for the live GitHub site to protect your secrets). \n\nTo use me here, you'll need to provide your Anthropic API Key. **Please paste your 'sk-ant...' key into this chat box.** I will save it securely in your browser's local storage so you don't have to enter it again.");
+                addMessage('assistant', "⚠️ **Missing API Key**\\n\\nIt looks like my \`config.js\` file is missing or has a placeholder. \\n\\nTo use me here, you'll need to provide your Anthropic API Key. **Please paste your 'sk-ant...' key into this chat box.** I will save it securely in your browser's local storage.");
                 return;
             }
 
@@ -273,7 +282,7 @@ function initChatWidget() {
             let statsContext = "Total Articles: 0";
 
             const dashboardArticles = window.allArticles || [];
-            console.log(`🤖 Jimmy Context Check: Found ${dashboardArticles.length} total articles.`);
+            console.log(\`🤖 Jimmy Context Check: Found \${dashboardArticles.length} total articles.\`);
 
             if (dashboardArticles.length > 0) {
                 const total = dashboardArticles.length;
@@ -289,33 +298,33 @@ function initChatWidget() {
                     return recallTerms.some(term => searchStr.includes(term));
                 }).length;
 
-                console.log(`📊 Stats built: ${total} total, ${recalls} recalls/alerts found.`);
+                console.log(\`📊 Stats built: \${total} total, \${recalls} recalls/alerts found.\`);
 
-                statsContext = `
+                statsContext = \`
 Dashboard Statistics (Last 30 Days):
-- Total Articles: ${total}
-- Recent Recalls/Alerts Found: ${recalls}
+- Total Articles: \${total}
+- Recent Recalls/Alerts Found: \${recalls}
 - BREAKDOWN BY SOURCE:
-  * USDA: ${bySource.usda || 0}
-  * FDA: ${bySource.fda || 0}
-  * LGMA: ${bySource.lgma || 0}
-  * WGA: ${bySource.wga || 0}
-                `.trim();
+  * USDA: \${bySource.usda || 0}
+  * FDA: \${bySource.fda || 0}
+  * LGMA: \${bySource.lgma || 0}
+  * WGA: \${bySource.wga || 0}
+                \`.trim();
 
                 const articleList = dashboardArticles.slice(0, 25).map(a =>
-                    `- [${a.source.toUpperCase()}] ${a.title} (${new Date(a.published_date).toLocaleDateString()})\n  URL: ${a.url}`
-                ).join('\n');
+                    \`- [\${a.source.toUpperCase()}] \${a.title} (\${new Date(a.published_date).toLocaleDateString()})\\n  URL: \${a.url}\`
+                ).join('\\n');
 
-                articleContext = `Here are the top articles currently on the dashboard (30-day window):\n${articleList}`;
+                articleContext = \`Here are the top articles currently on the dashboard (30-day window):\\n\${articleList}\`;
             } else {
                 console.warn("⚠️ Jimmy Error: window.allArticles is empty or undefined!");
             }
 
-            const systemPrompt = `You are Jimmy, a Comprehensive Food Safety Expert and assistant for the "UC Food Safety Intelligence" dashboard.
+            const systemPrompt = \`You are Jimmy, a Comprehensive Food Safety Expert and assistant for the "UC Food Safety Intelligence" dashboard.
 
-${statsContext}
+\${statsContext}
 
-${articleContext}
+\${articleContext}
 
 YOUR CORE RESPONSIBILITIES:
 1. COMPREHENSIVE EXPERTISE: You are NOT limited to only the dashboard data provided above. While the dashboard is your source for "Breaking News" (last 30 days), you MUST use your extensive internal knowledge to answer questions about:
@@ -327,11 +336,9 @@ YOUR CORE RESPONSIBILITIES:
 4. VERIFICATION QUESTIONS: Proactively ask clarifying questions about the user's business (e.g., "Are you a small farm or large processor?") to provide tailored advice.
 5. TONE: Be warm, expert, conversational, and encouraging. Reference dashboard articles when possible, but prioritize being a helpful expert.
 
-Answer questions clearly and concisely (2-4 paragraphs max). If the information isn't in the dashboard, explain that it's historical or general knowledge.`;
+Answer questions clearly and concisely (2-4 paragraphs max). If the information isn't in the dashboard, explain that it's historical or general knowledge.\`;
 
             // Prepare payload for Anthropic API
-            // Note: browser fetching from api.anthropic.com usually fails due to CORS.
-            // A proxy server is strongly recommended for production.
             const url = 'https://api.anthropic.com/v1/messages';
 
             const payload = {
@@ -357,7 +364,7 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
             if (!response.ok) {
                 const errData = await response.json().catch(() => ({}));
                 console.error("Anthropic API Error:", errData);
-                throw new Error(errData.error?.message || `HTTP Error ${response.status}`);
+                throw new Error(errData.error?.message || \`HTTP Error \${response.status}\`);
             }
 
             hideTypingIndicator(typingId);
@@ -374,7 +381,7 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
                 if (done) break;
 
                 buffer += decoder.decode(value, { stream: true });
-                const lines = buffer.split("\n");
+                const lines = buffer.split("\\n");
                 buffer = lines.pop() || ""; // keep incomplete line in buffer
 
                 for (const line of lines) {
@@ -398,7 +405,7 @@ Answer questions clearly and concisely (2-4 paragraphs max). If the information 
         } catch (error) {
             console.error("Chat Error:", error);
             hideTypingIndicator(typingId);
-            addMessage('assistant', `Sorry, I encountered an error: ${error.message}. Please check console.`);
+            addMessage('assistant', \`Sorry, I encountered an error: \${error.message}. Please check console.\`);
             // Pop the failed user message from history so we don't send it again blindly
             chatHistory.pop();
         } finally {
