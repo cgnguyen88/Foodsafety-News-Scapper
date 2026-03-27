@@ -1,21 +1,17 @@
-import React, { useState, useEffect } from 'react'
-import AuthLayout from './components/auth/AuthLayout'
+import React, { useEffect } from 'react'
 import './App.css'
 
 function App() {
-  const [user, setUser] = useState(null);
+  useEffect(() => {
+    // Redirect directly to the dashboard to bypass sign-up/login
+    window.location.href = "/dashboard/";
+  }, []);
 
-  React.useEffect(() => {
-    if (user) {
-      window.location.href = "/dashboard/";
-    }
-  }, [user]);
-
-  if (!user) {
-    return <AuthLayout onLogin={setUser} />
-  }
-
-  return null;
+  return (
+    <div className="redirect-container">
+      <p>Redirecting to dashboard...</p>
+    </div>
+  );
 }
 
 export default App

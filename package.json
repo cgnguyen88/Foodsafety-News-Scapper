@@ -9,7 +9,7 @@
     "scrape:rundown": "ts-node tools/scrape_ai_rundown.ts",
     "scrape:reddit": "ts-node tools/scrape_reddit.ts",
     "aggregate": "ts-node tools/aggregate_sources.ts",
-    "dev": "http-server dashboard -p 8080 -o",
+    "start": "node server.js",
     "test": "npm run scrape"
   },
   "keywords": [],
@@ -19,7 +19,10 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.95.3",
     "@types/node": "^25.2.3",
+    "body-parser": "^2.2.2",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "node-fetch": "^2.7.0",
     "openai": "^6.21.0",
     "puppeteer": "^24.37.3",
