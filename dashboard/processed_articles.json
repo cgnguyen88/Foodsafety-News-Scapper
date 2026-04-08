@@ -1,118 +1,274 @@
 {
   "articles": [
     {
-      "id": "0779d7c0-f62e-4be1-b158-50e10518bb4b",
+      "id": "633f6935-dcb9-405d-907f-bb76acea71ba",
+      "source": "fda",
+      "title": "Nalpac Issues Voluntary Nationwide Recall of DTF Sexual Chocolate Due to the Presence of the Pharmaceutical Ingredient’s Sildenafil and Tadalafil",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nalpac-issues-voluntary-nationwide-recall-dtf-sexual-chocolate-due-presence-pharmaceutical",
+      "published_date": "2026-04-06T19:23:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE – Date – Ferndale, Michigan. Nalpac is voluntarily recalling DTF Sexual Chocolate it purchased and resold. The products have been found to contain sildenafil and tadalafil.",
+      "scraped_at": "2026-04-08T21:53:26.542Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_240.jpg?itok=Kh97zYck"
+    },
+    {
+      "id": "6d99ef15-0b2b-43ad-857f-2c10672468b2",
+      "source": "fda",
+      "title": "Wawa Issues Product Recall on 16-oz. Wawa Brand Iced Tea Lemon, Iced Tea Diet Lemon, Diet Lemonade and Fruit Punch Due to Possible Undeclared Milk Allergen",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wawa-issues-product-recall-16-oz-wawa-brand-iced-tea-lemon-iced-tea-diet-lemon-diet-lemonade-and",
+      "published_date": "2026-04-03T20:39:00.000Z",
+      "excerpt": "April 3, 2026 Wawa, of Media PA, is recalling its 16 oz pints of Wawa Iced Tea Lemon, Wawa Iced Tea Diet Lemon, Wawa Diet Lemonade and Wawa Fruit Punch produced by the Wawa Beverage Company for sale i",
+      "scraped_at": "2026-04-08T21:53:26.708Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_166.png?itok=sbIz3-JN"
+    },
+    {
+      "id": "12752f35-52fc-4a89-9ecc-694aab7e9bc8",
+      "source": "fda",
+      "title": "Tops Issues Recall of Christopher Ranch Peeled Garlic & Garland Fresh Peeled Garlic Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tops-issues-recall-christopher-ranch-peeled-garlic-garland-fresh-peeled-garlic-because-possible",
+      "published_date": "2026-04-01T20:49:00.000Z",
+      "excerpt": "Tops Friendly Markets of Williamsville, NY is recalling all codes of Christopher Ranch Peeled Garlic and Garland Peeled Garlic because it has the potential to be contaminated with Clostridium botulinu",
+      "scraped_at": "2026-04-08T21:53:27.210Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_239.jpg?itok=gfqOAc3w"
+    },
+    {
+      "id": "cbc07624-0dea-4bb2-9234-6bb358864131",
+      "source": "fda",
+      "title": "Aphreseller (Buy-herbal.com) Issues Voluntary Nationwide Recall of Kian Pee Wan Capsules Due the Presence of Undeclared Dexamethasone and Cyproheptadine",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aphreseller-buy-herbalcom-issues-voluntary-nationwide-recall-kian-pee-wan-capsules-due-presence",
+      "published_date": "2026-03-30T20:03:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE – 03/30/2026 - Flushing, New York, Aphreseller (Ebay seller ID), Buy-herbal.com is recalling all lots of Kian Pee Wan capsules to the consumer level. FDA analysis has found that",
+      "scraped_at": "2026-04-08T21:53:27.382Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_237.jpg?itok=4M5JFCSW"
+    },
+    {
+      "id": "3cf8bc7b-13a8-4e00-8ce2-f9ef602b662f",
+      "source": "fda",
+      "title": "Schreiber Foods, Inc. Issues Allergy Alert on Undeclared Tree Nuts (Almonds) in Product",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/schreiber-foods-inc-issues-allergy-alert-undeclared-tree-nuts-almonds-product",
+      "published_date": "2026-03-27T18:42:00.000Z",
+      "excerpt": "Schreiber Foods, Inc of Green Bay, WI is voluntarily recalling 144 Cases of Honey Almond Cream Cheese Spread, because it may contain undeclared almonds. People who have an allergy or severe sensitivit",
+      "scraped_at": "2026-04-08T21:53:27.545Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_165.png?itok=18ttiBLU"
+    },
+    {
+      "id": "a5500bc3-2b93-4a63-82eb-48d2e83b0690",
+      "source": "fda",
+      "title": "Blueroot Health Issues Voluntary Allergy Alert on Undeclared Egg, Hazelnut, and Soy in Vital Nutrients Aller-C Dietary Supplements",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blueroot-health-issues-voluntary-allergy-alert-undeclared-egg-hazelnut-and-soy-vital-nutrients-aller",
+      "published_date": "2026-03-27T16:55:00.000Z",
+      "excerpt": "March 27, 2026 — Middletown, CT — Blueroot Health of Middletown, Connecticut is voluntarily recalling two lots of Vital Nutrients Aller-C dietary supplements due to the potential to contain undeclared",
+      "scraped_at": "2026-04-08T21:53:27.703Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_164.png?itok=OTnkO1GM"
+    },
+    {
+      "id": "797147f8-3b58-4dc4-9be8-3fc58bd494d3",
+      "source": "fda",
+      "title": "Amneal Pharmaceuticals LLC Issues Voluntary Nationwide Recall of Magnesium Sulfate in Water for Injection, USP 4 g/100mL (NDC 70121-1720-3) Due to a Product Mix-up with Tranexamic Acid in 0.7% Sodium Chloride Injection, 10 mg/mL",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/amneal-pharmaceuticals-llc-issues-voluntary-nationwide-recall-magnesium-sulfate-water-injection-usp",
+      "published_date": "2026-03-24T21:48:00.000Z",
+      "excerpt": "Bridgewater, New Jersey, Amneal Pharmaceuticals LLC is voluntarily recalling one lot of Magnesium Sulfate in Water for Injection, USP, 4g/100mL, IV bag, to the hospital level. A Magnesium Sulfate in W",
+      "scraped_at": "2026-04-08T21:53:27.766Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_235.jpg?itok=9ioEohC4"
+    },
+    {
+      "id": "d2513e74-b1ad-4541-b48c-482b1eb663a3",
+      "source": "fda",
+      "title": "Cardinal Health Issues Voluntary Nationwide Recall of Webcol™ Large Alcohol Prep Pad",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/cardinal-health-issues-voluntary-nationwide-recall-webcoltm-large-alcohol-prep-pad",
+      "published_date": "2026-03-19T18:04:00.000Z",
+      "excerpt": "DUBLIN, Ohio, March 19, 2026 – Cardinal Health has issued a voluntary recall for select lots of Webcol™ Large Alcohol Prep Pads (70% isopropyl alcohol) to the consumer level. The product is being reca",
+      "scraped_at": "2026-04-08T21:53:28.101Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_163.png?itok=LEpa2wQq"
+    },
+    {
+      "id": "8d14c433-1a7e-46cf-a705-a500320cd984",
+      "source": "fda",
+      "title": "Gear Isle Issues Voluntary Nationwide Recall of Chocolate Product Due to Undeclared Sildenafil and Tadalafil",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gear-isle-issues-voluntary-nationwide-recall-chocolate-product-due-undeclared-sildenafil-and",
+      "published_date": "2026-03-19T15:58:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE – March 19, 2026– West Sacramento, CA, Gear Isle is voluntarily recalling the following products to the consumer level. The products have been found to contain undeclared active",
+      "scraped_at": "2026-04-08T21:53:28.162Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_236.jpg?itok=9fKRTMNl"
+    },
+    {
+      "id": "d59d367e-9f60-455e-9eeb-a478e2264668",
+      "source": "fda",
+      "title": "Mama Grande Tortilla Factory Issues Allergy Alert on Undeclared Wheat and Soy in Gorditas de Azucar and Doraditas de Azucar",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mama-grande-tortilla-factory-issues-allergy-alert-undeclared-wheat-and-soy-gorditas-de-azucar-and",
+      "published_date": "2026-03-17T16:59:00.000Z",
+      "excerpt": "Mama Grande Tortilla Factory of Mission, Texas is recalling Gorditas de Azucar and Doraditas de Azucar because they may contain undeclared wheat and soy. People who have an allergy or severe sensitivi",
+      "scraped_at": "2026-04-08T21:53:28.594Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_234.jpg?itok=ByxUZrGQ"
+    },
+    {
+      "id": "384f0d11-c289-4c6b-b475-e0930ea30989",
+      "source": "fda",
+      "title": "Pure Vitamins and Natural Supplements, LLC Issues Voluntary Nationwide Recall of Honey Products Due to Undeclared Sildenafil and Tadalafil",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pure-vitamins-and-natural-supplements-llc-issues-voluntary-nationwide-recall-honey-products-due",
+      "published_date": "2026-03-14T21:58:00.000Z",
+      "excerpt": "March 14, 2026- Pure Vitamins and Natural Supplements, LLC of Tampa, FL is voluntarily recalling Boner Bear Honey, Red Bull Extreme and Blue Bull Extreme. FDA laboratory analysis confirmed that Boner",
+      "scraped_at": "2026-04-08T21:53:28.793Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_233.jpg?itok=N9jJMtyH"
+    },
+    {
+      "id": "a43c817f-9f18-4fe4-8d17-63abaaa920fd",
+      "source": "fda",
+      "title": "Lidl US Issues Allergy Alert on Undeclared Hazelnuts in Favorina Chocolate Ladybugs – German-Style Nougat",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-issues-allergy-alert-undeclared-hazelnuts-favorina-chocolate-ladybugs-german-style-nougat",
+      "published_date": "2026-03-12T20:45:00.000Z",
+      "excerpt": "Lidl US is recalling all lots of their Favorina Chocolate Ladybugs - German-Style Nougat 3.52 oz box UPC 20304492 due to undeclared hazelnut allergen. People who have allergies to hazelnuts run the ri",
+      "scraped_at": "2026-04-08T21:53:28.978Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_232.jpg?itok=ylzcsB7R"
+    },
+    {
+      "id": "6fb48bd9-3c27-47d9-80fa-2653ea0d3eb1",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | News Archive",
       "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-04-07T21:53:51.350Z",
+      "published_date": "2026-04-08T21:53:48.189Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:51.350Z",
+      "scraped_at": "2026-04-08T21:53:48.189Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "ec48aa61-41d3-415d-b9a3-0a1e74fed2ac",
+      "id": "61641701-e4ba-4832-948f-ef57fa238549",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California LGMA Embarks…",
       "url": "https://lgma.ca.gov/news/test-learn-study",
-      "published_date": "2026-04-07T21:53:50.607Z",
+      "published_date": "2026-04-08T21:53:46.877Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:50.607Z",
+      "scraped_at": "2026-04-08T21:53:46.877Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
     },
     {
-      "id": "701fc586-c5d2-456c-9dd7-a33c3253047f",
+      "id": "452ef958-8355-42bd-8802-45904762678b",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Advancing Food Safety…",
       "url": "https://lgma.ca.gov/news/advancing-food-safety-standards-through-science-data-continuous-improvement",
-      "published_date": "2026-04-07T21:53:49.726Z",
+      "published_date": "2026-04-08T21:53:45.352Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:49.726Z",
+      "scraped_at": "2026-04-08T21:53:45.352Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
     },
     {
-      "id": "4effcb8e-f02e-40a3-b92a-3bc93a7bf442",
+      "id": "609a16c0-ca4d-4ddb-b224-5d88159a6b87",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
       "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
-      "published_date": "2026-04-07T21:53:48.730Z",
+      "published_date": "2026-04-08T21:53:43.784Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:48.730Z",
+      "scraped_at": "2026-04-08T21:53:43.784Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
     },
     {
-      "id": "8305dd35-d3f5-410e-a3b7-bf2ac3ecd3ec",
+      "id": "b8c552ac-daa0-41c0-bc6e-721578bad6b6",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
       "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
-      "published_date": "2026-04-07T21:53:47.669Z",
+      "published_date": "2026-04-08T21:53:42.089Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:47.669Z",
+      "scraped_at": "2026-04-08T21:53:42.089Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
     },
     {
-      "id": "8d844af2-d6f2-4205-8c47-9ba0450534e2",
+      "id": "3f2b0674-6cf6-42ba-ac49-aea8db92a2f2",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
       "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
-      "published_date": "2026-04-07T21:53:44.703Z",
+      "published_date": "2026-04-08T21:53:38.929Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:44.703Z",
+      "scraped_at": "2026-04-08T21:53:38.929Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
     },
     {
-      "id": "c796d030-5ff2-4d8d-9fd6-e16d5e6b9895",
+      "id": "6c5ddec8-bcb2-4bd0-a031-2f1eaa50fa74",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
       "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
-      "published_date": "2026-04-07T21:53:43.758Z",
+      "published_date": "2026-04-08T21:53:37.665Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:43.758Z",
+      "scraped_at": "2026-04-08T21:53:37.665Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/harvest.jpg?mtime=1620237977"
     },
     {
-      "id": "6a6059c0-39ed-4bf8-b18d-02c357c54e7b",
+      "id": "f2f13e57-835a-4158-94a9-d6b70ea2bea7",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | The Big Picture",
       "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-04-07T21:53:42.903Z",
+      "published_date": "2026-04-08T21:53:36.402Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:42.903Z",
+      "scraped_at": "2026-04-08T21:53:36.402Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "f9d73681-89d1-4145-b817-faa148cc3105",
+      "id": "c2fc7851-c405-44d1-a4fc-ec72242cf551",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Metrics",
       "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-04-07T21:53:42.171Z",
+      "published_date": "2026-04-08T21:53:35.053Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:42.171Z",
+      "scraped_at": "2026-04-08T21:53:35.053Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "ccc5e578-4298-4a9f-87c4-36f2a7552ed7",
+      "id": "44aeaa92-1bb7-4900-bd75-d7b2b8c67186",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Members",
       "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-04-07T21:53:41.582Z",
+      "published_date": "2026-04-08T21:53:33.714Z",
       "excerpt": "",
-      "scraped_at": "2026-04-07T21:53:41.582Z",
+      "scraped_at": "2026-04-08T21:53:33.714Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "ffc73202-6eed-4596-9469-32d456438898",
+      "source": "fda",
+      "title": "Karns Foods Issues Voluntary Recall of Mini Dark Chocolate Raspberry Cups Due to Undeclared Peanuts",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/karns-foods-issues-voluntary-recall-mini-dark-chocolate-raspberry-cups-due-undeclared-peanuts",
+      "published_date": "2026-04-02T20:52:00.000Z",
+      "excerpt": "Mechanicsburg, PA — April 2, 2026 Karns Foods is voluntarily recalling its approximate 8-ounce packages of \"Mini Dark Chocolate Raspberry Cups\" because they may contain undeclared peanuts. People who",
+      "scraped_at": "2026-04-08T21:53:26.877Z"
+    },
+    {
+      "id": "329133a5-6b3c-48b4-9a9d-ec31d76ac87b",
+      "source": "fda",
+      "title": "Voluntary Recall",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall",
+      "published_date": "2026-04-02T20:47:00.000Z",
+      "excerpt": "The FDA has issued an Advisory without batch numbers or expiration dates.  At the request of the FDA, RAW FARM is issuing a Voluntary Recall of the batches of cheese below and any batches produced pri",
+      "scraped_at": "2026-04-08T21:53:27.047Z"
+    },
+    {
+      "id": "ec26d263-9ff7-47c0-b82a-92edd0c45559",
+      "source": "fda",
+      "title": "Falcon Trading Company, Inc. Issues a Recall on a the Following Organic Black Bean Items, that Contain Pesticide Residue",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/falcon-trading-company-inc-issues-recall-following-organic-black-bean-items-contain-pesticide",
+      "published_date": "2026-03-24T19:12:00.000Z",
+      "excerpt": "Falcon Trading Company, Inc. of Royal Oaks CA is recalling the three items listed below. Because these items are sold in bulk, the lot numbers can be mixed in the sales bin. Therefore, we are recallin",
+      "scraped_at": "2026-04-08T21:53:27.925Z"
+    },
+    {
+      "id": "f5260a11-6007-40d9-92be-1f8f4cab28d3",
+      "source": "fda",
+      "title": "Insulet Initiates Voluntary Medical Device Correction for Certain Omnipod® 5 Pods in the U.S.",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/insulet-initiates-voluntary-medical-device-correction-certain-omnipodr-5-pods-us",
+      "published_date": "2026-03-12T15:01:00.000Z",
+      "excerpt": "ACTON, Mass.--(BUSINESS WIRE)-- Insulet Corporation (NASDAQ: PODD) (“Insulet” or the “Company”) today initiated a voluntary Medical Device Correction for specific lots of Omnipod® 5 Pods after identif",
+      "scraped_at": "2026-04-08T21:53:29.040Z"
     }
   ],
-  "last_updated": "2026-04-07T21:53:51.456Z",
+  "last_updated": "2026-04-08T21:53:48.296Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 26,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 30,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
-    "time_filtered": 0
+    "time_filtered": 4
   }
 }
