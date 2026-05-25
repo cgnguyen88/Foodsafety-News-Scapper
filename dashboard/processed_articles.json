@@ -1,306 +1,287 @@
 {
   "articles": [
     {
-      "id": "9a042c93-24de-4495-a77b-6a70558c31f8",
-      "source": "fda",
-      "title": "SKS Copack Recalls Various Specialty Beverages Because of Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sks-copack-recalls-various-specialty-beverages-because-possible-health-risk",
-      "published_date": "2026-05-22T15:52:00.000Z",
-      "excerpt": "SKS Copack of Cerritos, CA is recalling various specialty beverages, because they have the potential to be contaminated with Salmonella, an organism which can cause serious and sometimes fatal infecti",
-      "scraped_at": "2026-05-24T21:53:31.554Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_264.jpg?itok=oBqqpV_H"
-    },
-    {
-      "id": "15b586fb-6477-438d-a256-913f0e0642de",
-      "source": "fda",
-      "title": "Kettle Cuisine Issues Allergy Alert For Undeclared Shrimp In Whole Foods Market Kitchen Minestrone Soup",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kettle-cuisine-issues-allergy-alert-undeclared-shrimp-whole-foods-market-kitchen-minestrone-soup",
-      "published_date": "2026-05-21T17:40:00.000Z",
-      "excerpt": "Kettle Cuisine of Lynn, MA is recalling 24oz cups of Whole Foods Market Kitchen Minestrone Soup which may contain undeclared shrimp. People who have allergies to Crustacean Shellfish (Shrimp) run the",
-      "scraped_at": "2026-05-24T21:53:31.810Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_182.png?itok=NcwgG4QO"
-    },
-    {
-      "id": "e55d9de8-de2f-4a52-b7c3-2129424855a0",
-      "source": "fda",
-      "title": "JXK Enterprises, Inc Issues Voluntary Nationwide Recall of Boner Bears Chocolate Due to Undeclared Sildenafil",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jxk-enterprises-inc-issues-voluntary-nationwide-recall-boner-bears-chocolate-due-undeclared",
-      "published_date": "2026-05-21T16:08:00.000Z",
-      "excerpt": "JXK Enterprises, Inc is voluntarily recalling Boner Bears Chocolate, Lot #BB21125, after being notified that FDA laboratory analysis confirmed the presence of sildenafil, an active ingredient in the F",
-      "scraped_at": "2026-05-24T21:53:31.946Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/better_image_1.png?itok=i9rvN_pm"
-    },
-    {
-      "id": "afdf8339-b160-4e64-b2bb-008920740650",
-      "source": "fda",
-      "title": "Hometown Food Company Issues Allergy Alert on Undeclared Egg in Birch Benders 12oz Sweet Potato Pancake Mix",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hometown-food-company-issues-allergy-alert-undeclared-egg-birch-benders-12oz-sweet-potato-pancake",
-      "published_date": "2026-05-20T17:26:00.000Z",
-      "excerpt": "Chicago (May 20, 2026) – Hometown Food Company, in cooperation with Element Food Solutions, today initiated a limited, voluntary recall of a single lot code of its Birch Benders 12oz Sweet Potato Panc",
-      "scraped_at": "2026-05-24T21:53:32.094Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_181.png?itok=BND4CbRx"
-    },
-    {
-      "id": "8e148f85-465f-4f9c-9362-9201c7698c7b",
-      "source": "fda",
-      "title": "Nassar Investments Recalls Malazi Tahina Due to Salmonella Contamination",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nassar-investments-recalls-malazi-tahina-due-salmonella-contamination",
-      "published_date": "2026-05-18T22:52:00.000Z",
-      "excerpt": "RALEIGH, NC – MAY 19, 2026 – Nassar Investments is recalling Malazi Tahina, 1Kg bottle EXP: 30/12/2026 UPC 6 224011 088244 due to a contamination of Salmonella. Salmonella, an organism which can cause",
-      "scraped_at": "2026-05-24T21:53:32.236Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_180.png?itok=dcoICPSW"
-    },
-    {
-      "id": "e98a5852-eb99-458e-a25d-e92081886fb4",
-      "source": "fda",
-      "title": "Sugar Foods Issues Recall of Specific Lots of Kroger Homestyle Cheese Garlic Croutons Due to Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sugar-foods-issues-recall-specific-lots-kroger-homestyle-cheese-garlic-croutons-due-possible-health",
-      "published_date": "2026-05-15T22:05:00.000Z",
-      "excerpt": "WESTLAKE VILLAGE, CA – May 15, 2026 — Sugar Foods LLC is recalling certain lots of Kroger Homestyle Cheese Garlic Croutons, 5oz pouches, UPC 0 11110 81353 4 due to the potential for Salmonella contami",
-      "scraped_at": "2026-05-24T21:53:32.412Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_262.jpg?itok=BO8rqhKA"
-    },
-    {
-      "id": "e66069d1-0ea9-4d7a-8fee-0af9ebcf0bfd",
-      "source": "fda",
-      "title": "Blackstone Products Recalls Parmesan Ranch Seasoning Because of Possible Salmonella Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blackstone-products-recalls-parmesan-ranch-seasoning-because-possible-salmonella-health-risk",
-      "published_date": "2026-05-15T15:59:00.000Z",
-      "excerpt": "Blackstone Products of Providence, Utah is voluntarily recalling certain lots of Blackstone Parmesan Ranch seasoning products because they have the potential to be contaminated with Salmonella.  Black",
-      "scraped_at": "2026-05-24T21:53:32.722Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_179.png?itok=wQH0Hjyi"
-    },
-    {
-      "id": "c23278fd-3ecf-43cb-9dfd-965a8af8e061",
-      "source": "fda",
-      "title": "Straus Family Creamery Voluntarily Recalls Select Flavors of  Organic Ice Cream Due to Potential Presence of Foreign Material",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/straus-family-creamery-voluntarily-recalls-select-flavors-organic-ice-cream-due-potential-presence",
-      "published_date": "2026-05-14T15:43:00.000Z",
-      "excerpt": "May 14, 2026; Petaluma, CA;  — Straus Family Creamery is voluntarily recalling a small number of production runs of select flavors and sizes of its Organic Ice Cream due to the potential presence of m",
-      "scraped_at": "2026-05-24T21:53:32.896Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_178.png?itok=7BJ5InKS"
-    },
-    {
-      "id": "7eca3865-4745-4338-a400-399720f8357e",
-      "source": "fda",
-      "title": "Sun Pharmaceutical Industries, Inc. (Sun Pharma) Initiates Voluntary U.S. Nationwide Recall of DOXOrubicin Hydrochloride Liposome Injection 50mg/25 mL Due To Potential Presence of Glass Particles",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sun-pharmaceutical-industries-inc-sun-pharma-initiates-voluntary-us-nationwide-recall-doxorubicin",
-      "published_date": "2026-05-13T22:21:00.000Z",
-      "excerpt": "FOR IMMEDIATE RELEASE MUMBAI, INDIA and PRINCETON, NJ - May 13, 2026 – Sun Pharma is voluntarily recalling within the U.S. to the hospital/user level, one batch of DOXOrubicin Hydrochloride Liposome I",
-      "scraped_at": "2026-05-24T21:53:33.092Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_176.png?itok=otrBR_0a"
-    },
-    {
-      "id": "07955a15-f1c9-4e2d-ba43-e2b90ecd3bc0",
-      "source": "fda",
-      "title": "Terra Medi LLC Recalls Karagounis Bros – Hellas Meze Golden Smoked Whole Herring Due to Improper Evisceration",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/terra-medi-llc-recalls-karagounis-bros-hellas-meze-golden-smoked-whole-herring-due-improper",
-      "published_date": "2026-05-13T18:49:00.000Z",
-      "excerpt": "Terra Medi LLC of Long Island City, NY is recalling all of the imported Hellas Meze Golden Smoked Whole herring vacuum packaged because of improper evisceration of the fish. The sale of uneviscerated",
-      "scraped_at": "2026-05-24T21:53:33.462Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_260.jpg?itok=3xGF-jkk"
-    },
-    {
-      "id": "c04573e4-fe3c-4532-a09c-25f237a7dc82",
-      "source": "fda",
-      "title": "IQ Produce LCC. Recalls Enoki Mushrooms Because of Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/iq-produce-lcc-recalls-enoki-mushrooms-because-possible-health-risk",
-      "published_date": "2026-05-13T18:35:00.000Z",
-      "excerpt": "IQ PRODUCE of VERNON, CA is recalling 528 CASES/ MUSHROOM ENOKI 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fat",
-      "scraped_at": "2026-05-24T21:53:33.643Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_259.jpg?itok=g-2FxO-v"
-    },
-    {
-      "id": "3e702aa1-a463-4d75-848e-bde001e45113",
-      "source": "fda",
-      "title": "HH Fresh Trading. Recalls TW Enoki Mushrooms 150g Because of Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hh-fresh-trading-recalls-tw-enoki-mushrooms-150g-because-possible-health-risk",
-      "published_date": "2026-05-13T17:45:00.000Z",
-      "excerpt": "HH Fresh Trading of Los Angeles, California State is recalling 120 cases of Enoki Mushroom 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can caus",
-      "scraped_at": "2026-05-24T21:53:33.854Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_177.png?itok=4QaxB5z_"
-    },
-    {
-      "id": "66adc44b-155c-4deb-9c3b-cc3c48d6d5bf",
-      "source": "fda",
-      "title": "Fly By Jing Issues Voluntary Recall of Creamy Sesame  Noodles Due to Potential Cross-Contact with Peanuts",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fly-jing-issues-voluntary-recall-creamy-sesame-noodles-due-potential-cross-contact-peanuts",
-      "published_date": "2026-05-12T15:42:00.000Z",
-      "excerpt": "LOS ANGELES, CA — May 12 2026 Fly By Jing is voluntarily recalling certain lots of Fly By Jing Creamy Sesame Noodles (single pack and 4-pack) because the products may have been exposed to cross-contac",
-      "scraped_at": "2026-05-24T21:53:34.228Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_258.jpg?itok=wx7b6dJ4"
-    },
-    {
-      "id": "f31bc960-adb8-408a-869c-dcc0c6b38b69",
-      "source": "fda",
-      "title": "Best Supplements Best Prices Issues Voluntary Nationwide Recall of WAP Sensual  Enhancement Capsules Due to Presence of Undeclared Sildenafil, Tadalafil, and  Flibanserin",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/best-supplements-best-prices-issues-voluntary-nationwide-recall-wap-sensual-enhancement-capsules-due",
-      "published_date": "2026-05-11T04:00:00.000Z",
-      "excerpt": "FOR IMMEDIATE RELEASE LOS ANGELES, CA – May 11, 2026 – Best Supplements Best Prices is voluntarily recalling all lots of WAP Sensual Enhancement capsules to the consumer level. FDA analysis has found",
-      "scraped_at": "2026-05-24T21:53:34.381Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_261.jpg?itok=YLaQLUpj"
-    },
-    {
-      "id": "2b309e3a-55e3-402d-8159-a9027882d540",
-      "source": "fda",
-      "title": "XD Investments LLC Recalls Better Weather Fix Elixir Products Due to Undeclared Mitragynine and Mitragynine Pseuoindoxyl",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/xd-investments-llc-recalls-better-weather-fix-elixir-products-due-undeclared-mitragynine-and",
-      "published_date": "2026-05-09T14:13:00.000Z",
-      "excerpt": "XD Investments LLC of Houston, TX, is voluntarily recalling approximately 448 Boxes of Better Weather Fix Elixir products, including all flavors and variations, because FDA analysis found the products",
-      "scraped_at": "2026-05-24T21:53:34.659Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_175.png?itok=Ecco8l8x"
-    },
-    {
-      "id": "b1c17983-7dc2-41e7-ae56-39ab80c84797",
-      "source": "fda",
-      "title": "Spring & Mulberry Expands Voluntary Recall of Select Chocolate Bars Because of Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-because-possible-health-risk",
-      "published_date": "2026-05-08T21:28:00.000Z",
-      "excerpt": "RALEIGH, NC, UNITED STATES, May 8, 2026 -- Spring & Mulberry is voluntarily expanding its previously announced recall of select chocolate bars due to possible contamination from Salmonella.",
-      "scraped_at": "2026-05-24T21:53:34.792Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_174.png?itok=AK9Jv4Pt"
-    },
-    {
-      "id": "832d272b-8378-4223-abcd-7622ff9a333d",
-      "source": "fda",
-      "title": "Pharmacal Issues Nationwide Recall of MG217 Multi-Symptom Treatment  Cream & Skin Protectant Eczema Cream Due to Microbial Contamination",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pharmacal-issues-nationwide-recall-mg217-multi-symptom-treatment-cream-skin-protectant-eczema-cream",
-      "published_date": "2026-05-08T16:08:00.000Z",
-      "excerpt": "- May/8/2026- Jackson, WI, Pharmacal is recalling one lot of MG217 Multi-symptom Treatment Cream & Skin Protectant Eczema Cream, 6oz tube to the consumer level. The product has been found to be contam",
-      "scraped_at": "2026-05-24T21:53:34.919Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_3_82.png?itok=CIPgebDM"
-    },
-    {
-      "id": "ac5c7822-2545-4ff8-96e4-8496eba5538f",
-      "source": "fda",
-      "title": "Stoltzfus Family Dairy Recalls Sour Cream and Onion Cheese Curds Because of Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/stoltzfus-family-dairy-recalls-sour-cream-and-onion-cheese-curds-because-possible-health-risk",
-      "published_date": "2026-05-07T20:18:00.000Z",
-      "excerpt": "Stoltzfus Family Dairy of Vernon Center, NY is recalling Sour Cream & Onion cheese curds because they have the potential to be contaminated with Salmonella, an organism which can cause serious and som",
-      "scraped_at": "2026-05-24T21:53:35.048Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/55218_epac_cheese_curd_bag_sourcreamandonionproof_no_die-1.jpg?itok=CtzNd9Fl"
-    },
-    {
-      "id": "f5c156cc-e9f2-4a51-b5b3-52efbff47969",
-      "source": "fda",
-      "title": "Jonco Industries Recalls Certain Consumer-Sized White Cheddar Seasoning Products Because of Possible Health Risk",
-      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jonco-industries-recalls-certain-consumer-sized-white-cheddar-seasoning-products-because-possible",
-      "published_date": "2026-05-07T19:20:00.000Z",
-      "excerpt": "Jonco Industries, Inc. of Milwaukee, WI, is recalling certain consumer-sized White Cheddar Seasoning products because they have the potential to be contaminated with Salmonella, an organism which can",
-      "scraped_at": "2026-05-24T21:53:35.221Z",
-      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_254.jpg?itok=Lea5qCyE"
-    },
-    {
-      "id": "a0475ee7-39be-4f5e-923b-d4a93d6e44fe",
+      "id": "fe08d555-92c6-499f-9118-1dfa127ec2aa",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | News Archive",
       "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-05-24T21:53:47.782Z",
+      "published_date": "2026-05-25T21:53:40.470Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:47.782Z",
+      "scraped_at": "2026-05-25T21:53:40.470Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "53844305-ace7-4209-b0fc-c9bb26884d20",
+      "id": "34af1f7a-e8f2-44a0-9e5e-830216d17821",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California LGMA Embarks…",
       "url": "https://lgma.ca.gov/news/test-learn-study",
-      "published_date": "2026-05-24T21:53:46.777Z",
+      "published_date": "2026-05-25T21:53:39.500Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:46.777Z",
+      "scraped_at": "2026-05-25T21:53:39.500Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
     },
     {
-      "id": "20be8f2e-b893-43e2-b00c-d4a1cc3c42ef",
+      "id": "7f3838b9-1c1e-4b02-9eff-4f749edb06d6",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Advancing Food Safety…",
       "url": "https://lgma.ca.gov/news/advancing-food-safety-standards-through-science-data-continuous-improvement",
-      "published_date": "2026-05-24T21:53:45.961Z",
+      "published_date": "2026-05-25T21:53:38.453Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:45.961Z",
+      "scraped_at": "2026-05-25T21:53:38.453Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
     },
     {
-      "id": "ff85c54d-c1af-4b0b-8f96-c3a41c19c7cf",
+      "id": "2a5cb5c9-38e8-4b89-bbb8-19308f193c02",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
       "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
-      "published_date": "2026-05-24T21:53:45.157Z",
+      "published_date": "2026-05-25T21:53:37.488Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:45.157Z",
+      "scraped_at": "2026-05-25T21:53:37.488Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
     },
     {
-      "id": "637dbaac-8e72-4c99-a2ca-63d335bcdb81",
+      "id": "f26c04a8-49e5-4b92-9608-0ce326329322",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
       "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
-      "published_date": "2026-05-24T21:53:44.113Z",
+      "published_date": "2026-05-25T21:53:36.577Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:44.113Z",
+      "scraped_at": "2026-05-25T21:53:36.577Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
     },
     {
-      "id": "7c3c7f88-989c-4ba7-92e4-ff885950ce82",
+      "id": "4ba5d755-39ff-4135-80fc-27e0432c2e0f",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
       "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
-      "published_date": "2026-05-24T21:53:40.972Z",
+      "published_date": "2026-05-25T21:53:33.509Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:40.972Z",
+      "scraped_at": "2026-05-25T21:53:33.509Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
     },
     {
-      "id": "da322e37-a46e-46d8-b462-72bdf68fff09",
+      "id": "f30a8f28-c530-46af-ba5b-3a736d468316",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
       "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
-      "published_date": "2026-05-24T21:53:40.165Z",
+      "published_date": "2026-05-25T21:53:32.634Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:40.165Z",
+      "scraped_at": "2026-05-25T21:53:32.634Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/harvest.jpg?mtime=1620237977"
     },
     {
-      "id": "b63552f0-5cee-44fc-b33e-fd2243346698",
+      "id": "4ea0b569-4f99-447e-88bd-c2406e2cb882",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | The Big Picture",
       "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-05-24T21:53:39.354Z",
+      "published_date": "2026-05-25T21:53:31.811Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:39.354Z",
+      "scraped_at": "2026-05-25T21:53:31.811Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "ea8d1820-8af6-4f12-99d3-e503ebdf6599",
+      "id": "a45dd261-c838-408f-88b3-2a34d4e167a6",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Metrics",
       "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-05-24T21:53:38.354Z",
+      "published_date": "2026-05-25T21:53:30.943Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:38.354Z",
+      "scraped_at": "2026-05-25T21:53:30.943Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "3abeb3e4-830c-4063-b89a-cd214357a9a1",
+      "id": "72d18002-2571-4339-8165-c0a68e434418",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Members",
       "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-05-24T21:53:37.380Z",
+      "published_date": "2026-05-25T21:53:29.882Z",
       "excerpt": "",
-      "scraped_at": "2026-05-24T21:53:37.380Z",
+      "scraped_at": "2026-05-25T21:53:29.882Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "1e53ad01-81d7-4011-bbdd-891558522d34",
+      "id": "f0e6f9f7-fc66-46b8-9f8e-652311861166",
       "source": "fda",
       "title": "Raaw Energy Expands Recall of Dog Food Because of Listeria Monocytogenes Health Risk",
       "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/raaw-energy-expands-recall-dog-food-because-listeria-monocytogenes-health-risk",
       "published_date": "2026-05-22T18:22:00.000Z",
       "excerpt": "Raaw Energy is voluntarily notifying the public of a recall involving products produced between 7/17/25 and 12/23/25 due to possible Listeria contamination. Another batch date is 3.31.26 Beef and Turk",
-      "scraped_at": "2026-05-24T21:53:31.423Z"
+      "scraped_at": "2026-05-25T21:53:26.234Z"
+    },
+    {
+      "id": "7bfe8379-348e-43b8-810f-cb2981cc4eae",
+      "source": "fda",
+      "title": "SKS Copack Recalls Various Specialty Beverages Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sks-copack-recalls-various-specialty-beverages-because-possible-health-risk",
+      "published_date": "2026-05-22T15:52:00.000Z",
+      "excerpt": "SKS Copack of Cerritos, CA is recalling various specialty beverages, because they have the potential to be contaminated with Salmonella, an organism which can cause serious and sometimes fatal infecti",
+      "scraped_at": "2026-05-25T21:53:26.276Z"
+    },
+    {
+      "id": "026e4c3a-c502-4df6-a7b7-fe0f308041f9",
+      "source": "fda",
+      "title": "Kettle Cuisine Issues Allergy Alert For Undeclared Shrimp In Whole Foods Market Kitchen Minestrone Soup",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kettle-cuisine-issues-allergy-alert-undeclared-shrimp-whole-foods-market-kitchen-minestrone-soup",
+      "published_date": "2026-05-21T17:40:00.000Z",
+      "excerpt": "Kettle Cuisine of Lynn, MA is recalling 24oz cups of Whole Foods Market Kitchen Minestrone Soup which may contain undeclared shrimp. People who have allergies to Crustacean Shellfish (Shrimp) run the",
+      "scraped_at": "2026-05-25T21:53:26.322Z"
+    },
+    {
+      "id": "f4a8c15f-1e95-4d19-b71a-5ddc716f3c56",
+      "source": "fda",
+      "title": "JXK Enterprises, Inc Issues Voluntary Nationwide Recall of Boner Bears Chocolate Due to Undeclared Sildenafil",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jxk-enterprises-inc-issues-voluntary-nationwide-recall-boner-bears-chocolate-due-undeclared",
+      "published_date": "2026-05-21T16:08:00.000Z",
+      "excerpt": "JXK Enterprises, Inc is voluntarily recalling Boner Bears Chocolate, Lot #BB21125, after being notified that FDA laboratory analysis confirmed the presence of sildenafil, an active ingredient in the F",
+      "scraped_at": "2026-05-25T21:53:26.387Z"
+    },
+    {
+      "id": "1c9d7cdc-7858-4077-9cc1-9fd5f6c5e834",
+      "source": "fda",
+      "title": "Hometown Food Company Issues Allergy Alert on Undeclared Egg in Birch Benders 12oz Sweet Potato Pancake Mix",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hometown-food-company-issues-allergy-alert-undeclared-egg-birch-benders-12oz-sweet-potato-pancake",
+      "published_date": "2026-05-20T17:26:00.000Z",
+      "excerpt": "Chicago (May 20, 2026) – Hometown Food Company, in cooperation with Element Food Solutions, today initiated a limited, voluntary recall of a single lot code of its Birch Benders 12oz Sweet Potato Panc",
+      "scraped_at": "2026-05-25T21:53:26.428Z"
+    },
+    {
+      "id": "842dbef6-942a-4c2e-8905-562443ebe68c",
+      "source": "fda",
+      "title": "Nassar Investments Recalls Malazi Tahina Due to Salmonella Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nassar-investments-recalls-malazi-tahina-due-salmonella-contamination",
+      "published_date": "2026-05-18T22:52:00.000Z",
+      "excerpt": "RALEIGH, NC – MAY 19, 2026 – Nassar Investments is recalling Malazi Tahina, 1Kg bottle EXP: 30/12/2026 UPC 6 224011 088244 due to a contamination of Salmonella. Salmonella, an organism which can cause",
+      "scraped_at": "2026-05-25T21:53:26.468Z"
+    },
+    {
+      "id": "5094c39c-66a4-4aa3-a108-095f2d40d0d7",
+      "source": "fda",
+      "title": "Sugar Foods Issues Recall of Specific Lots of Kroger Homestyle Cheese Garlic Croutons Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sugar-foods-issues-recall-specific-lots-kroger-homestyle-cheese-garlic-croutons-due-possible-health",
+      "published_date": "2026-05-15T22:05:00.000Z",
+      "excerpt": "WESTLAKE VILLAGE, CA – May 15, 2026 — Sugar Foods LLC is recalling certain lots of Kroger Homestyle Cheese Garlic Croutons, 5oz pouches, UPC 0 11110 81353 4 due to the potential for Salmonella contami",
+      "scraped_at": "2026-05-25T21:53:26.511Z"
+    },
+    {
+      "id": "77daabdb-f44d-48ff-8d37-53ca89fac7d5",
+      "source": "fda",
+      "title": "Blackstone Products Recalls Parmesan Ranch Seasoning Because of Possible Salmonella Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blackstone-products-recalls-parmesan-ranch-seasoning-because-possible-salmonella-health-risk",
+      "published_date": "2026-05-15T15:59:00.000Z",
+      "excerpt": "Blackstone Products of Providence, Utah is voluntarily recalling certain lots of Blackstone Parmesan Ranch seasoning products because they have the potential to be contaminated with Salmonella.  Black",
+      "scraped_at": "2026-05-25T21:53:26.552Z"
+    },
+    {
+      "id": "88f0de66-24fb-49f1-905a-52a1ee146f0b",
+      "source": "fda",
+      "title": "Straus Family Creamery Voluntarily Recalls Select Flavors of  Organic Ice Cream Due to Potential Presence of Foreign Material",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/straus-family-creamery-voluntarily-recalls-select-flavors-organic-ice-cream-due-potential-presence",
+      "published_date": "2026-05-14T15:43:00.000Z",
+      "excerpt": "May 14, 2026; Petaluma, CA;  — Straus Family Creamery is voluntarily recalling a small number of production runs of select flavors and sizes of its Organic Ice Cream due to the potential presence of m",
+      "scraped_at": "2026-05-25T21:53:26.601Z"
+    },
+    {
+      "id": "4d1c95bc-6b96-431a-814a-2da5b35f51f6",
+      "source": "fda",
+      "title": "Sun Pharmaceutical Industries, Inc. (Sun Pharma) Initiates Voluntary U.S. Nationwide Recall of DOXOrubicin Hydrochloride Liposome Injection 50mg/25 mL Due To Potential Presence of Glass Particles",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sun-pharmaceutical-industries-inc-sun-pharma-initiates-voluntary-us-nationwide-recall-doxorubicin",
+      "published_date": "2026-05-13T22:21:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE MUMBAI, INDIA and PRINCETON, NJ - May 13, 2026 – Sun Pharma is voluntarily recalling within the U.S. to the hospital/user level, one batch of DOXOrubicin Hydrochloride Liposome I",
+      "scraped_at": "2026-05-25T21:53:26.642Z"
+    },
+    {
+      "id": "bb40af6c-04a2-42ec-bd78-5505c38d7bf0",
+      "source": "fda",
+      "title": "Terra Medi LLC Recalls Karagounis Bros – Hellas Meze Golden Smoked Whole Herring Due to Improper Evisceration",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/terra-medi-llc-recalls-karagounis-bros-hellas-meze-golden-smoked-whole-herring-due-improper",
+      "published_date": "2026-05-13T18:49:00.000Z",
+      "excerpt": "Terra Medi LLC of Long Island City, NY is recalling all of the imported Hellas Meze Golden Smoked Whole herring vacuum packaged because of improper evisceration of the fish. The sale of uneviscerated",
+      "scraped_at": "2026-05-25T21:53:26.685Z"
+    },
+    {
+      "id": "eadac3f1-1971-457d-9e60-9810fad93560",
+      "source": "fda",
+      "title": "IQ Produce LCC. Recalls Enoki Mushrooms Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/iq-produce-lcc-recalls-enoki-mushrooms-because-possible-health-risk",
+      "published_date": "2026-05-13T18:35:00.000Z",
+      "excerpt": "IQ PRODUCE of VERNON, CA is recalling 528 CASES/ MUSHROOM ENOKI 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fat",
+      "scraped_at": "2026-05-25T21:53:26.726Z"
+    },
+    {
+      "id": "950e03ce-c1e1-4025-b716-f9eb6d7d8d8e",
+      "source": "fda",
+      "title": "HH Fresh Trading. Recalls TW Enoki Mushrooms 150g Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hh-fresh-trading-recalls-tw-enoki-mushrooms-150g-because-possible-health-risk",
+      "published_date": "2026-05-13T17:45:00.000Z",
+      "excerpt": "HH Fresh Trading of Los Angeles, California State is recalling 120 cases of Enoki Mushroom 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can caus",
+      "scraped_at": "2026-05-25T21:53:26.767Z"
+    },
+    {
+      "id": "ba74fa2b-9e54-4c85-ae85-d8755983f9f0",
+      "source": "fda",
+      "title": "Fly By Jing Issues Voluntary Recall of Creamy Sesame  Noodles Due to Potential Cross-Contact with Peanuts",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fly-jing-issues-voluntary-recall-creamy-sesame-noodles-due-potential-cross-contact-peanuts",
+      "published_date": "2026-05-12T15:42:00.000Z",
+      "excerpt": "LOS ANGELES, CA — May 12 2026 Fly By Jing is voluntarily recalling certain lots of Fly By Jing Creamy Sesame Noodles (single pack and 4-pack) because the products may have been exposed to cross-contac",
+      "scraped_at": "2026-05-25T21:53:26.827Z"
+    },
+    {
+      "id": "8c3f5730-38a8-4ebf-b405-0d9d3ec2f295",
+      "source": "fda",
+      "title": "Best Supplements Best Prices Issues Voluntary Nationwide Recall of WAP Sensual  Enhancement Capsules Due to Presence of Undeclared Sildenafil, Tadalafil, and  Flibanserin",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/best-supplements-best-prices-issues-voluntary-nationwide-recall-wap-sensual-enhancement-capsules-due",
+      "published_date": "2026-05-11T04:00:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE LOS ANGELES, CA – May 11, 2026 – Best Supplements Best Prices is voluntarily recalling all lots of WAP Sensual Enhancement capsules to the consumer level. FDA analysis has found",
+      "scraped_at": "2026-05-25T21:53:26.865Z"
+    },
+    {
+      "id": "9cc44d27-4d91-4f14-aa59-0dcc8974f11c",
+      "source": "fda",
+      "title": "XD Investments LLC Recalls Better Weather Fix Elixir Products Due to Undeclared Mitragynine and Mitragynine Pseuoindoxyl",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/xd-investments-llc-recalls-better-weather-fix-elixir-products-due-undeclared-mitragynine-and",
+      "published_date": "2026-05-09T14:13:00.000Z",
+      "excerpt": "XD Investments LLC of Houston, TX, is voluntarily recalling approximately 448 Boxes of Better Weather Fix Elixir products, including all flavors and variations, because FDA analysis found the products",
+      "scraped_at": "2026-05-25T21:53:26.902Z"
+    },
+    {
+      "id": "e16093fe-d822-4a24-8be5-ed762b43a639",
+      "source": "fda",
+      "title": "Spring & Mulberry Expands Voluntary Recall of Select Chocolate Bars Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-because-possible-health-risk",
+      "published_date": "2026-05-08T21:28:00.000Z",
+      "excerpt": "RALEIGH, NC, UNITED STATES, May 8, 2026 -- Spring & Mulberry is voluntarily expanding its previously announced recall of select chocolate bars due to possible contamination from Salmonella.",
+      "scraped_at": "2026-05-25T21:53:26.943Z"
+    },
+    {
+      "id": "dde67841-9cf0-4deb-90f5-10c4f01de6e0",
+      "source": "fda",
+      "title": "Pharmacal Issues Nationwide Recall of MG217 Multi-Symptom Treatment  Cream & Skin Protectant Eczema Cream Due to Microbial Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pharmacal-issues-nationwide-recall-mg217-multi-symptom-treatment-cream-skin-protectant-eczema-cream",
+      "published_date": "2026-05-08T16:08:00.000Z",
+      "excerpt": "- May/8/2026- Jackson, WI, Pharmacal is recalling one lot of MG217 Multi-symptom Treatment Cream & Skin Protectant Eczema Cream, 6oz tube to the consumer level. The product has been found to be contam",
+      "scraped_at": "2026-05-25T21:53:26.983Z"
+    },
+    {
+      "id": "ebbc5731-99b1-47e1-a086-782d95184a9a",
+      "source": "fda",
+      "title": "Stoltzfus Family Dairy Recalls Sour Cream and Onion Cheese Curds Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/stoltzfus-family-dairy-recalls-sour-cream-and-onion-cheese-curds-because-possible-health-risk",
+      "published_date": "2026-05-07T20:18:00.000Z",
+      "excerpt": "Stoltzfus Family Dairy of Vernon Center, NY is recalling Sour Cream & Onion cheese curds because they have the potential to be contaminated with Salmonella, an organism which can cause serious and som",
+      "scraped_at": "2026-05-25T21:53:27.028Z"
+    },
+    {
+      "id": "283a345b-cbdf-4bf8-b360-b70176a4f43d",
+      "source": "fda",
+      "title": "Jonco Industries Recalls Certain Consumer-Sized White Cheddar Seasoning Products Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jonco-industries-recalls-certain-consumer-sized-white-cheddar-seasoning-products-because-possible",
+      "published_date": "2026-05-07T19:20:00.000Z",
+      "excerpt": "Jonco Industries, Inc. of Milwaukee, WI, is recalling certain consumer-sized White Cheddar Seasoning products because they have the potential to be contaminated with Salmonella, an organism which can",
+      "scraped_at": "2026-05-25T21:53:27.067Z"
     }
   ],
-  "last_updated": "2026-05-24T21:53:47.885Z",
+  "last_updated": "2026-05-25T21:53:40.527Z",
   "sources_checked": [
     "usda",
     "fda",
