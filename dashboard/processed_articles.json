@@ -1,116 +1,309 @@
 {
   "articles": [
     {
-      "id": "41542e1b-f29b-4de9-83af-2b8d20936fdf",
+      "id": "2eaee85c-adf5-4dc1-b29f-abeaea5b2496",
+      "source": "fda",
+      "title": "Total Nutrition Inc. Expands Recall of TNVitamins and Doctor’s Pride Ultra Potent Complete Green Superfood Moringa Capsules Because of Possible Health Risk Following Further Supply Chain Review",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-expands-recall-tnvitamins-and-doctors-pride-ultra-potent-complete-green-0",
+      "published_date": "2026-06-11T22:09:00.000Z",
+      "excerpt": "Total Nutrition Inc. of Deer Park, NY is voluntarily expanding its recall of TNVitamins and Doctor's Pride Ultra Potent Complete Green Superfood Moringa Capsules due to the potential to be contaminate",
+      "scraped_at": "2026-06-12T21:53:28.773Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_271.jpg?itok=dhg1yf2T"
+    },
+    {
+      "id": "32544b5c-cb61-4232-b5c4-bd56226a1155",
+      "source": "fda",
+      "title": "Clover Hill Dairy Recalls Soft Ricotta/Requeson Cheese Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/clover-hill-dairy-recalls-soft-ricottarequeson-cheese-due-possible-health-risk",
+      "published_date": "2026-06-09T18:10:00.000Z",
+      "excerpt": "June 5, 2026 - Clover Hill Dairy of Mechanicsville, Maryland is voluntarily recalling all Soft Ricotta/Requeson Cheese because it has the potential to be contaminated with Listeria monocytogenes, an o",
+      "scraped_at": "2026-06-12T21:53:28.822Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_270.jpg?itok=SBGQ1BdQ"
+    },
+    {
+      "id": "ce1cfac5-0c32-4c0c-8232-46651b432b42",
+      "source": "fda",
+      "title": "GO Raw LLC. Expands Voluntary Recall to Include One Lot of Steve’s Real Food  Freeze-Dried Chicken Recipe Due to Low Thiamine (Vitamin B1) Levels",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-expands-voluntary-recall-include-one-lot-steves-real-food-freeze-dried-chicken-recipe-due",
+      "published_date": "2026-06-08T19:11:00.000Z",
+      "excerpt": "Cottonwood Heights, Utah (June 8, 2026)  Go Raw LLC is  expanding its February  17, 2026 recall to include an additional lot of Freeze-Dried Chicken Recipe product due  to potentially low levels of th",
+      "scraped_at": "2026-06-12T21:53:28.867Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_5_46.png?itok=Qv_S_Dox"
+    },
+    {
+      "id": "384e1dc0-bd4a-45ee-8500-70d4389d2eec",
+      "source": "fda",
+      "title": "Nelson & Isa Lacteos LLC Recalls Requeson Cheese Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nelson-isa-lacteos-llc-recalls-requeson-cheese-due-possible-health-risk",
+      "published_date": "2026-06-05T18:11:00.000Z",
+      "excerpt": "Nelson & Isa Lacteos LLC. of Bayshore, NY, is recalling 1lb packages of Requeson Cheese because they may be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes",
+      "scraped_at": "2026-06-12T21:53:28.969Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_269.jpg?itok=W8Ixf2tE"
+    },
+    {
+      "id": "c1c79168-906b-4c48-b0e8-65f79d971423",
+      "source": "fda",
+      "title": "Ballester Hermanos Realiza un Retiro por Contenido No Declarado de Soya y Leche en Pearl Milling Company Original Pancake & Waffles (MEZCLA PARA PANQUEQUES Y WAFFLES) Complete 5.99oz (170GR) Distribuido en Puerto Rico",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ballester-hermanos-realiza-un-retiro-por-contenido-no-declarado-de-soya-y-leche-en-pearl-milling",
+      "published_date": "2026-06-04T20:30:00.000Z",
+      "excerpt": "Ballester Hermanos está retirando un número limitado de bolsas de 5.99 OZ (170GR) de PEARL MILLING COMPANY ORIGINAL PANCAKE & WAFFLES (MEZCLA PARA PANQUEQUES Y WAFFLES) COMPLETE debido a la presencia",
+      "scraped_at": "2026-06-12T21:53:29.013Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/updated_image_1.jpg?itok=70u1g60u"
+    },
+    {
+      "id": "e3300b78-1f6e-4fb5-83d6-5452fefe39ff",
+      "source": "fda",
+      "title": "Haleon Issues Voluntary Nationwide Recall of Gas-X Extra Strength Softgels 125mg, 120 ct. and 72 ct.",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haleon-issues-voluntary-nationwide-recall-gas-x-extra-strength-softgels-125mg-120-ct-and-72-ct",
+      "published_date": "2026-06-04T19:53:00.000Z",
+      "excerpt": "WARREN, N.J., June 4, 2026 — Haleon (NYSE: HLN) is voluntarily recalling four lots of Gas-X Extra Strength Softgels 125mg, 120 ct. and 72 ct. distributed on or about April 13, 2026 to the consumer lev",
+      "scraped_at": "2026-06-12T21:53:29.057Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/better_image_1_1.png?itok=way-Yjaz"
+    },
+    {
+      "id": "e6df09c8-47dd-4d80-bd8d-3b0c7adb913a",
+      "source": "fda",
+      "title": "Ballester Hermanos Issues a Recall Due to Undeclared Soy and Milk in Pearl Milling Company Original Pancake & Waffles (MEZCLA PARA PANQUEQUES Y WAFFLES) Complete 5.99oz (170gr) Distributed in Puerto Rico",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ballester-hermanos-issues-recall-due-undeclared-soy-and-milk-pearl-milling-company-original-pancake",
+      "published_date": "2026-06-04T17:32:00.000Z",
+      "excerpt": "Ballester Hermanos is recalling a limited number of 5.99OZ (170GR) pouches of PEARL MILLING COMPANY ORIGINAL PANCAKE & WAFFLES (MEZCLA PARA PANQUEQUES Y WAFFLES) COMPLETE due to undeclared milk and so",
+      "scraped_at": "2026-06-12T21:53:29.107Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/updated_image_1_0.jpg?itok=2znxqaXe"
+    },
+    {
+      "id": "d26fa9ff-7eff-4be0-bfb6-418eee3909e0",
+      "source": "fda",
+      "title": "Target Recalls Up & Up Fragrance Free and Fresh Cucumber Scented Baby Wipes Due to Potential Microbial Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/target-recalls-fragrance-free-and-fresh-cucumber-scented-baby-wipes-due-potential-microbial",
+      "published_date": "2026-06-04T17:18:00.000Z",
+      "excerpt": "Target is voluntarily recalling Up & Up Fragrance Free and Up & Up Fresh Cucumber Scented Baby Wipes following customer complaints of product discoloration, and FDA testing that identified the presenc",
+      "scraped_at": "2026-06-12T21:53:29.162Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_268.jpg?itok=PbiK5j9Z"
+    },
+    {
+      "id": "c445146c-56d4-4afc-b590-b80d9b072d66",
+      "source": "fda",
+      "title": "Prime Food Processing LLC Issues Safety Warning Regarding Uneviscerated “Dried Herring Fish”",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-herring-fish",
+      "published_date": "2026-06-02T14:42:00.000Z",
+      "excerpt": "Brooklyn, NY – Prime Food Processing LLC is voluntarily recalling 69 cases of “Dried Herring Fish” because the product was not adequately eviscerated.  The sale of uneviscerated fish is prohibited und",
+      "scraped_at": "2026-06-12T21:53:29.284Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_184.png?itok=HYWbzN_K"
+    },
+    {
+      "id": "5d2e8db9-a281-41b0-8ed7-c2f95f8aa174",
+      "source": "fda",
+      "title": "Champion Foods Recalls Some Batches of Motor City Pizza Co. 5 Cheese Bread Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/champion-foods-recalls-some-batches-motor-city-pizza-co-5-cheese-bread-because-possible-health-risk",
+      "published_date": "2026-05-29T19:03:00.000Z",
+      "excerpt": "MAY 29, 2026 – Champion Foods LLC of New Boston, Michigan, is voluntarily recalling certain batches of Motor City Pizza Co. 5 Cheese Bread (“5 Cheese Bread”) because they have the potential to be cont",
+      "scraped_at": "2026-06-12T21:53:29.333Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_267.jpg?itok=Xepy37Bx"
+    },
+    {
+      "id": "34cac021-fc86-4439-84fa-46d353d68ccc",
+      "source": "fda",
+      "title": "Bazzini Voluntarily Recalls Certain Lots of SkinnyDipped® Dark Chocolate Coconut Almond Bites Due to Undeclared Peanut Allergen",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bazzini-voluntarily-recalls-certain-lots-skinnydippedr-dark-chocolate-coconut-almond-bites-due",
+      "published_date": "2026-05-27T19:28:00.000Z",
+      "excerpt": "Bazzini, LLC, of Allentown, PA, a co-manufacturer utilized by SkinnyDipped®, is voluntarily recalling a limited number of cases of SkinnyDipped® Dark Chocolate Coconut Almond Bites, out of an abundanc",
+      "scraped_at": "2026-06-12T21:53:29.434Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/better_image_1_0.png?itok=eCekOjP9"
+    },
+    {
+      "id": "d07ad15e-dbf0-4f05-8935-933447e34798",
+      "source": "fda",
+      "title": "DE DIOS’S ICE POPS II LLC Issues Allergy Alert on Undeclared Milk, Pecans, Pistachio, Yellow #5, and Red #40 in Popsicles",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/de-dioss-ice-pops-ii-llc-issues-allergy-alert-undeclared-milk-pecans-pistachio-yellow-5-and-red-40",
+      "published_date": "2026-05-27T19:04:00.000Z",
+      "excerpt": "PATERSON, N.J. – DE DIOS’S ICE POPS II LLC is voluntarily recalling its 3.7 oz. packages of “popsicles” food treats because they may contain undeclared MILK, YELLOW #5, RED #40, PECANS, AND PISTACHIOS",
+      "scraped_at": "2026-06-12T21:53:29.487Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_266.jpg?itok=5g89DOXk"
+    },
+    {
+      "id": "cdd82fd3-c17e-4a55-8924-ffade0437c2f",
+      "source": "fda",
+      "title": "Total Nutrition Inc. Recalls TNVitamins and Doctor’s Pride Ultra Potent Complete Green Superfood Moringa Capsules Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-recalls-tnvitamins-and-doctors-pride-ultra-potent-complete-green-superfood",
+      "published_date": "2026-05-26T20:34:00.000Z",
+      "excerpt": "Total Nutrition Inc. of Deer Park, NY is voluntarily recalling TNVitamins Ultra Potent Complete Green Superfood and Doctor’s Pride Complete Green Superfood Ultra Potent Moringa Capsules (120 count) be",
+      "scraped_at": "2026-06-12T21:53:29.587Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/tn_recall_-_photo_1.jpg?itok=8rfELPTQ"
+    },
+    {
+      "id": "9ab46b8c-a63f-4494-b1ce-4a33ff2031d7",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | News Archive",
       "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-06-11T21:54:21.484Z",
+      "published_date": "2026-06-12T21:53:44.333Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:21.484Z",
+      "scraped_at": "2026-06-12T21:53:44.333Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "4692a26c-070a-4adb-8ed8-9355c3258780",
+      "id": "23f5ad94-18f6-4b61-abcd-b213a99a5efe",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California LGMA Embarks…",
       "url": "https://lgma.ca.gov/news/test-learn-study",
-      "published_date": "2026-06-11T21:54:20.742Z",
+      "published_date": "2026-06-12T21:53:43.392Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:20.742Z",
+      "scraped_at": "2026-06-12T21:53:43.392Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
     },
     {
-      "id": "951e6403-060b-4414-9b32-0d3ccb1e9d1d",
+      "id": "e9f78fbc-63c5-4ca2-a1b2-95cfa48f3de1",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Advancing Food Safety…",
       "url": "https://lgma.ca.gov/news/advancing-food-safety-standards-through-science-data-continuous-improvement",
-      "published_date": "2026-06-11T21:54:19.934Z",
+      "published_date": "2026-06-12T21:53:42.604Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:19.935Z",
+      "scraped_at": "2026-06-12T21:53:42.604Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
     },
     {
-      "id": "564b73e8-a0f9-4645-89e7-5d2d212c0b2c",
+      "id": "72f8ebf5-7c5e-42de-aa48-207a9f85d54b",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
       "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
-      "published_date": "2026-06-11T21:54:19.344Z",
+      "published_date": "2026-06-12T21:53:41.523Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:19.344Z",
+      "scraped_at": "2026-06-12T21:53:41.523Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
     },
     {
-      "id": "b5ae6dc6-9432-4c72-a0ed-85bccf0c7396",
+      "id": "2661ce39-b3cc-4d6c-a978-bea8442ae05c",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
       "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
-      "published_date": "2026-06-11T21:54:18.590Z",
+      "published_date": "2026-06-12T21:53:40.299Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:18.590Z",
+      "scraped_at": "2026-06-12T21:53:40.299Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
     },
     {
-      "id": "34ab6119-b5d8-48cf-80d4-2d0b4b5d0307",
+      "id": "2003ab43-0f5a-44c7-8fc8-e5a927bcaf17",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
       "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
-      "published_date": "2026-06-11T21:54:15.898Z",
+      "published_date": "2026-06-12T21:53:36.732Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:15.898Z",
+      "scraped_at": "2026-06-12T21:53:36.732Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
     },
     {
-      "id": "2414ffd9-aa24-4178-a97b-c651956c807f",
+      "id": "72b9b7f1-ee84-4d93-8fba-6934d1fb3093",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
       "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
-      "published_date": "2026-06-11T21:54:15.250Z",
+      "published_date": "2026-06-12T21:53:35.963Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:15.250Z",
+      "scraped_at": "2026-06-12T21:53:35.963Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/harvest.jpg?mtime=1620237977"
     },
     {
-      "id": "82b8286a-92d1-4c86-b387-682566ca252e",
+      "id": "b9c0f93c-867e-4783-bd7b-deefaa01f617",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | The Big Picture",
       "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-06-11T21:54:14.667Z",
+      "published_date": "2026-06-12T21:53:35.252Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:14.667Z",
+      "scraped_at": "2026-06-12T21:53:35.252Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "4ffa6834-50f0-48fd-bfe4-9873f14d9419",
+      "id": "d7fa881f-1987-4344-9b26-73f712e905a7",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Metrics",
       "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-06-11T21:54:14.002Z",
+      "published_date": "2026-06-12T21:53:34.349Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:14.002Z",
+      "scraped_at": "2026-06-12T21:53:34.349Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "18c583e5-825c-41cd-b9de-ee946095b756",
+      "id": "082c5f99-cf71-4cf3-aa86-f08ad7dd16fd",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Members",
       "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-06-11T21:54:13.386Z",
+      "published_date": "2026-06-12T21:53:33.578Z",
       "excerpt": "",
-      "scraped_at": "2026-06-11T21:54:13.386Z",
+      "scraped_at": "2026-06-12T21:53:33.578Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "e73c400d-56b7-4fc4-bd72-96b8c3f78dac",
+      "source": "fda",
+      "title": "BD Issues Nationwide Recall for Specific Lots of ChloraPrep™ Clear Single Sterile 1 mL and FREPP™ Clear 1.5 mL Applicators Due to Microbial Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bd-issues-nationwide-recall-specific-lots-chlorapreptm-clear-single-sterile-1-ml-and-frepptm-clear",
+      "published_date": "2026-06-06T15:50:00.000Z",
+      "excerpt": "FRANKLIN LAKES, N.J. (June 06, 2026) – BD (Becton, Dickinson and Company) is voluntarily recalling lot 4032183 of ChloraPrep™ Clear 1 mL Single Sterile and lot 4073005 of FREPP™ Clear 1.5 mL applicato",
+      "scraped_at": "2026-06-12T21:53:28.914Z"
+    },
+    {
+      "id": "f2df99ab-cd09-408b-97c6-39f404559c64",
+      "source": "fda",
+      "title": "Total Nutrition Inc. Expands Recall of TNVitamins and Doctor’s Pride Ultra Potent Complete Green Superfood Moringa Capsules Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-expands-recall-tnvitamins-and-doctors-pride-ultra-potent-complete-green",
+      "published_date": "2026-06-02T15:24:00.000Z",
+      "excerpt": "Total Nutrition Inc. of Deer Park, NY is voluntarily expanding its recall of TNVitamins and Doctor's Pride Ultra Potent Complete Green Superfood Moringa Capsules due to the potential to be contaminate",
+      "scraped_at": "2026-06-12T21:53:29.215Z"
+    },
+    {
+      "id": "703d426d-5222-4408-a35d-f28c15537ee5",
+      "source": "fda",
+      "title": "Better Weather Actives LLC Recalls Better Weather Fix Elixir Due to Undeclared Mitragynine and Mitragynine Pseudoindoxyl",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/better-weather-actives-llc-recalls-better-weather-fix-elixir-due-undeclared-mitragynine-and",
+      "published_date": "2026-05-28T20:46:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE – May 28, 2026 – Sheridan, Wyoming. Better Weather Actives LLC is voluntarily recalling ALL lots of Better Weather Fix Elixir 15 ml because the products may contain undeclared Mi",
+      "scraped_at": "2026-06-12T21:53:29.387Z"
+    },
+    {
+      "id": "adf6ef2c-59a0-498a-be74-e7c6779bc8bc",
+      "source": "fda",
+      "title": "Insulet Initiates Voluntary Medical Device Correction for Certain Omnipod® Pods in the U.S. and Affected International Markets",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/insulet-initiates-voluntary-medical-device-correction-certain-omnipodr-pods-us-and-affected",
+      "published_date": "2026-05-26T21:53:00.000Z",
+      "excerpt": "ACTON, Mass.--(BUSINESS WIRE)-- Insulet Corporation, Inc. (NASDAQ: PODD) (“Insulet” or the “Company”) today announced a voluntary Medical Device Correction for specific lots of Omnipod® 5, Omnipod DAS",
+      "scraped_at": "2026-06-12T21:53:29.541Z"
+    },
+    {
+      "id": "a06568af-c27e-4f56-ad5d-0e0c173a971d",
+      "source": "fda",
+      "title": "Dexcom Uncovers Theft of Scrapped Product, Notifies Potentially Impacted Users",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dexcom-uncovers-theft-scrapped-product-notifies-potentially-impacted-users",
+      "published_date": "2026-05-26T16:53:00.000Z",
+      "excerpt": "SAN DIEGO – MAY 26, 2026 – DexCom, Inc. (Nasdaq: DXCM), the global leader in glucose biosensing, announced today through ongoing quality and accounting reviews it recently identified certain lots of D",
+      "scraped_at": "2026-06-12T21:53:29.659Z"
+    },
+    {
+      "id": "4b075cf5-55b9-418a-877c-9e66ff2edd96",
+      "source": "fda",
+      "title": "Mogo Moringa LLC Announces Voluntary Recall of Select Lots of Moringa Capsules Due to Possible Salmonella Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mogo-moringa-llc-announces-voluntary-recall-select-lots-moringa-capsules-due-possible-salmonella",
+      "published_date": "2026-05-25T14:53:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE Mogo Moringa LLC Announces Voluntary Recall of Select Lots of Moringa Capsules Due to Possible Salmonella Contamination Saint Louis, MO — May 25, 2026 — Mogo Moringa LLC, based i",
+      "scraped_at": "2026-06-12T21:53:29.710Z"
+    },
+    {
+      "id": "a5d1f588-6ad1-4405-867c-7eed83957a10",
+      "source": "fda",
+      "title": "Raaw Energy Expands Recall of Dog Food Because of Listeria Monocytogenes Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/raaw-energy-expands-recall-dog-food-because-listeria-monocytogenes-health-risk",
+      "published_date": "2026-05-22T18:22:00.000Z",
+      "excerpt": "Raaw Energy is voluntarily notifying the public of a recall involving products produced between 7/17/25 and 12/23/25 due to possible Listeria contamination. Another batch date is 3.31.26 Beef and Turk",
+      "scraped_at": "2026-06-12T21:53:29.765Z"
     }
   ],
-  "last_updated": "2026-06-11T21:54:21.655Z",
+  "last_updated": "2026-06-12T21:53:44.431Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 30,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 30,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
     "time_filtered": 0
