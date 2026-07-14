@@ -1,118 +1,353 @@
 {
   "articles": [
     {
-      "id": "24777435-34b8-48b2-8bc0-9cc5d9b4f7cd",
+      "id": "59517d50-83cf-4506-9f9c-069aaec87e52",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | News Archive",
       "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-07-13T21:53:46.875Z",
+      "published_date": "2026-07-14T21:53:49.796Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:46.875Z",
+      "scraped_at": "2026-07-14T21:53:49.796Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "e86a8fac-655d-4129-a7a9-6de11014ad76",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | California LGMA Embarks…",
-      "url": "https://lgma.ca.gov/news/test-learn-study",
-      "published_date": "2026-07-13T21:53:45.163Z",
-      "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:45.163Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
-    },
-    {
-      "id": "75236a32-19d8-4e35-a910-f33fdb3848e2",
+      "id": "07252a55-38f3-464b-bb43-1bbd0192d1f4",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Advancing Food Safety…",
       "url": "https://lgma.ca.gov/news/advancing-food-safety-standards-through-science-data-continuous-improvement",
-      "published_date": "2026-07-13T21:53:43.408Z",
+      "published_date": "2026-07-14T21:53:48.049Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:43.408Z",
+      "scraped_at": "2026-07-14T21:53:48.049Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
     },
     {
-      "id": "55222dbb-c827-4b9d-aa24-f9edc8a51d6d",
+      "id": "c146a5cb-444e-455b-810e-31d472cd27f8",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
       "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
-      "published_date": "2026-07-13T21:53:41.564Z",
+      "published_date": "2026-07-14T21:53:46.213Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:41.564Z",
+      "scraped_at": "2026-07-14T21:53:46.213Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
     },
     {
-      "id": "222df32d-d444-46c3-8cde-3ce1b248d957",
+      "id": "5098d1ef-b306-4912-8760-61b64c8cca70",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
       "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
-      "published_date": "2026-07-13T21:53:39.758Z",
+      "published_date": "2026-07-14T21:53:44.031Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:39.758Z",
+      "scraped_at": "2026-07-14T21:53:44.031Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
     },
     {
-      "id": "b86d3e85-5807-4503-9a16-09c14d80dab3",
+      "id": "f629f660-5afc-4972-b7a1-7d7bb2048ef9",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
       "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
-      "published_date": "2026-07-13T21:53:35.268Z",
+      "published_date": "2026-07-14T21:53:39.437Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:35.268Z",
+      "scraped_at": "2026-07-14T21:53:39.437Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
     },
     {
-      "id": "e268d143-79c7-44d5-86c5-7819bf80984a",
+      "id": "f804eed0-883a-4a83-bc0f-d59be4844e3c",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
       "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
-      "published_date": "2026-07-13T21:53:33.581Z",
+      "published_date": "2026-07-14T21:53:38.078Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:33.581Z",
+      "scraped_at": "2026-07-14T21:53:38.078Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/harvest.jpg?mtime=1620237977"
     },
     {
-      "id": "196de128-4d6f-4013-9aeb-3a0baaf4b984",
+      "id": "bb37b3f3-b332-4403-a6d8-52498dda64d1",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | July 2026 Cyclospora…",
+      "url": "https://lgma.ca.gov/news/july-2026-cyclospora-outbreak",
+      "published_date": "2026-07-14T21:53:36.180Z",
+      "excerpt": "",
+      "scraped_at": "2026-07-14T21:53:36.180Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
+    },
+    {
+      "id": "bbdd6d62-6484-4a0a-94ac-bde44155f7e4",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | The Big Picture",
       "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-07-13T21:53:32.198Z",
+      "published_date": "2026-07-14T21:53:34.857Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:32.198Z",
+      "scraped_at": "2026-07-14T21:53:34.857Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "fa441990-affd-4d99-a3cf-fb7762b3a18d",
+      "id": "6a862a12-82f3-4e36-a8b5-7f59d412f89e",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Metrics",
       "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-07-13T21:53:30.692Z",
+      "published_date": "2026-07-14T21:53:33.054Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:30.692Z",
+      "scraped_at": "2026-07-14T21:53:33.054Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "24c4d5c4-75e8-459b-8491-075b5e8943a4",
+      "id": "32fe8a95-217f-4f00-b792-59fa060bff7a",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Members",
       "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-07-13T21:53:29.194Z",
+      "published_date": "2026-07-14T21:53:31.268Z",
       "excerpt": "",
-      "scraped_at": "2026-07-13T21:53:29.194Z",
+      "scraped_at": "2026-07-14T21:53:31.268Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "7021f97a-f744-4495-9a2a-22f4f6aae00c",
+      "source": "fda",
+      "title": "Khong Guan Corporation Issues Recall of Glutinous Rice Balls With Black Sesame Filling Due to Undeclared Peanuts",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/khong-guan-corporation-issues-recall-glutinous-rice-balls-black-sesame-filling-due-undeclared",
+      "published_date": "2026-07-13T21:46:00.000Z",
+      "excerpt": "Khong Guan Corporation is recalling specific lots of “Glutinous Rice Balls with Black Sesame Filling” because they may contain undeclared peanuts. People who have an allergy or severe sensitivity to p",
+      "scraped_at": "2026-07-14T21:53:26.903Z"
+    },
+    {
+      "id": "c5f47eb0-5abb-4d35-9cc4-41ae50de5298",
+      "source": "fda",
+      "title": "Faysu Inc., dba Yusol International Foods Recalls OLA-OLA POUNDED YAM Due to Undeclared Milk Allergen",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/faysu-inc-dba-yusol-international-foods-recalls-ola-ola-pounded-yam-due-undeclared-milk-allergen",
+      "published_date": "2026-07-06T17:49:00.000Z",
+      "excerpt": "Fayus Inc., doing business as Yusol International Foods (Sacramento, CA) is voluntarily recalling OLA-OLA POUNDED YAM because the product may contain undeclared milk in the form of sodium caseinate, w",
+      "scraped_at": "2026-07-14T21:53:26.945Z"
+    },
+    {
+      "id": "533615e2-79d1-4c3e-a4c6-72dbcac4e8d4",
+      "source": "fda",
+      "title": "Frutas y Hortalizas del Sur S.A. Initiates Recall of Frozen GreenWise Organic IQF Blueberries Due to Potential E. coli O145 Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frutas-y-hortalizas-del-sur-sa-initiates-recall-frozen-greenwise-organic-iqf-blueberries-due",
+      "published_date": "2026-07-03T17:06:00.000Z",
+      "excerpt": "July 3, 2026 – Frutas y Hortalizas del Sur S.A., San Carlos, Chile is recalling frozen GreenWise Organic IQF Blueberries 10 oz. Because it may be contaminated with Escherichia coli O145:H28 (E. coli O",
+      "scraped_at": "2026-07-14T21:53:27.006Z"
+    },
+    {
+      "id": "d5e87d63-23fa-4188-be2c-8f419d055ca9",
+      "source": "fda",
+      "title": "Voluntary Recall of Two Lots of PEDIGREE® Can High Protein Chopped Chicken & Duck Flavor Wet  Dog Food Due to Potential Fraudulent Distribution of Product Which May Contain Foreign Material",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall-two-lots-pedigreer-can-high-protein-chopped-chicken-duck-flavor-wet-dog-food-due",
+      "published_date": "2026-07-03T00:55:00.000Z",
+      "excerpt": "FRANKLIN, Tenn., (July 2, 2026): Mars Petcare US, Inc. is issuing a voluntary recall for two lots of PEDIGREE® Can High Protein Chopped Chicken & Duck Flavor 13.2oz for dogs.",
+      "scraped_at": "2026-07-14T21:53:27.053Z"
+    },
+    {
+      "id": "441c3021-3d69-46d0-ac8f-0d94215d330b",
+      "source": "fda",
+      "title": "Gellert Global Group Issues Allergy Alert on Undeclared Tuna (Fish) in Aldi Brand Fusia Asian Inspirations Kimchi and Tofu Kimbap",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gellert-global-group-issues-allergy-alert-undeclared-tuna-fish-aldi-brand-fusia-asian-inspirations",
+      "published_date": "2026-07-02T21:52:00.000Z",
+      "excerpt": "Gellert Global Group of Elizabeth, NJ is recalling 8.1 oz packages of ALDI Brand Fusia Asian Inspirations Kimchi & Tofu Kimbap because they may contain undeclared fish (tuna).  People who have an alle",
+      "scraped_at": "2026-07-14T21:53:27.093Z"
+    },
+    {
+      "id": "053be8a6-0d0b-42f3-9b3f-713ac4348fa1",
+      "source": "fda",
+      "title": "Kao USA Voluntarily Recalls Some Lots of Oribe Serene Scalp Densifying Shampoo",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kao-usa-voluntarily-recalls-some-lots-oribe-serene-scalp-densifying-shampoo",
+      "published_date": "2026-07-01T21:15:00.000Z",
+      "excerpt": "CINCINNATI--(BUSINESS WIRE)--Kao USA Inc. (“Kao USA”) today issued a voluntary recall of select lots of its Oribe Serene Scalp Densifying Shampoo (8.5 oz and 33.8 oz) in the U.S. and Canada due to the",
+      "scraped_at": "2026-07-14T21:53:27.136Z"
+    },
+    {
+      "id": "eab74534-40f6-4ed8-a319-6de3c9265941",
+      "source": "fda",
+      "title": "Eunha Fisheries Co., LTD. Issues Allergy Alert on Undeclared Wheat, Soy, and Sesame in Certain Frozen Olive Flounder Sashimi Products",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/eunha-fisheries-co-ltd-issues-allergy-alert-undeclared-wheat-soy-and-sesame-certain-frozen-olive",
+      "published_date": "2026-07-01T20:15:00.000Z",
+      "excerpt": "July 01, 2026 EUNHA FISHERIES CO., LTD., Busan, Republic of Korea, is recalling certain Sliced Korean Halibut and Flounder Sashimi products because the accompanying soy sauce and vinegar red pepper pa",
+      "scraped_at": "2026-07-14T21:53:27.177Z"
+    },
+    {
+      "id": "e0245d92-cace-4dfa-ad4f-5ebc942e4976",
+      "source": "fda",
+      "title": "La Ceiba Foods Latin Market Inc. Recalls Cottage Cheese Products Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/la-ceiba-foods-latin-market-inc-recalls-cottage-cheese-products-because-possible-health-risk",
+      "published_date": "2026-06-26T21:26:00.000Z",
+      "excerpt": "June 26, 2026, – La Ceiba Foods Latin Market Inc. is conducting a recall of Requesón Salvadoreño (Salvadoran Cottage Cheese) and Requesón Mexicano (Mexican Cottage Cheese) products marketed under the",
+      "scraped_at": "2026-07-14T21:53:27.220Z"
+    },
+    {
+      "id": "5142d6af-51ce-42de-a02c-80992ec559d1",
+      "source": "fda",
+      "title": "Total Nutrition Inc. Recalls Organic Moringa Products Following Supplier-Initiated Recall Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-recalls-organic-moringa-products-following-supplier-initiated-recall-due",
+      "published_date": "2026-06-26T20:28:00.000Z",
+      "excerpt": "Total Nutrition Inc. of Deer Park, NY is voluntarily recalling TNVitamins 100% Organic Moringa 1,200 mg Capsules and 100% Organic Moringa Powder following a supplier-initiated recall of the raw Organi",
+      "scraped_at": "2026-07-14T21:53:27.264Z"
+    },
+    {
+      "id": "b69fe57e-29bf-477a-9e5d-760bbc665fc5",
+      "source": "fda",
+      "title": "Revival Animal Health, LLC Voluntarily Recalls Canine and GM Milk Replacers Due to Low or Elevated Levels of Vitamin D",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-canine-and-gm-milk-replacers-due-low-or-elevated",
+      "published_date": "2026-06-25T21:21:00.000Z",
+      "excerpt": "Revival Animal Health of Orange City, IA is recalling Breeder’s Edge® Foster Care® Canine, Shelter’s Choice® Canine Milk Replacers, and is expanding the current recall to include the Breeder’s Edge® F",
+      "scraped_at": "2026-07-14T21:53:27.307Z"
+    },
+    {
+      "id": "8d068434-4fb3-4656-ade5-6394af1e43f7",
+      "source": "fda",
+      "title": "Lehi Valley Trading Company Issues Allergy Alert on Undeclared Peanuts in Chocolate Covered Raisins",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lehi-valley-trading-company-issues-allergy-alert-undeclared-peanuts-chocolate-covered-raisins",
+      "published_date": "2026-06-25T21:03:00.000Z",
+      "excerpt": "June 25, 2026, Lehi Valley Trading Company of Mesa, AZ, is recalling 624 units of its 15 ounce packages of High Valley Orchard Chocolate Covered Raisins because they contain undeclared peanuts. People",
+      "scraped_at": "2026-07-14T21:53:27.353Z"
+    },
+    {
+      "id": "6bcdc32c-3764-49d2-83fd-0e7c13eb45d6",
+      "source": "fda",
+      "title": "Bear Stewart LLC Issues Allergy Alert on Undeclared Soy in Bakr Brown Butter Chocolate Chunk Ready to Bake Cookie Dough",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bear-stewart-llc-issues-allergy-alert-undeclared-soy-bakr-brown-butter-chocolate-chunk-ready-bake",
+      "published_date": "2026-06-25T13:41:00.000Z",
+      "excerpt": "Bear Stewart LLC of Chicago, IL is voluntarily recalling a single lot of Bakr Brown Butter Chocolate Chunk Ready To Bake Cookie Dough pouches because it may contain undeclared soy. People who have an",
+      "scraped_at": "2026-07-14T21:53:27.394Z"
+    },
+    {
+      "id": "ae79dcf2-53da-4bcd-b342-7f29a485de57",
+      "source": "fda",
+      "title": "MorningStar Farms Voluntarily Recalling Two Varieties Due to Possible Plastic Presence",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/morningstar-farms-voluntarily-recalling-two-varieties-due-possible-plastic-presence",
+      "published_date": "2026-06-18T23:08:00.000Z",
+      "excerpt": "CHICAGO, June 18, 2026 – MORNINGSTAR FARMS is voluntarily recalling two varieties of products in the U.S., Puerto Rico and Costa Rica because of possible plastic pieces in the food.  Recalled varietie",
+      "scraped_at": "2026-07-14T21:53:27.438Z"
+    },
+    {
+      "id": "7aee4092-34b7-450b-9841-f8bfb22e631b",
+      "source": "fda",
+      "title": "Clover Hill Dairy Expands Recall to Include All Clover Hill Dairy Brand Cheese Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/clover-hill-dairy-expands-recall-include-all-clover-hill-dairy-brand-cheese-due-possible-health-risk",
+      "published_date": "2026-06-18T16:38:00.000Z",
+      "excerpt": "June 18, 2026 - Clover Hill Dairy of Mechanicsville, Maryland is expanding  their recall to include  all Clover Hill Dairy brand cheese because it has the potential to be contaminated with Listeria mo",
+      "scraped_at": "2026-07-14T21:53:27.480Z"
+    },
+    {
+      "id": "81836ee3-dc2a-4bbc-bcf5-f22394077f08",
+      "source": "fda",
+      "title": "Western Mixers Produce & Nuts Issues Allergy Alert on Undeclared Peanuts in First Street Brand, Dark Chocolate Raisins",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/western-mixers-produce-nuts-issues-allergy-alert-undeclared-peanuts-first-street-brand-dark",
+      "published_date": "2026-06-15T18:52:00.000Z",
+      "excerpt": "Western Mixers Produce & Nuts, Inc., Ontario, California is recalling: First Street brand, Dark Chocolate Raisins, 9 oz., because the product may contain undeclared dark chocolate peanuts. People who",
+      "scraped_at": "2026-07-14T21:53:27.524Z"
+    },
+    {
+      "id": "a916030e-660f-4ceb-a9ac-3dd0cc307219",
+      "source": "wga",
+      "title": "Western Growers Center for Innovation & Technology Selects Sami Robotics for First Sponsored Residency at Reservoir Farms",
+      "url": "https://www.wga.com/press-releases/western-growers-center-for-innovation-technology-selects-sami-robotics-for-first-sponsored-residency-at-reservoir-farms/",
+      "published_date": "2026-07-14T15:04:40.000Z",
+      "excerpt": "The post Western Growers Center for Innovation & Technology Selects Sami Robotics for First Sponsored Residency at Reservoir Farms appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "5f13750f-299c-451a-98db-0aed4be5680e",
+      "source": "wga",
+      "title": "Cyclospora: Blind by Choice. This is the Cost of Dismantling Food Safety Surveillance",
+      "url": "https://www.wga.com/news/the-cost-of-dismantling-food-safety-surveillance/",
+      "published_date": "2026-07-14T14:51:08.000Z",
+      "excerpt": "The post Cyclospora: Blind by Choice. This is the Cost of Dismantling Food Safety Surveillance appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.905Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "d1e04a31-1c63-4281-93ba-26e28ecd2254",
+      "source": "wga",
+      "title": "Reservoir Expands Specialty Crop Innovation Network to Arizona",
+      "url": "https://www.wga.com/news/reservoir-expands-specialty-crop-innovation-network-to-arizona/",
+      "published_date": "2026-07-10T14:46:43.000Z",
+      "excerpt": "The post Reservoir Expands Specialty Crop Innovation Network to Arizona appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "88065912-eb2f-44f8-885a-918e4dbf7002",
+      "source": "wga",
+      "title": "SB 399 Litigation Update: Ninth Circuit Hears Argument in Challenge to California’s “Captive Audience” Law",
+      "url": "https://www.wga.com/news/sb-399-litigation-update-ninth-circuit-hears-argument-in-challenge-to-californias-captive-audience-law/",
+      "published_date": "2026-07-09T19:31:02.000Z",
+      "excerpt": "The post SB 399 Litigation Update: Ninth Circuit Hears Argument in Challenge to California’s “Captive Audience” Law appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "734b073b-d83a-40b6-9d8e-bc15b14fe95e",
+      "source": "wga",
+      "title": "California Civil Rights Department Updates Guidance on Disability Accommodations",
+      "url": "https://www.wga.com/news/california-civil-rights-department-updates-guidance-on-disability-accommodations/",
+      "published_date": "2026-07-09T19:30:08.000Z",
+      "excerpt": "The post California Civil Rights Department Updates Guidance on Disability Accommodations appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "2c2eb444-832e-423a-b2fc-500bed08ab19",
+      "source": "wga",
+      "title": "Cal/OSHA Publishes Modifications to Proposed “Worker Walk-Around” Rule",
+      "url": "https://www.wga.com/news/cal-osha-publishes-modifications-to-proposed-worker-walk-around-rule/",
+      "published_date": "2026-07-09T19:28:33.000Z",
+      "excerpt": "The post Cal/OSHA Publishes Modifications to Proposed “Worker Walk-Around” Rule appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "cfbb735f-4250-4e89-873e-6f354a82e79d",
+      "source": "wga",
+      "title": "Arizona AG Creates New Community Civil Rights Advisory Council",
+      "url": "https://www.wga.com/news/arizona-ag-creates-new-community-civil-rights-advisory-council/",
+      "published_date": "2026-07-09T19:27:32.000Z",
+      "excerpt": "The post Arizona AG Creates New Community Civil Rights Advisory Council appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "6a0ea345-5078-4035-98b6-0f26e55fc940",
+      "source": "wga",
+      "title": "The Barrier Is Not Always Data Results. Sometimes It Is Decision Culture",
+      "url": "https://www.wga.com/news/the-barrier-is-not-always-data-results-sometimes-it-is-decision-culture/",
+      "published_date": "2026-07-08T17:50:38.000Z",
+      "excerpt": "The post The Barrier Is Not Always Data Results. Sometimes It Is Decision Culture appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://www.wga.com/wp-content/uploads/2026/07/Screenshot-2026-07-08-104837-242x300.png"
+    },
+    {
+      "id": "d248dea0-7722-40c0-b6ca-9d0c7ac0e64b",
+      "source": "wga",
+      "title": "New Report Examines Economic Impact of 2022–2023 Hepatitis A Strawberry Outbreaks",
+      "url": "https://www.wga.com/news/new-report-examines-economic-impact-of-2022-2023-hepatitis-a-strawberry-outbreaks/",
+      "published_date": "2026-07-08T17:44:50.000Z",
+      "excerpt": "The post New Report Examines Economic Impact of 2022–2023 Hepatitis A Strawberry Outbreaks appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "4f515f68-4e8c-4d70-9de7-7c7eb969e9da",
+      "source": "wga",
+      "title": "FDA Food Traceability Rule Training Course",
+      "url": "https://www.wga.com/news/fda-food-traceability-rule-training-course-salinas-ca/",
+      "published_date": "2026-07-08T17:20:46.000Z",
+      "excerpt": "The post FDA Food Traceability Rule Training Course appeared first on Western Growers Association.",
+      "scraped_at": "2026-07-14T21:53:49.906Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
     }
   ],
-  "last_updated": "2026-07-13T21:53:46.929Z",
+  "last_updated": "2026-07-14T21:53:49.918Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 35,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 40,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
-    "time_filtered": 0
+    "time_filtered": 5
   }
 }
