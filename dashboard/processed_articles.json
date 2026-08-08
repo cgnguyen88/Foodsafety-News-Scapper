@@ -1,116 +1,75 @@
 {
   "articles": [
     {
-      "id": "0c956730-ac9e-4b23-925d-72a61fe90f43",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | News Archive",
-      "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-08-07T21:53:53.201Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:53.201Z",
-      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
-    },
-    {
-      "id": "e56cdc98-9938-42fd-88f3-3894f0451ea0",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
-      "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
-      "published_date": "2026-08-07T21:53:51.388Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:51.388Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
-    },
-    {
-      "id": "d00dc873-c899-46ee-8d94-c00d0ddb680b",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
-      "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
-      "published_date": "2026-08-07T21:53:49.420Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:49.420Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
-    },
-    {
-      "id": "25152b4e-a5bc-404f-a01a-4952aa641fb8",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
-      "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
-      "published_date": "2026-08-07T21:53:44.980Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:44.980Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
-    },
-    {
-      "id": "9cdbfeb7-be6d-4bd4-b033-6955c3d317ea",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
-      "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
-      "published_date": "2026-08-07T21:53:43.447Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:43.447Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/harvest.jpg?mtime=1620237977"
-    },
-    {
-      "id": "36e68576-f6bb-4e21-9137-b6cd79e21df9",
+      "id": "d86e0b15-9f89-4442-b1d3-3c16b5039dfb",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California Produce…",
       "url": "https://lgma.ca.gov/news/california-produce-remains-safe-state-confirms-no-link-to-cyclospora-outbreak",
-      "published_date": "2026-08-07T21:53:41.967Z",
+      "published_date": "2026-08-08T21:53:52.347Z",
       "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:41.967Z",
+      "scraped_at": "2026-08-08T21:53:52.347Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
     },
     {
-      "id": "3fbe92bc-2724-404a-abf8-52839a04f4a0",
+      "id": "b01779d3-bd3c-4bfd-b0a1-bfafa6d2123b",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | The Big Picture",
       "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-08-07T21:53:40.418Z",
+      "published_date": "2026-08-08T21:53:49.300Z",
       "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:40.418Z",
+      "scraped_at": "2026-08-08T21:53:49.300Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "348ae471-2eba-47a5-83ea-b47c7fb88c7f",
+      "id": "f67170f5-9001-49bf-a833-b245ea49c77b",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Metrics",
       "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-08-07T21:53:38.651Z",
+      "published_date": "2026-08-08T21:53:47.176Z",
       "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:38.651Z",
+      "scraped_at": "2026-08-08T21:53:47.176Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "39c57bd5-9439-4eea-9166-34fd6b6fcdc5",
+      "id": "a8eca16d-1a8f-4903-a5e8-f078cc915112",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Members",
       "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-08-07T21:53:37.088Z",
+      "published_date": "2026-08-08T21:53:45.551Z",
       "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:37.088Z",
+      "scraped_at": "2026-08-08T21:53:45.551Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "a3b76e6f-9a41-433f-ad74-761234b8f796",
+      "id": "074f48a8-671e-4673-b7ed-214ff5a0100b",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | July 2026 Cyclospora…",
       "url": "https://lgma.ca.gov/news/july-2026-cyclospora-outbreak",
-      "published_date": "2026-08-07T21:53:35.628Z",
+      "published_date": "2026-08-08T21:53:43.981Z",
       "excerpt": "",
-      "scraped_at": "2026-08-07T21:53:35.628Z",
+      "scraped_at": "2026-08-08T21:53:43.981Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
+    },
+    {
+      "id": "2b084f4b-ebed-472f-8d7c-20927a4388a0",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
+      "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
+      "published_date": "2026-08-08T21:53:56.467Z",
+      "excerpt": "",
+      "scraped_at": "2026-08-08T21:53:56.467Z"
     }
   ],
-  "last_updated": "2026-08-07T21:53:53.257Z",
+  "last_updated": "2026-08-08T21:54:20.540Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 6,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 6,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
     "time_filtered": 0
