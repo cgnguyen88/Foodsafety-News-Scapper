@@ -1,116 +1,216 @@
 {
   "articles": [
     {
-      "id": "ba55d4eb-074b-4110-8aa2-cb9557c2932d",
+      "id": "127ce446-9629-4466-87b7-88de505ac465",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | News Archive",
       "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-08-09T21:53:52.189Z",
+      "published_date": "2026-08-10T21:53:38.579Z",
       "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:52.189Z",
+      "scraped_at": "2026-08-10T21:53:38.579Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
     },
     {
-      "id": "6c59aeec-5676-407b-89ad-8ed061f6033b",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | Working with Produce…",
-      "url": "https://lgma.ca.gov/news/working-with-produce-buyers-on-food-safety",
-      "published_date": "2026-08-09T21:53:50.431Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:50.431Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/blogtourpic.png?mtime=1739484300"
-    },
-    {
-      "id": "f57eba97-6542-4037-851c-a1ff77aaf9f7",
+      "id": "b4dc8495-350f-4fb4-9fa6-69daa2a64eec",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Featured on CBS…",
       "url": "https://lgma.ca.gov/news/lgma-cbs-sunday-morning",
-      "published_date": "2026-08-09T21:53:48.532Z",
+      "published_date": "2026-08-10T21:53:37.929Z",
       "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:48.532Z",
+      "scraped_at": "2026-08-10T21:53:37.929Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/cbs-sunday-morning.png?mtime=1744301801"
     },
     {
-      "id": "7961586a-2b7a-4cb5-af5f-37be59a76d0c",
+      "id": "286b6c5a-51ce-407d-bb79-9fdf5934a335",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Forbes: U.S. Lettuce…",
       "url": "https://lgma.ca.gov/news/forbes-u-s-lettuce-industry-toughens-safety-mandates-amid-fda-chaos",
-      "published_date": "2026-08-09T21:53:45.143Z",
+      "published_date": "2026-08-10T21:53:35.035Z",
       "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:45.143Z",
+      "scraped_at": "2026-08-10T21:53:35.035Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2025forbes_2025-05-07-215735_wwgm.png?mtime=1746655056"
     },
     {
-      "id": "59e1d0f7-619b-4c71-9781-493fc350e557",
+      "id": "1e2b11db-34b2-4b8a-9ad7-b42a5c4161c6",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | FDA releases initial…",
       "url": "https://lgma.ca.gov/news/fda-releases-initial-findings-of-5-year-ca-central-coast-environmental-study",
-      "published_date": "2026-08-09T21:53:43.657Z",
+      "published_date": "2026-08-10T21:53:34.227Z",
       "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:43.657Z",
+      "scraped_at": "2026-08-10T21:53:34.227Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/harvest.jpg?mtime=1620237977"
     },
     {
-      "id": "cad00304-e7fa-404f-9f35-2aba5aa2c319",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | California Produce…",
-      "url": "https://lgma.ca.gov/news/california-produce-remains-safe-state-confirms-no-link-to-cyclospora-outbreak",
-      "published_date": "2026-08-09T21:53:41.897Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:41.897Z",
-      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
-    },
-    {
-      "id": "f03fa48b-2628-4133-81a8-d768e8abfd40",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | The Big Picture",
-      "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-08-09T21:53:40.460Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:40.460Z",
-      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
-    },
-    {
-      "id": "97825a4d-e750-48ee-a924-f6fb09bcabf3",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | Metrics",
-      "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-08-09T21:53:38.911Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:38.911Z",
-      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
-    },
-    {
-      "id": "8547e857-c7da-4d48-b310-2f4858d0b246",
-      "source": "lgma",
-      "title": "California Leafy Greens Marketing Agreement | LGMA Members",
-      "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-08-09T21:53:37.368Z",
-      "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:37.368Z",
-      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
-    },
-    {
-      "id": "5ded951e-ab98-4dcb-be81-63f6234ae98f",
+      "id": "6456ffa3-70f8-4064-b689-89341e4b34a0",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | July 2026 Cyclospora…",
       "url": "https://lgma.ca.gov/news/july-2026-cyclospora-outbreak",
-      "published_date": "2026-08-09T21:53:35.626Z",
+      "published_date": "2026-08-10T21:53:33.518Z",
       "excerpt": "",
-      "scraped_at": "2026-08-09T21:53:35.626Z",
+      "scraped_at": "2026-08-10T21:53:33.518Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/advancingfoodsafety.png?mtime=1721152740"
+    },
+    {
+      "id": "8d34800e-1d7f-423e-aab1-5a97fa0f974e",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | California Produce…",
+      "url": "https://lgma.ca.gov/news/california-produce-remains-safe-state-confirms-no-link-to-cyclospora-outbreak",
+      "published_date": "2026-08-10T21:53:30.720Z",
+      "excerpt": "",
+      "scraped_at": "2026-08-10T21:53:30.720Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/testing_romaine_lettuce.jpg?mtime=1690491744"
+    },
+    {
+      "id": "b1c89eb1-f1ad-4173-a6dc-de09a625594b",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | The Big Picture",
+      "url": "https://lgma.ca.gov/news/big_pic",
+      "published_date": "2026-08-10T21:53:30.141Z",
+      "excerpt": "",
+      "scraped_at": "2026-08-10T21:53:30.141Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "58f71469-8e7d-460d-9c8e-1c89b2d4ae6f",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | Metrics",
+      "url": "https://lgma.ca.gov/news/metrics",
+      "published_date": "2026-08-10T21:53:29.281Z",
+      "excerpt": "",
+      "scraped_at": "2026-08-10T21:53:29.281Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "88ab236f-5411-4354-b177-76592b9d58f8",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | LGMA Members",
+      "url": "https://lgma.ca.gov/news/lgma-members",
+      "published_date": "2026-08-10T21:53:28.579Z",
+      "excerpt": "",
+      "scraped_at": "2026-08-10T21:53:28.579Z",
+      "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "6abc461a-54c0-4c30-a6b2-3eb0ae0a9eef",
+      "source": "lgma",
+      "title": "California Leafy Greens Marketing Agreement | California Grown…",
+      "url": "https://lgma.ca.gov/news/california-grown-lettuce-and-leafy-greens-not-linked-to-cyclospora-outbreak",
+      "published_date": "2026-08-10T21:53:27.678Z",
+      "excerpt": "",
+      "scraped_at": "2026-08-10T21:53:27.678Z",
+      "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none/2020-food-safety-stronger.png?mtime=1620238023"
+    },
+    {
+      "id": "618e0bba-542f-4e28-9de6-2c7b3f5ee1b6",
+      "source": "wga",
+      "title": "Heat Illness Reminder for CA and AZ",
+      "url": "https://www.wga.com/news/heat-illness-reminder-for-ca-and-az/",
+      "published_date": "2026-08-06T23:41:44.000Z",
+      "excerpt": "The post Heat Illness Reminder for CA and AZ appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "39be91c2-8869-4925-a823-a2a801676b28",
+      "source": "wga",
+      "title": "Court Affirms 99% Reduction in $56 Million PAGA Penalty Demand",
+      "url": "https://www.wga.com/news/court-affirms-99-reduction-in-56-million-paga-penalty-demand/",
+      "published_date": "2026-08-06T23:37:24.000Z",
+      "excerpt": "The post Court Affirms 99% Reduction in $56 Million PAGA Penalty Demand appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "f74714c5-4c28-4039-87ff-5d3985a6e3ab",
+      "source": "wga",
+      "title": "Western Growers needs your help—and we need it now.",
+      "url": "https://www.wga.com/news/western-growers-needs-your-help-and-we-need-it-now/",
+      "published_date": "2026-08-06T22:03:40.000Z",
+      "excerpt": "The post Western Growers needs your help—and we need it now. appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "f019793f-2a8d-4d1c-92c8-21e9022aa9f4",
+      "source": "wga",
+      "title": "Fifth Time a Charm for Ag Labor Reform in Congress?",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/fifth-time-a-charm-for-ag-labor-reform-in-congress/",
+      "published_date": "2026-08-06T21:24:17.000Z",
+      "excerpt": "The post Fifth Time a Charm for Ag Labor Reform in Congress? appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "5e9c9dc8-d20d-4975-92d0-a063111feca0",
+      "source": "wga",
+      "title": "AB 2646: California’s Latest Attempt to Price Agriculture Out of California",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/ab-2646-californias-latest-attempt-to-price-agriculture-out-of-california/",
+      "published_date": "2026-08-06T21:20:34.000Z",
+      "excerpt": "The post AB 2646: California’s Latest Attempt to Price Agriculture Out of California appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "29eb6fdf-10fc-4419-be7b-86ef82669837",
+      "source": "wga",
+      "title": "Confusion Abounds Around SB 54 Implementation",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/confusion-abounds-around-sb-54-implementation/",
+      "published_date": "2026-08-06T21:18:22.000Z",
+      "excerpt": "The post Confusion Abounds Around SB 54 Implementation appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "8f858efa-f788-4c99-9801-421f21472555",
+      "source": "wga",
+      "title": "Apparently, It Was the Legal Risk All Along",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/apparently-it-was-the-legal-risk-all-along/",
+      "published_date": "2026-08-06T21:16:25.000Z",
+      "excerpt": "The post Apparently, It Was the Legal Risk All Along appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "72406d49-f453-4f14-a206-5b4c37bf497a",
+      "source": "wga",
+      "title": "Growth and Change After 10 Years with WGCIT",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/growth-and-change-after-10-years-with-wgcit/",
+      "published_date": "2026-08-06T21:13:37.000Z",
+      "excerpt": "The post Growth and Change After 10 Years with WGCIT appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "26c5017c-087e-48c5-a00a-c0d1b018fb00",
+      "source": "wga",
+      "title": "The Future of Our Health",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/the-future-of-our-health/",
+      "published_date": "2026-08-06T21:11:24.000Z",
+      "excerpt": "The post The Future of Our Health appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "d21b05e6-3a4a-4bb3-8f08-80dc58edc2ec",
+      "source": "wga",
+      "title": "Karen Ross: A Lifetime of Service to California Agriculture",
+      "url": "https://www.wga.com/wgs-magazine/july-august-september-2026-issue/karen-ross-a-lifetime-of-service-to-california-agriculture/",
+      "published_date": "2026-08-06T21:02:42.000Z",
+      "excerpt": "The post Karen Ross: A Lifetime of Service to California Agriculture appeared first on Western Growers Association.",
+      "scraped_at": "2026-08-10T21:53:38.750Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
     }
   ],
-  "last_updated": "2026-08-09T21:53:52.282Z",
+  "last_updated": "2026-08-10T21:53:38.759Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 20,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 20,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
     "time_filtered": 0
