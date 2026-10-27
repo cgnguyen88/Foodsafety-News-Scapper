@@ -1,116 +1,15 @@
 {
-  "articles": [
-    {
-      "id": "669e7ac1-c6c7-498b-8c66-26c5cea13200",
-      "source": "wga",
-      "title": "CAA Webinar Provides Overview of SB 54 Producer Fee-Setting",
-      "url": "https://www.wga.com/news/caa-webinar-provides-overview-of-sb-54-producer-fee-setting/",
-      "published_date": "2026-10-23T23:12:51.000Z",
-      "excerpt": "The post CAA Webinar Provides Overview of SB 54 Producer Fee-Setting appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.593Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "86ddb102-f17e-4a6a-9abd-593781776d72",
-      "source": "wga",
-      "title": "Reports of Immigration Enforcement Underscore Need for Preparedness",
-      "url": "https://www.wga.com/news/reports-of-immigration-enforcement-underscore-need-for-preparedness/",
-      "published_date": "2026-10-23T14:13:25.000Z",
-      "excerpt": "The post Reports of Immigration Enforcement Underscore Need for Preparedness appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.595Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "f1bb3123-c172-49c6-9a93-f376d4da00e0",
-      "source": "wga",
-      "title": "E-Verify Records Scheduled for Deletion: What Employers Should Do Now",
-      "url": "https://www.wga.com/news/e-verify-records-scheduled-for-deletion-what-employers-should-do-now/",
-      "published_date": "2026-10-23T14:08:12.000Z",
-      "excerpt": "The post E-Verify Records Scheduled for Deletion: What Employers Should Do Now appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.597Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "17cf43ad-52ef-4b0d-b7b7-25303893c2a1",
-      "source": "wga",
-      "title": "Cal/OSHA Moves to Define Egregious and Enterprise-Wide Violations",
-      "url": "https://www.wga.com/news/cal-osha-moves-to-define-egregious-and-enterprise-wide-violations/",
-      "published_date": "2026-10-23T14:02:58.000Z",
-      "excerpt": "The post Cal/OSHA Moves to Define Egregious and Enterprise-Wide Violations appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.596Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "f2e872d8-eec8-4759-8dbe-b5dcd64e21b4",
-      "source": "wga",
-      "title": "Best Practices: Performance Reviews Formats",
-      "url": "https://www.wga.com/news/best-practices-performance-reviews-formats-2/",
-      "published_date": "2026-10-23T13:50:23.000Z",
-      "excerpt": "The post Best Practices: Performance Reviews Formats appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.595Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "aa199733-bd3a-4c33-84c1-a756440a08b2",
-      "source": "wga",
-      "title": "USDA and FBI to Host Webinar on Produce Industry Fraud Prevention",
-      "url": "https://www.wga.com/news/usda-and-fbi-to-host-webinar-on-produce-industry-fraud-prevention/",
-      "published_date": "2026-10-22T23:09:39.000Z",
-      "excerpt": "The post USDA and FBI to Host Webinar on Produce Industry Fraud Prevention appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.594Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "52d758b9-1c62-4057-becc-137ff99b4a91",
-      "source": "wga",
-      "title": "Message to Elected Officials: Put Economic Consequences Above All Else",
-      "url": "https://www.wga.com/wgs-magazine/october-november-december-2026-issue/message-to-elected-officials-put-economic-consequences-above-all-else/",
-      "published_date": "2026-10-22T21:47:06.000Z",
-      "excerpt": "The post Message to Elected Officials: Put Economic Consequences Above All Else appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.595Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "e2e481e0-7874-4ace-b317-9de6dadddf8b",
-      "source": "wga",
-      "title": "California’s War on the Driverless Tractor",
-      "url": "https://www.wga.com/wgs-magazine/october-november-december-2026-issue/californias-war-on-the-driverless-tractor/",
-      "published_date": "2026-10-22T21:43:37.000Z",
-      "excerpt": "The post California’s War on the Driverless Tractor appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.597Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "59007679-0624-435d-be16-04ed60f7b768",
-      "source": "wga",
-      "title": "A Tale of Two Trade Regions",
-      "url": "https://www.wga.com/wgs-magazine/october-november-december-2026-issue/a-tale-of-two-trade-regions/",
-      "published_date": "2026-10-22T21:39:43.000Z",
-      "excerpt": "The post A Tale of Two Trade Regions appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.597Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    },
-    {
-      "id": "843555c3-6e4b-40bb-af77-cac67156a759",
-      "source": "wga",
-      "title": "Going Beyond Lobbying: Passionate Advocacy",
-      "url": "https://www.wga.com/wgs-magazine/october-november-december-2026-issue/going-beyond-lobbying-passionate-advocacy/",
-      "published_date": "2026-10-22T21:34:31.000Z",
-      "excerpt": "The post Going Beyond Lobbying: Passionate Advocacy appeared first on Western Growers Association.",
-      "scraped_at": "2026-10-26T21:53:57.598Z",
-      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
-    }
-  ],
-  "last_updated": "2026-10-26T21:53:57.611Z",
+  "articles": [],
+  "last_updated": "2026-10-27T21:53:36.771Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 0,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 0,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
     "time_filtered": 0
