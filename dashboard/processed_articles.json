@@ -1,15 +1,116 @@
 {
-  "articles": [],
-  "last_updated": "2026-10-27T21:53:36.771Z",
+  "articles": [
+    {
+      "id": "3767db8d-e86b-404f-b3de-d4c9ed32c9b1",
+      "source": "wga",
+      "title": "The Social Wrap: Oct. 22-28",
+      "url": "https://www.wga.com/news/the-social-wrap-oct-22-28/",
+      "published_date": "2026-10-28T17:16:58.000Z",
+      "excerpt": "The post The Social Wrap: Oct. 22-28 appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.744Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "398930b0-d561-4414-84ab-ac89fb75d41f",
+      "source": "wga",
+      "title": "FDA Leadership Visits Salinas to Discuss Prevention and Risk Communication",
+      "url": "https://www.wga.com/news/fda-leadership-visits-salinas-to-discuss-prevention-and-risk-communication/",
+      "published_date": "2026-10-28T15:44:48.000Z",
+      "excerpt": "The post FDA Leadership Visits Salinas to Discuss Prevention and Risk Communication  appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.744Z",
+      "image": "https://www.wga.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-084244-300x225.png"
+    },
+    {
+      "id": "c2ee77a0-589c-4a80-a861-7d023025565b",
+      "source": "wga",
+      "title": "From Baselines to Signals: How Do We Know When Something Has Really Changed?",
+      "url": "https://www.wga.com/news/from-baselines-to-signals-how-do-we-know-when-something-has-really-changed/",
+      "published_date": "2026-10-28T15:40:27.000Z",
+      "excerpt": "The post From Baselines to Signals: How Do We Know When Something Has Really Changed? appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.744Z",
+      "image": "https://www.wga.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-083416-300x173.png"
+    },
+    {
+      "id": "56015e77-b9f4-496c-b997-10728a6b3e42",
+      "source": "wga",
+      "title": "CAA Webinar Provides Overview of SB 54 Producer Fee-Setting",
+      "url": "https://www.wga.com/news/caa-webinar-provides-overview-of-sb-54-producer-fee-setting/",
+      "published_date": "2026-10-23T23:12:51.000Z",
+      "excerpt": "The post CAA Webinar Provides Overview of SB 54 Producer Fee-Setting appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.744Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "aacfa60f-5054-4dee-9d37-ca5acee72ac7",
+      "source": "wga",
+      "title": "Reports of Immigration Enforcement Underscore Need for Preparedness",
+      "url": "https://www.wga.com/news/reports-of-immigration-enforcement-underscore-need-for-preparedness/",
+      "published_date": "2026-10-23T14:13:25.000Z",
+      "excerpt": "The post Reports of Immigration Enforcement Underscore Need for Preparedness appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.745Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "9a43284f-5d9b-4ad9-900e-8950184456af",
+      "source": "wga",
+      "title": "E-Verify Records Scheduled for Deletion: What Employers Should Do Now",
+      "url": "https://www.wga.com/news/e-verify-records-scheduled-for-deletion-what-employers-should-do-now/",
+      "published_date": "2026-10-23T14:08:12.000Z",
+      "excerpt": "The post E-Verify Records Scheduled for Deletion: What Employers Should Do Now appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.745Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "a102be5d-537d-4f47-b2f2-d528148214d3",
+      "source": "wga",
+      "title": "Cal/OSHA Moves to Define Egregious and Enterprise-Wide Violations",
+      "url": "https://www.wga.com/news/cal-osha-moves-to-define-egregious-and-enterprise-wide-violations/",
+      "published_date": "2026-10-23T14:02:58.000Z",
+      "excerpt": "The post Cal/OSHA Moves to Define Egregious and Enterprise-Wide Violations appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.745Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "455391ba-7fc7-4fb8-9c30-25e309b34b52",
+      "source": "wga",
+      "title": "Best Practices: Performance Reviews Formats",
+      "url": "https://www.wga.com/news/best-practices-performance-reviews-formats-2/",
+      "published_date": "2026-10-23T13:50:23.000Z",
+      "excerpt": "The post Best Practices: Performance Reviews Formats appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.745Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "3f409c22-628b-43c2-9b39-9f87334e9995",
+      "source": "wga",
+      "title": "USDA and FBI to Host Webinar on Produce Industry Fraud Prevention",
+      "url": "https://www.wga.com/news/usda-and-fbi-to-host-webinar-on-produce-industry-fraud-prevention/",
+      "published_date": "2026-10-22T23:09:39.000Z",
+      "excerpt": "The post USDA and FBI to Host Webinar on Produce Industry Fraud Prevention appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.744Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    },
+    {
+      "id": "36627431-abce-4714-a267-57bd335d1bfa",
+      "source": "wga",
+      "title": "Message to Elected Officials: Put Economic Consequences Above All Else",
+      "url": "https://www.wga.com/wgs-magazine/october-november-december-2026-issue/message-to-elected-officials-put-economic-consequences-above-all-else/",
+      "published_date": "2026-10-22T21:47:06.000Z",
+      "excerpt": "The post Message to Elected Officials: Put Economic Consequences Above All Else appeared first on Western Growers Association.",
+      "scraped_at": "2026-10-28T21:53:32.744Z",
+      "image": "https://dev-western-growers-association.pantheonsite.io/wp-content/uploads/2021/09/Image.jpg"
+    }
+  ],
+  "last_updated": "2026-10-28T21:53:32.753Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 0,
+  "total_articles": 10,
   "validation_summary": {
-    "total_scraped": 0,
+    "total_scraped": 10,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
     "time_filtered": 0
