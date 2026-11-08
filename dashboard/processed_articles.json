@@ -1,118 +1,267 @@
 {
   "articles": [
     {
-      "id": "74b126fc-ff95-4235-81b5-2dea7a1c9c1a",
+      "id": "ba5b2b77-ac88-4ae1-bdae-9b71a15bfc47",
+      "source": "fda",
+      "title": "Snack Right Super Foods, Inc. dba Brad's Raw Chips Recalls Brad's Crunchy Kale & Veggie Chips Due to Potential Thallium Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-crunchy-kale-veggie-chips-due",
+      "published_date": "2026-11-02T17:19:00.000Z",
+      "excerpt": "Coral Gables, FL - Snack Right Super Foods, Inc., doing business as Brad's Raw Chips, is recalling certain Brad's Plant Based Crunchy Kale (2 oz) and Brad's Veggie Chips Kale (3 oz) products because t",
+      "scraped_at": "2026-11-08T21:53:26.830Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/rev_image_2_8.png?itok=1OkLZLGK"
+    },
+    {
+      "id": "1be8e692-bda8-498b-a443-be75101f8557",
+      "source": "fda",
+      "title": "Once Upon A Farm Recalls All Lots and Varieties of Tractor Wheels Organic Toddler Soft-Baked Bars Due to Potential Choking Hazard",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/once-upon-farm-recalls-all-lots-and-varieties-tractor-wheels-organic-toddler-soft-baked-bars-due",
+      "published_date": "2026-10-30T23:59:00.000Z",
+      "excerpt": "Once Upon a Farm (Berkeley, CA) is recalling all lots and varieties of fruit-flavored Tractor Wheel Organic Toddler Soft-Baked bars due to reports that the composition of the Tractor Wheel toddler sna",
+      "scraped_at": "2026-11-08T21:53:27.057Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_261.png?itok=VFPsjE4q"
+    },
+    {
+      "id": "1f5a2d9e-b0fc-4384-a3d6-be5fe6c412ff",
+      "source": "fda",
+      "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide Due to Potential Salmonella Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+      "published_date": "2026-10-30T16:16:00.000Z",
+      "excerpt": "Vitality Works Inc. of Albuquerque, New Mexico, is recalling one lot (lot number 2025-26227) of 365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count because it has",
+      "scraped_at": "2026-11-08T21:53:27.285Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_300.jpg?itok=rJNw9pOv"
+    },
+    {
+      "id": "f0e3ae61-59ee-4006-8721-738aa6c93ba6",
+      "source": "fda",
+      "title": "SLR Food Distribution Inc. Recalls Wise Wife Brand Ground Cinnamon Due to Elevated Lead Levels",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+      "published_date": "2026-10-29T21:26:00.000Z",
+      "excerpt": "SLR Food Distribution Inc. of Hicksville, New York, is voluntarily recalling Wise Wife Brand Ground Cinnamon because it has the potential to be contaminated with elevated levels of lead.",
+      "scraped_at": "2026-11-08T21:53:27.509Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_299.jpg?itok=XJ37ubeu"
+    },
+    {
+      "id": "45790d89-cc0d-4749-9dbb-ee9f15180c59",
+      "source": "fda",
+      "title": "Taylor Farms Issues Recall for H-E-B Backyard BBQ Chop Salad Kit Due to the Potential Undeclared Soy and Tree Nuts(Almonds)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+      "published_date": "2026-10-27T18:18:00.000Z",
+      "excerpt": "Taylor Farms of Dallas, Texas is recalling H-E-B Backyard BBQ Chop Salad kit due to the potential undeclared soy and tree nuts(almonds).",
+      "scraped_at": "2026-11-08T21:53:27.715Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/rev_image_1_13.png?itok=dEpkn6r4"
+    },
+    {
+      "id": "9a924eb7-d0b1-4a0b-ad74-7316a751959d",
+      "source": "fda",
+      "title": "HAIFA SMOKED FISH Recalls Cold Smoked Sprats Due to Potential Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+      "published_date": "2026-10-27T15:15:00.000Z",
+      "excerpt": "HAIFA SMOKED FISH of QUEENS NY is recalling approximately 560 lbs. of Cold Smoked Sprats, due to potential contamination with Clostridium botulinum, a bacterium which can cause life-threatening illnes",
+      "scraped_at": "2026-11-08T21:53:27.946Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/pic_of_sprats.jpg?itok=qlT4HgAU"
+    },
+    {
+      "id": "2389a45e-937a-474b-bbe4-233ef054f707",
+      "source": "fda",
+      "title": "Tonight We Ride, LLC Issues Voluntary Recall of Ultimate Forza Male Supplement Due to Presence of Undeclared Sildenafil, Tadalafil, and Dapoxetine",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
+      "published_date": "2026-10-24T18:23:00.000Z",
+      "excerpt": "October 24, 2026, Tonight We Ride, LLC of Lakeville, Minnesota is voluntarily recalling all lots of Ultimate Forza Male Supplement capsules to the consumer level because it has been found to contain u",
+      "scraped_at": "2026-11-08T21:53:28.183Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/rev_image_1_12.png?itok=eQjliGtk"
+    },
+    {
+      "id": "10ece8eb-2f15-46d0-b6dd-761fa443c064",
+      "source": "fda",
+      "title": "Natural Grocers Recalls Natural Grocers Brand Organic 2 Pound Mung Beans Due to Potential Presence of Foreign Material",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mung-beans-due-potential-presence",
+      "published_date": "2026-10-22T22:59:00.000Z",
+      "excerpt": "10/22/2026, Vitamin Cottage Natural Food Markets, Inc., Lakewood, Colorado, is recalling Natural Grocers Brand Organic 2-Pound Mung Beans due to the potential presence of glass.",
+      "scraped_at": "2026-11-08T21:53:28.388Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_259.png?itok=e7ljfAA6"
+    },
+    {
+      "id": "434b4277-64a7-4136-be10-5b0465348411",
+      "source": "fda",
+      "title": "WinCo Foods LLC Issues Allergy Alert on Undeclared Sesame in Hoagie Rolls",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+      "published_date": "2026-10-22T19:42:00.000Z",
+      "excerpt": "October 22, 2026 - WinCo Foods of Boise, ID is recalling the following WinCo Foods Brand Hoagie Rolls due to undeclared sesame.",
+      "scraped_at": "2026-11-08T21:53:28.613Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_298.jpg?itok=K1cVfbei"
+    },
+    {
+      "id": "90a11a23-9351-44bc-afe7-35880b489d60",
+      "source": "fda",
+      "title": "Lidl US Recalls Gelatelli Coffee & Vanilla Gelato Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-recalls-gelatelli-coffee-vanilla-gelato-due-possible-health-risk",
+      "published_date": "2026-10-16T04:00:00.000Z",
+      "excerpt": "ARLINGTON, VA – OCTOBER 16, 2026 – Lidl US is recalling one lot of Gelatelli Coffee & Vanilla Gelato with Coffee Sauce & Cookie Pieces 16 FL OZ (1 PT) UPC 4 0564897 22458 Lot: 085261 Best By MAR/26/20",
+      "scraped_at": "2026-11-08T21:53:29.049Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/galfront_0.png?itok=UTp1NZ9I"
+    },
+    {
+      "id": "25f029cc-ed11-4674-93df-243e84cd657d",
+      "source": "fda",
+      "title": "Family Farmstead Dairy Announces Recall of Raw Mild Cheddar Cheese Due to Potential E. coli O26:H11 and O45:H2 Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-raw-mild-cheddar-cheese-due-potential-e-coli-o26h11-and",
+      "published_date": "2026-10-15T20:04:00.000Z",
+      "excerpt": "WORCESTER, NY, October 15, 2026 - Family Farmstead Dairy of Worcester, NY is recalling specific lot of cheddar cheese because it may be contaminated with Escherichia coli O157:H7 bacteria (E. Coli O15",
+      "scraped_at": "2026-11-08T21:53:29.242Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/labels_-_family_farmstead_dairy_-_raw_milk_chedddar-2.png?itok=Ydr93nt-"
+    },
+    {
+      "id": "fb178dd1-c179-42c3-99f3-568b6a58d685",
+      "source": "fda",
+      "title": "Pan Pepin Inc. Issues Allergy Alert of Para Bien Al Grano Due to Undeclared Sesame",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-issues-allergy-alert-para-bien-al-grano-due-undeclared-sesame",
+      "published_date": "2026-10-13T18:07:00.000Z",
+      "excerpt": "Pan Pepin Inc. of Bayamón, Puerto Rico is recalling certain lots of Para Bien Al Grano because the product contain sesame.",
+      "scraped_at": "2026-11-08T21:53:29.470Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_258.png?itok=wgTabSdh"
+    },
+    {
+      "id": "68ff848b-d1bf-4b4f-88bf-fbe96b145b49",
+      "source": "fda",
+      "title": "Pan Pepín Inc. Emite Alerta por Alérgenos en el Producto Parabien al Grano Debido a la Presencia de  Sésamo No Declarado",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-emite-alerta-por-alergenos-en-el-producto-parabien-al-grano-debido-la-presencia-de",
+      "published_date": "2026-10-13T18:00:00.000Z",
+      "excerpt": "Bayamón, Puerto Rico - Pan Pepín Inc., con sede en Bayamón, Puerto Rico, está retirando voluntariamente del mercado ciertos lotes del producto Para Bien Al Grano debido a que contiene sésamo (ajonjolí",
+      "scraped_at": "2026-11-08T21:53:29.682Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_257.png?itok=oNZUK3O8"
+    },
+    {
+      "id": "536a1e01-7943-4c80-863b-0379ead94d95",
+      "source": "fda",
+      "title": "Par Health Issues Voluntary Nationwide Recall of Argatroban Injection Due to the Presence of Particulate Matter",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter",
+      "published_date": "2026-10-13T14:52:00.000Z",
+      "excerpt": "FOR IMMEDIATE RELEASE - ROCHESTER, MI– October 13, 2026 – Par Health is recalling 22 lots of Argatroban Injection 250 mg/2.5 mL (100 mg/mL) to the hospital/user level. This recall is being conducted d",
+      "scraped_at": "2026-11-08T21:53:29.880Z",
+      "image": "https://www.fda.gov/files/styles/recall_image_small/public/image_1_256.png?itok=sUbCT2p_"
+    },
+    {
+      "id": "ef13e946-117c-441c-a096-3175f42e5133",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | News Archive",
       "url": "https://lgma.ca.gov/news/p2",
-      "published_date": "2026-11-07T21:53:46.714Z",
+      "published_date": "2026-11-08T21:53:50.126Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:46.714Z",
+      "scraped_at": "2026-11-08T21:53:50.126Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none_ns/24_history.png?mtime=1725666668"
     },
     {
-      "id": "77ef961c-8b29-4038-8f1e-0e941711dfcd",
+      "id": "5275e933-5f73-4c71-9278-261349a1a12e",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | July 2026 Cyclospora…",
       "url": "https://lgma.ca.gov/news/july-2026-cyclospora-outbreak",
-      "published_date": "2026-11-07T21:53:44.890Z",
+      "published_date": "2026-11-08T21:53:48.481Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:44.890Z",
+      "scraped_at": "2026-11-08T21:53:48.481Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none_ns/advancingfoodsafety.png?mtime=1721152740"
     },
     {
-      "id": "e7d94412-43b1-4d3f-a4e2-a86b8bce68e0",
+      "id": "a221f60f-f1a5-41a1-845c-5bb41fcceb3e",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California Grown…",
       "url": "https://lgma.ca.gov/news/california-grown-lettuce-and-leafy-greens-not-linked-to-cyclospora-outbreak",
-      "published_date": "2026-11-07T21:53:43.124Z",
+      "published_date": "2026-11-08T21:53:46.655Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:43.124Z",
+      "scraped_at": "2026-11-08T21:53:46.655Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none_ns/2020-food-safety-stronger.png?mtime=1620238023"
     },
     {
-      "id": "6678f577-fa94-461a-9102-e55bae532d03",
+      "id": "7239f0f1-9b12-45ae-b18b-3ff702d910c2",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California Produce…",
       "url": "https://lgma.ca.gov/news/california-produce-remains-safe-state-confirms-no-link-to-cyclospora-outbreak",
-      "published_date": "2026-11-07T21:53:41.426Z",
+      "published_date": "2026-11-08T21:53:44.859Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:41.426Z",
+      "scraped_at": "2026-11-08T21:53:44.859Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none_ns/testing_romaine_lettuce.jpg?mtime=1690491744"
     },
     {
-      "id": "4f2a7ce8-2262-4701-8aa4-d4e03e306353",
+      "id": "1e263393-63b6-4b7c-bb56-b152cce423c6",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | California LGMA hosts…",
       "url": "https://lgma.ca.gov/news/california-lgma-hosts-fda-staff-on-educational-tour",
-      "published_date": "2026-11-07T21:53:39.999Z",
+      "published_date": "2026-11-08T21:53:43.120Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:39.999Z",
+      "scraped_at": "2026-11-08T21:53:43.120Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none_ns/IMG_0810.jpeg?mtime=1787267672"
     },
     {
-      "id": "5236128d-d08d-4b5c-ac30-50297fbd2c34",
+      "id": "d83e0021-feeb-45da-84aa-e809e40f1c88",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | 20 Years Since the…",
       "url": "https://lgma.ca.gov/news/20-years-since-the-spinach-outbreak-what-has-changed",
-      "published_date": "2026-11-07T21:53:38.309Z",
+      "published_date": "2026-11-08T21:53:41.754Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:38.309Z",
+      "scraped_at": "2026-11-08T21:53:41.754Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none_ns/blog4_2026-09-15-172107_rzmo.png?mtime=1789492867"
     },
     {
-      "id": "fafef9b8-c826-4349-a323-b303ebce1a82",
+      "id": "81d50bf8-9aa5-4235-b3a7-eae941cb4cee",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Collaborating on…",
       "url": "https://lgma.ca.gov/news/collaborating-on-cyclospora-prevention",
-      "published_date": "2026-11-07T21:53:36.636Z",
+      "published_date": "2026-11-08T21:53:39.929Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:36.636Z",
+      "scraped_at": "2026-11-08T21:53:39.929Z",
       "image": "https://assets.lgma.ca.gov/content-images/news/featured-images/_800x418_crop_center-center_82_none_ns/cyclosporaworkgroup.png?mtime=1790294177"
     },
     {
-      "id": "bdde1312-4a6e-4c1e-a82d-940e6c0e9ea4",
+      "id": "c89f743d-5edf-4577-9aa7-3b84d8ea4cb8",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | The Big Picture",
       "url": "https://lgma.ca.gov/news/big_pic",
-      "published_date": "2026-11-07T21:53:35.190Z",
+      "published_date": "2026-11-08T21:53:38.490Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:35.190Z",
+      "scraped_at": "2026-11-08T21:53:38.490Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none_ns/24_history.png?mtime=1725666668"
     },
     {
-      "id": "fd14288e-a71e-4f37-9302-da764e13922f",
+      "id": "42bd84c0-68b7-4930-8ad3-a51c6e519464",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | Metrics",
       "url": "https://lgma.ca.gov/news/metrics",
-      "published_date": "2026-11-07T21:53:33.516Z",
+      "published_date": "2026-11-08T21:53:36.885Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:33.516Z",
+      "scraped_at": "2026-11-08T21:53:36.885Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none_ns/24_history.png?mtime=1725666668"
     },
     {
-      "id": "eaa267d2-1f4e-429a-8a96-f988370b0213",
+      "id": "ba730220-9aec-4428-bb0d-4f93c4c71a0c",
       "source": "lgma",
       "title": "California Leafy Greens Marketing Agreement | LGMA Members",
       "url": "https://lgma.ca.gov/news/lgma-members",
-      "published_date": "2026-11-07T21:53:31.749Z",
+      "published_date": "2026-11-08T21:53:35.279Z",
       "excerpt": "",
-      "scraped_at": "2026-11-07T21:53:31.749Z",
+      "scraped_at": "2026-11-08T21:53:35.279Z",
       "image": "https://assets.lgma.ca.gov/content-images/featured-content/_1200x630_crop_center-center_82_none_ns/24_history.png?mtime=1725666668"
+    },
+    {
+      "id": "d8ef0c55-dd75-453d-ac2c-16c18fa15ee6",
+      "source": "fda",
+      "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary  Medications Within Expiry Due to Potential Potency Issues",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
+      "published_date": "2026-10-21T20:24:00.000Z",
+      "excerpt": "SWEDESBORO, N.J., (October 21, 2026) - Wedgewood Pharmacy LLC (\"Wedgewood\") is recalling certain compounded veterinary medications within expiry at the provider/customer level due to inconsistencies i",
+      "scraped_at": "2026-11-08T21:53:28.838Z"
     }
   ],
-  "last_updated": "2026-11-07T21:53:46.755Z",
+  "last_updated": "2026-11-08T21:53:50.212Z",
   "sources_checked": [
     "usda",
     "fda",
     "lgma",
     "wga"
   ],
-  "total_articles": 10,
+  "total_articles": 25,
   "validation_summary": {
-    "total_scraped": 10,
+    "total_scraped": 30,
     "duplicates_removed": 0,
     "invalid_skipped": 0,
-    "time_filtered": 0
+    "time_filtered": 5
   }
 }
